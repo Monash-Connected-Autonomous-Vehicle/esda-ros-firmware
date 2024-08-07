@@ -1,0 +1,85 @@
+[0.011s] Invoking command in '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface -DCMAKE_INSTALL_PREFIX=/home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface
+[0.018s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.131s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.134s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.890s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.936s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.029s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.030s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[30.910s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[31.248s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[31.400s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[31.589s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[31.606s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[31.624s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[31.624s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[31.624s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[31.634s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[31.634s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[31.634s]   rosidl_target_interfaces()
+[31.634s] Call Stack (most recent call first):
+[31.634s]   CMakeLists.txt:26 (rosidl_target_interfaces)
+[31.634s] 
+[31.634s] [0m
+[31.653s] -- Configuring done
+[31.691s] -- Generating done
+[31.694s] -- Build files have been written to: /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface
+[31.701s] Invoked command in '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface -DCMAKE_INSTALL_PREFIX=/home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface
+[31.703s] Invoking command in '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface -- -j20 -l20
+[31.728s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[31.735s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[31.740s] [  6%] Built target ament_cmake_python_copy_esda_ros_interface
+[31.929s] running egg_info
+[31.930s] creating esda_ros_interface.egg-info
+[31.930s] writing esda_ros_interface.egg-info/PKG-INFO
+[31.931s] writing dependency_links to esda_ros_interface.egg-info/dependency_links.txt
+[31.931s] writing top-level names to esda_ros_interface.egg-info/top_level.txt
+[31.931s] writing manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+[31.934s] reading manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+[31.934s] writing manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+[31.960s] [  6%] Built target ament_cmake_python_build_esda_ros_interface_egg
+[31.960s] [  6%] Built target esda_ros_interface__cpp
+[31.968s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[31.968s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[31.968s] [ 15%] [32mBuilding C object CMakeFiles/esda_ros_interface__rosidl_generator_c.dir/rosidl_generator_c/esda_ros_interface/msg/detail/esda_message__functions.c.o[0m
+[31.968s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[32.136s] [ 21%] [32m[1mLinking C shared library libesda_ros_interface__rosidl_generator_c.so[0m
+[32.175s] [ 24%] [32mBuilding CXX object CMakeFiles/esda_ros_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/esda_ros_interface/msg/esda_message__type_support.cpp.o[0m
+[32.192s] [ 27%] [32mBuilding CXX object CMakeFiles/esda_ros_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/esda_ros_interface/msg/detail/esda_message__type_support.cpp.o[0m
+[32.198s] [ 30%] [32mBuilding CXX object CMakeFiles/esda_ros_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/esda_ros_interface/msg/detail/dds_fastrtps/esda_message__type_support.cpp.o[0m
+[32.629s] [ 33%] [32m[1mLinking CXX shared library libesda_ros_interface__rosidl_typesupport_cpp.so[0m
+[32.634s] [ 33%] Built target esda_ros_interface__rosidl_generator_c
+[32.645s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[32.646s] [ 39%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[32.646s] [ 42%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[32.718s] [ 45%] [32m[1mLinking CXX shared library libesda_ros_interface__rosidl_typesupport_introspection_cpp.so[0m
+[32.736s] [ 48%] [32m[1mLinking CXX shared library libesda_ros_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[32.862s] [ 51%] [32mBuilding CXX object CMakeFiles/esda_ros_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/esda_ros_interface/msg/esda_message__type_support.cpp.o[0m
+[32.881s] [ 54%] [32mBuilding C object CMakeFiles/esda_ros_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/esda_ros_interface/msg/detail/esda_message__type_support.c.o[0m
+[32.892s] [ 57%] [32mBuilding CXX object CMakeFiles/esda_ros_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/esda_ros_interface/msg/detail/esda_message__type_support_c.cpp.o[0m
+[32.895s] [ 60%] [32m[1mLinking CXX shared library libesda_ros_interface__rosidl_typesupport_c.so[0m
+[32.913s] [ 63%] [32m[1mLinking C shared library libesda_ros_interface__rosidl_typesupport_introspection_c.so[0m
+[32.942s] [ 63%] Built target esda_ros_interface__rosidl_typesupport_cpp
+[33.010s] [ 63%] Built target esda_ros_interface__rosidl_typesupport_introspection_cpp
+[33.098s] [ 63%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_cpp
+[33.231s] [ 63%] Built target esda_ros_interface__rosidl_typesupport_c
+[33.258s] [ 63%] Built target esda_ros_interface__rosidl_typesupport_introspection_c
+[33.312s] [ 66%] [32m[1mLinking CXX shared library libesda_ros_interface__rosidl_typesupport_fastrtps_c.so[0m
+[33.885s] [ 66%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c
+[33.904s] [ 66%] Built target esda_ros_interface
+[33.921s] [ 72%] [32mBuilding CXX object CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o[0m
+[33.922s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[34.210s] [ 72%] Built target esda_ros_interface__py
+[34.227s] [ 75%] [32mBuilding C object CMakeFiles/esda_ros_interface__rosidl_generator_py.dir/rosidl_generator_py/esda_ros_interface/msg/_esda_message_s.c.o[0m
+[34.240s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kesda_ros_interface/msg/esda_messages.hpp: No such file or directory
+[34.240s]     5 | #include [01;31m[K"esda_ros_interface/msg/esda_messages.hpp"[m[K
+[34.240s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[34.241s] compilation terminated.
+[34.242s] gmake[2]: *** [CMakeFiles/esda_serial_to_pc.dir/build.make:76: CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o] Error 1
+[34.243s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/esda_serial_to_pc.dir/all] Error 2
+[34.243s] gmake[1]: *** Waiting for unfinished jobs....
+[34.360s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/esda_ros_interface/libesda_ros_interface__rosidl_generator_py.so[0m
+[34.688s] [ 78%] Built target esda_ros_interface__rosidl_generator_py
+[34.689s] gmake: *** [Makefile:146: all] Error 2
+[34.692s] Invoked command in '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface -- -j20 -l20

@@ -1,0 +1,11 @@
+source;share/esda_ros_interface/hook/cmake_prefix_path.ps1
+source;share/esda_ros_interface/hook/cmake_prefix_path.dsv
+source;share/esda_ros_interface/hook/cmake_prefix_path.sh
+source;share/esda_ros_interface/hook/ld_library_path_lib.ps1
+source;share/esda_ros_interface/hook/ld_library_path_lib.dsv
+source;share/esda_ros_interface/hook/ld_library_path_lib.sh
+source;share/esda_ros_interface/local_setup.bash
+source;share/esda_ros_interface/local_setup.dsv
+source;share/esda_ros_interface/local_setup.ps1
+source;share/esda_ros_interface/local_setup.sh
+source;share/esda_ros_interface/local_setup.zsh

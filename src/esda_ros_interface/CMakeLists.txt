@@ -7,20 +7,29 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(rclcpp REQUIRED)
 
-if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)
-  # the following line skips the linter which checks for copyrights
-  # comment the line when a copyright and license is added to all source files
-  set(ament_cmake_copyright_FOUND TRUE)
-  # the following line skips cpplint (only works in a git repo)
-  # comment the line when this package is in a git repo and when
-  # a copyright and license is added to all source files
-  set(ament_cmake_cpplint_FOUND TRUE)
-  ament_lint_auto_find_test_dependencies()
-endif()
+set(msg_files
+  "msg/EsdaMessage.msg"
+)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ${msg_files}
+)
+
+
+
+add_executable(esda_serial_to_pc src/esda_serial_to_pc.cpp)
+ament_target_dependencies(esda_serial_to_pc rclcpp)
+
+rosidl_target_interfaces(esda_serial_to_pc
+  ${PROJECT_NAME} "rosidl_typesupport_cpp")
+
+install(TARGETS
+    esda_serial_to_pc
+  DESTINATION lib/${PROJECT_NAME})
+
+ament_export_dependencies(rosidl_default_runtime)
 
 ament_package()

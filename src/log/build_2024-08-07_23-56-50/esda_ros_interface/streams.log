@@ -1,0 +1,17 @@
+[0.018s] Invoking command in '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface -DCMAKE_INSTALL_PREFIX=/home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface
+[0.109s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.301s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.307s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.315s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.314s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.371s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[1.372s]   rosidl_generate_interfaces() the passed file 'msg/EsdaMessages.msg' doesn't
+[1.372s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.372s]   '/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface'
+[1.372s] Call Stack (most recent call first):
+[1.372s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[1.372s] 
+[1.373s] [0m
+[1.373s] -- Configuring incomplete, errors occurred!
+[1.373s] See also "/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface/CMakeFiles/CMakeOutput.log".
+[1.385s] Invoked command in '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface -DCMAKE_INSTALL_PREFIX=/home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface

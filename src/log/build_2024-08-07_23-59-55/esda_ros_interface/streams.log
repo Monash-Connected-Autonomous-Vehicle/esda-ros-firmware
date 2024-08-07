@@ -1,0 +1,37 @@
+[0.017s] Invoking command in '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface -DCMAKE_INSTALL_PREFIX=/home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface
+[0.096s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.269s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.273s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.280s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.203s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.342s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.348s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[38.969s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[39.540s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[39.727s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[39.984s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[40.928s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[40.931s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[43.416s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[43.416s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[43.416s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[43.416s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[43.451s] -- Found PythonExtra: .so  
+[43.736s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[43.736s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[43.737s]   rosidl_target_interfaces()
+[43.737s] Call Stack (most recent call first):
+[43.737s]   CMakeLists.txt:21 (rosidl_target_interfaces)
+[43.737s] 
+[43.737s] [0m
+[43.738s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:38 (message):
+[43.738s]   rosidl_target_interfaces() the first argument 'esda_serial_to_pc' must be a
+[43.738s]   valid target name
+[43.738s] Call Stack (most recent call first):
+[43.738s]   CMakeLists.txt:21 (rosidl_target_interfaces)
+[43.738s] 
+[43.738s] [0m
+[43.738s] -- Configuring incomplete, errors occurred!
+[43.739s] See also "/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface/CMakeFiles/CMakeOutput.log".
+[43.766s] Invoked command in '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface -DCMAKE_INSTALL_PREFIX=/home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface
