@@ -1,0 +1,145 @@
+[0.016s] Invoking command in '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface -- -j20 -l20
+[0.073s] [  3%] Built target esda_ros_interface__cpp
+[0.073s] [ 12%] Built target esda_ros_interface__rosidl_generator_c
+[0.084s] [ 12%] Built target ament_cmake_python_copy_esda_ros_interface
+[0.089s] [ 21%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_cpp
+[0.091s] [ 30%] Built target esda_ros_interface__rosidl_typesupport_introspection_cpp
+[0.092s] [ 39%] Built target esda_ros_interface__rosidl_typesupport_cpp
+[0.099s] [ 48%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c
+[0.100s] [ 57%] Built target esda_ros_interface__rosidl_typesupport_c
+[0.101s] [ 66%] Built target esda_ros_interface__rosidl_typesupport_introspection_c
+[0.114s] [ 66%] Built target esda_ros_interface
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target esda_serial_to_pc[0m
+[0.128s] [ 69%] Built target esda_ros_interface__py
+[0.135s] [ 75%] Built target esda_serial_to_pc
+[0.142s] [ 81%] Built target esda_ros_interface__rosidl_generator_py
+[0.158s] [ 87%] Built target esda_ros_interface__rosidl_typesupport_introspection_c__pyext
+[0.158s] [ 93%] Built target esda_ros_interface__rosidl_typesupport_c__pyext
+[0.160s] [100%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.265s] running egg_info
+[0.266s] writing esda_ros_interface.egg-info/PKG-INFO
+[0.266s] writing dependency_links to esda_ros_interface.egg-info/dependency_links.txt
+[0.266s] writing top-level names to esda_ros_interface.egg-info/top_level.txt
+[0.268s] reading manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+[0.268s] writing manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+[0.287s] [100%] Built target ament_cmake_python_build_esda_ros_interface_egg
+[0.295s] Invoked command in '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface -- -j20 -l20
+[0.347s] Invoking command in '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface
+[0.351s] -- Install configuration: ""
+[0.351s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/ament_index/resource_index/rosidl_interfaces/esda_ros_interface
+[0.351s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface
+[0.352s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg
+[0.352s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/esda_message.h
+[0.352s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/rosidl_generator_c__visibility_control.h
+[0.352s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail
+[0.352s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__type_support.h
+[0.352s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__functions.c
+[0.352s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__functions.h
+[0.352s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__struct.h
+[0.353s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/environment/library_path.sh
+[0.353s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/environment/library_path.dsv
+[0.353s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_generator_c.so
+[0.353s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface
+[0.353s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg
+[0.353s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__rosidl_typesupport_fastrtps_c.h
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_typesupport_fastrtps_c.so
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__type_support.c
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__rosidl_typesupport_introspection_c.h
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_typesupport_introspection_c.so
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_typesupport_c.so
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/esda_message.hpp
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__struct.hpp
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__traits.hpp
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__builder.hpp
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.354s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/dds_fastrtps
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__rosidl_typesupport_fastrtps_cpp.hpp
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_typesupport_fastrtps_cpp.so
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__type_support.cpp
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__rosidl_typesupport_introspection_cpp.hpp
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_typesupport_introspection_cpp.so
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_typesupport_cpp.so
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/environment/pythonpath.sh
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/environment/pythonpath.dsv
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface-0.0.0-py3.10.egg-info
+[0.355s] -- Installing: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.355s] -- Installing: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[0.355s] -- Installing: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.355s] -- Installing: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface-0.0.0-py3.10.egg-info/top_level.txt
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/libesda_ros_interface__rosidl_generator_py.so
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/_esda_ros_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/msg
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/msg/_esda_message_s.c
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/msg/_esda_message.py
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/msg/__init__.py
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/_esda_ros_interface_s.ep.rosidl_typesupport_c.c
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/esda_ros_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/esda_ros_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/esda_ros_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.355s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/_esda_ros_interface_s.ep.rosidl_typesupport_introspection_c.c
+[0.356s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/__init__.py
+[0.384s] Listing '/home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface'...
+[0.384s] Listing '/home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/msg'...
+[0.388s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/esda_ros_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.389s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/esda_ros_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.389s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/esda_ros_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.389s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_generator_py.so
+[0.389s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/msg/EsdaMessage.idl
+[0.389s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/msg/EsdaMessage.msg
+[0.389s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/lib/esda_ros_interface/esda_serial_to_pc
+[0.389s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/ament_index/resource_index/package_run_dependencies/esda_ros_interface
+[0.389s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/ament_index/resource_index/parent_prefix_path/esda_ros_interface
+[0.389s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/environment/ament_prefix_path.sh
+[0.389s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/environment/ament_prefix_path.dsv
+[0.389s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/environment/path.sh
+[0.389s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/environment/path.dsv
+[0.390s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/local_setup.bash
+[0.390s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/local_setup.sh
+[0.390s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/local_setup.zsh
+[0.390s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/local_setup.dsv
+[0.390s] -- Installing: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/package.dsv
+[0.390s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/ament_index/resource_index/packages/esda_ros_interface
+[0.391s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/export_esda_ros_interface__rosidl_generator_cExport.cmake
+[0.391s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/export_esda_ros_interface__rosidl_generator_cExport-noconfig.cmake
+[0.391s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/export_esda_ros_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[0.391s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/export_esda_ros_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.391s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interface__rosidl_typesupport_introspection_cExport.cmake
+[0.391s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.391s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interface__rosidl_typesupport_cExport.cmake
+[0.392s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interface__rosidl_typesupport_cExport-noconfig.cmake
+[0.392s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/export_esda_ros_interface__rosidl_generator_cppExport.cmake
+[0.392s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/export_esda_ros_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.392s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/export_esda_ros_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.392s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interface__rosidl_typesupport_introspection_cppExport.cmake
+[0.393s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.393s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interface__rosidl_typesupport_cppExport.cmake
+[0.393s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[0.393s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/export_esda_ros_interface__rosidl_generator_pyExport.cmake
+[0.393s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/export_esda_ros_interface__rosidl_generator_pyExport-noconfig.cmake
+[0.394s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/rosidl_cmake-extras.cmake
+[0.394s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.394s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.394s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/ament_cmake_export_targets-extras.cmake
+[0.394s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.395s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.395s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.395s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interfaceConfig.cmake
+[0.395s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interfaceConfig-version.cmake
+[0.395s] -- Up-to-date: /home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/share/esda_ros_interface/package.xml
+[0.395s] Invoked command in '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface

@@ -1,0 +1,46 @@
+[  3%] Built target esda_ros_interface__cpp
+[ 12%] Built target esda_ros_interface__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_esda_ros_interface
+[ 21%] Built target esda_ros_interface__rosidl_typesupport_cpp
+[ 30%] Built target esda_ros_interface__rosidl_typesupport_introspection_cpp
+[ 39%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_cpp
+[ 48%] Built target esda_ros_interface__rosidl_typesupport_introspection_c
+[ 57%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c
+[ 66%] Built target esda_ros_interface__rosidl_typesupport_c
+[ 66%] Built target esda_ros_interface
+[35m[1mConsolidate compiler generated dependencies of target esda_serial_to_pc[0m
+[ 69%] Built target esda_ros_interface__py
+[ 72%] [32mBuilding CXX object CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o[0m
+[ 78%] Built target esda_ros_interface__rosidl_generator_py
+[ 84%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c__pyext
+[ 90%] Built target esda_ros_interface__rosidl_typesupport_introspection_c__pyext
+[ 96%] Built target esda_ros_interface__rosidl_typesupport_c__pyext
+running egg_info
+writing esda_ros_interface.egg-info/PKG-INFO
+writing dependency_links to esda_ros_interface.egg-info/dependency_links.txt
+writing top-level names to esda_ros_interface.egg-info/top_level.txt
+reading manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+writing manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_esda_ros_interface_egg
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:13:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::cout[m[K’?
+   13 |     std::cout<< "Hello" << [01;31m[Kcout[m[K;
+      |                            [01;31m[K^~~~[m[K
+      |                            [32m[Kstd::cout[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:7[m[K:
+[01m[K/usr/include/c++/11/iostream:61:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ declared here
+   61 |   extern ostream [01;36m[Kcout[m[K;          /// Linked to standard output
+      |                  [01;36m[K^~~~[m[K
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:12:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   12 | int main([01;35m[Kint argc[m[K, char** argv){
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:12:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   12 | int main(int argc, [01;35m[Kchar** argv[m[K){
+      |                    [01;35m[K~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/esda_serial_to_pc.dir/build.make:76: CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/esda_serial_to_pc.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

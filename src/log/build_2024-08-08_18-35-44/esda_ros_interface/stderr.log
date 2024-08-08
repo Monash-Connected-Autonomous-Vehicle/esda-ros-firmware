@@ -1,0 +1,6 @@
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[KROS2ToSerialBridge[m[K’ does not name a type
+   12 |     [01;31m[KROS2ToSerialBridge[m[K::ROS2ToSerialBridge(const rclcpp::NodeOptions& node_options)
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/esda_serial_to_pc.dir/build.make:76: CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/esda_serial_to_pc.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

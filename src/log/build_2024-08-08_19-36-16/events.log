@@ -1,0 +1,306 @@
+[0.000000] (-) TimerEvent: {}
+[0.000824] (-) JobUnselected: {'identifier': 'serial'}
+[0.001647] (esda_ros_interface) JobQueued: {'identifier': 'esda_ros_interface', 'dependencies': OrderedDict()}
+[0.002389] (esda_ros_interface) JobStarted: {'identifier': 'esda_ros_interface'}
+[0.023807] (esda_ros_interface) JobProgress: {'identifier': 'esda_ros_interface', 'progress': 'cmake'}
+[0.025688] (esda_ros_interface) JobProgress: {'identifier': 'esda_ros_interface', 'progress': 'build'}
+[0.025942] (esda_ros_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface', '--', '-j20', '-l20'], 'cwd': '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'samue'), ('GIT_ASKPASS', '/home/samue/.vscode-server/bin/b1c0a14de1414fcdaa400695b4db1c0799bc3124/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/lib:/home/samue/install/examples_rclcpp_wait_set/lib:/home/samue/install/examples_rclcpp_minimal_subscriber/lib:/home/samue/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/samue'), ('OLDPWD', '/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface'), ('TERM_PROGRAM_VERSION', '1.92.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-04ffad9b-a4ae-40a3-b304-6ad770053e99.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/samue/.vscode-server/bin/b1c0a14de1414fcdaa400695b4db1c0799bc3124/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/samue/.vscode-server/bin/b1c0a14de1414fcdaa400695b4db1c0799bc3124/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/samue/GitHub/esda-ros-firmware/src/install:/home/samue/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'samue'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/854_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/samue/.vscode-server/bin/b1c0a14de1414fcdaa400695b4db1c0799bc3124/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft/jdk-17.0.7.7-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Users/samue/.rustup/toolchains/esp/xtensa-esp32-elf-clang/esp-clang/bin:/mnt/c/Users/samue/.rustup/toolchains/esp/xtensa-esp-elf/bin:/mnt/c/Users/samue/.cargo/bin:/mnt/c/opencv/opencv/build/x64/vc16/bin:/mnt/c/Users/samue/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/samue/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/samue/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/samue/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/intelFPGA_lite/18.1/modelsim_ae/win32aloem:/mnt/c/ProgramData/samue/GitHubDesktop/bin:/mnt/c/Users/samue/.dotnet/tools:/mnt/c/opencv/opencv/build/x64/vc16/bin:/mnt/c/Users/samue/AppData/Local/GitHubDesktop/bin:/mnt/c/users/samue/.local/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a7368b2dd3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/home/samue/install/examples_rclcpp_wait_set:/home/samue/install/examples_rclcpp_multithreaded_executor:/home/samue/install/examples_rclcpp_minimal_timer:/home/samue/install/examples_rclcpp_minimal_subscriber:/home/samue/install/examples_rclcpp_minimal_service:/home/samue/install/examples_rclcpp_minimal_publisher:/home/samue/install/examples_rclcpp_minimal_composition:/home/samue/install/examples_rclcpp_minimal_client:/home/samue/install/examples_rclcpp_minimal_action_server:/home/samue/install/examples_rclcpp_minimal_action_client:/home/samue/install/examples_rclcpp_cbg_executor:/home/samue/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages:/home/samue/build/launch_testing_examples:/home/samue/install/launch_testing_examples/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_executors:/home/samue/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface:/home/samue/install/examples_rclcpp_wait_set:/home/samue/install/examples_rclcpp_multithreaded_executor:/home/samue/install/examples_rclcpp_minimal_timer:/home/samue/install/examples_rclcpp_minimal_subscriber:/home/samue/install/examples_rclcpp_minimal_service:/home/samue/install/examples_rclcpp_minimal_publisher:/home/samue/install/examples_rclcpp_minimal_composition:/home/samue/install/examples_rclcpp_minimal_client:/home/samue/install/examples_rclcpp_minimal_action_server:/home/samue/install/examples_rclcpp_minimal_action_client:/home/samue/install/examples_rclcpp_cbg_executor:/home/samue/install/examples_rclcpp_async_client:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.099376] (-) TimerEvent: {}
+[0.138299] (esda_ros_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199543] (-) TimerEvent: {}
+[0.299962] (-) TimerEvent: {}
+[0.340858] (esda_ros_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.346362] (esda_ros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.351520] (esda_ros_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.400259] (-) TimerEvent: {}
+[0.500854] (-) TimerEvent: {}
+[0.601414] (-) TimerEvent: {}
+[0.701957] (-) TimerEvent: {}
+[0.802641] (-) TimerEvent: {}
+[0.878826] (esda_ros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.902925] (-) TimerEvent: {}
+[0.912955] (esda_ros_interface) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.989970] (esda_ros_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.993089] (esda_ros_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.003054] (-) TimerEvent: {}
+[1.103523] (-) TimerEvent: {}
+[1.204076] (-) TimerEvent: {}
+[1.304701] (-) TimerEvent: {}
+[1.405232] (-) TimerEvent: {}
+[1.505739] (-) TimerEvent: {}
+[1.606408] (-) TimerEvent: {}
+[1.706967] (-) TimerEvent: {}
+[1.807531] (-) TimerEvent: {}
+[1.908168] (-) TimerEvent: {}
+[2.008666] (-) TimerEvent: {}
+[2.109396] (-) TimerEvent: {}
+[2.209927] (-) TimerEvent: {}
+[2.310475] (-) TimerEvent: {}
+[2.411210] (-) TimerEvent: {}
+[2.511889] (-) TimerEvent: {}
+[2.612428] (-) TimerEvent: {}
+[2.712927] (-) TimerEvent: {}
+[2.813457] (-) TimerEvent: {}
+[2.914019] (-) TimerEvent: {}
+[3.014722] (-) TimerEvent: {}
+[3.115320] (-) TimerEvent: {}
+[3.216021] (-) TimerEvent: {}
+[3.316619] (-) TimerEvent: {}
+[3.417186] (-) TimerEvent: {}
+[3.517762] (-) TimerEvent: {}
+[3.618382] (-) TimerEvent: {}
+[3.718903] (-) TimerEvent: {}
+[3.819396] (-) TimerEvent: {}
+[3.919949] (-) TimerEvent: {}
+[4.020512] (-) TimerEvent: {}
+[4.121198] (-) TimerEvent: {}
+[4.221743] (-) TimerEvent: {}
+[4.322245] (-) TimerEvent: {}
+[4.422731] (-) TimerEvent: {}
+[4.523377] (-) TimerEvent: {}
+[4.623890] (-) TimerEvent: {}
+[4.724400] (-) TimerEvent: {}
+[4.824905] (-) TimerEvent: {}
+[4.925468] (-) TimerEvent: {}
+[5.026139] (-) TimerEvent: {}
+[5.126638] (-) TimerEvent: {}
+[5.227256] (-) TimerEvent: {}
+[5.327837] (-) TimerEvent: {}
+[5.428354] (-) TimerEvent: {}
+[5.528962] (-) TimerEvent: {}
+[5.629567] (-) TimerEvent: {}
+[5.730035] (-) TimerEvent: {}
+[5.830668] (-) TimerEvent: {}
+[5.931468] (-) TimerEvent: {}
+[6.032214] (-) TimerEvent: {}
+[6.132967] (-) TimerEvent: {}
+[6.233603] (-) TimerEvent: {}
+[6.334290] (-) TimerEvent: {}
+[6.434979] (-) TimerEvent: {}
+[6.535694] (-) TimerEvent: {}
+[6.636295] (-) TimerEvent: {}
+[6.736827] (-) TimerEvent: {}
+[6.837403] (-) TimerEvent: {}
+[6.938093] (-) TimerEvent: {}
+[7.038657] (-) TimerEvent: {}
+[7.139261] (-) TimerEvent: {}
+[7.239983] (-) TimerEvent: {}
+[7.340589] (-) TimerEvent: {}
+[7.441454] (-) TimerEvent: {}
+[7.542252] (-) TimerEvent: {}
+[7.642787] (-) TimerEvent: {}
+[7.743421] (-) TimerEvent: {}
+[7.844312] (-) TimerEvent: {}
+[7.944916] (-) TimerEvent: {}
+[8.045527] (-) TimerEvent: {}
+[8.146146] (-) TimerEvent: {}
+[8.246783] (-) TimerEvent: {}
+[8.347443] (-) TimerEvent: {}
+[8.448013] (-) TimerEvent: {}
+[8.548711] (-) TimerEvent: {}
+[8.649547] (-) TimerEvent: {}
+[8.750371] (-) TimerEvent: {}
+[8.850892] (-) TimerEvent: {}
+[8.951699] (-) TimerEvent: {}
+[9.052301] (-) TimerEvent: {}
+[9.152855] (-) TimerEvent: {}
+[9.253355] (-) TimerEvent: {}
+[9.353836] (-) TimerEvent: {}
+[9.454367] (-) TimerEvent: {}
+[9.554935] (-) TimerEvent: {}
+[9.655447] (-) TimerEvent: {}
+[9.756017] (-) TimerEvent: {}
+[9.856650] (-) TimerEvent: {}
+[9.957372] (-) TimerEvent: {}
+[10.058092] (-) TimerEvent: {}
+[10.158663] (-) TimerEvent: {}
+[10.259138] (-) TimerEvent: {}
+[10.359611] (-) TimerEvent: {}
+[10.460073] (-) TimerEvent: {}
+[10.560719] (-) TimerEvent: {}
+[10.661412] (-) TimerEvent: {}
+[10.762177] (-) TimerEvent: {}
+[10.862820] (-) TimerEvent: {}
+[10.963422] (-) TimerEvent: {}
+[11.063997] (-) TimerEvent: {}
+[11.164792] (-) TimerEvent: {}
+[11.265686] (-) TimerEvent: {}
+[11.366339] (-) TimerEvent: {}
+[11.466920] (-) TimerEvent: {}
+[11.567467] (-) TimerEvent: {}
+[11.667994] (-) TimerEvent: {}
+[11.768487] (-) TimerEvent: {}
+[11.868993] (-) TimerEvent: {}
+[11.969567] (-) TimerEvent: {}
+[12.070084] (-) TimerEvent: {}
+[12.170822] (-) TimerEvent: {}
+[12.271433] (-) TimerEvent: {}
+[12.372031] (-) TimerEvent: {}
+[12.472700] (-) TimerEvent: {}
+[12.573422] (-) TimerEvent: {}
+[12.674023] (-) TimerEvent: {}
+[12.774674] (-) TimerEvent: {}
+[12.875447] (-) TimerEvent: {}
+[12.976110] (-) TimerEvent: {}
+[13.076699] (-) TimerEvent: {}
+[13.177204] (-) TimerEvent: {}
+[13.277765] (-) TimerEvent: {}
+[13.378241] (-) TimerEvent: {}
+[13.478700] (-) TimerEvent: {}
+[13.579224] (-) TimerEvent: {}
+[13.679795] (-) TimerEvent: {}
+[13.780668] (-) TimerEvent: {}
+[13.881691] (-) TimerEvent: {}
+[13.982263] (-) TimerEvent: {}
+[14.082893] (-) TimerEvent: {}
+[14.183385] (-) TimerEvent: {}
+[14.283769] (-) TimerEvent: {}
+[14.384146] (-) TimerEvent: {}
+[14.484660] (-) TimerEvent: {}
+[14.585433] (-) TimerEvent: {}
+[14.686068] (-) TimerEvent: {}
+[14.786728] (-) TimerEvent: {}
+[14.887354] (-) TimerEvent: {}
+[14.988119] (-) TimerEvent: {}
+[15.088802] (-) TimerEvent: {}
+[15.189274] (-) TimerEvent: {}
+[15.289760] (-) TimerEvent: {}
+[15.390488] (-) TimerEvent: {}
+[15.491048] (-) TimerEvent: {}
+[15.591671] (-) TimerEvent: {}
+[15.692282] (-) TimerEvent: {}
+[15.792939] (-) TimerEvent: {}
+[15.893631] (-) TimerEvent: {}
+[15.994261] (-) TimerEvent: {}
+[16.094797] (-) TimerEvent: {}
+[16.195478] (-) TimerEvent: {}
+[16.296462] (-) TimerEvent: {}
+[16.397017] (-) TimerEvent: {}
+[16.497521] (-) TimerEvent: {}
+[16.597998] (-) TimerEvent: {}
+[16.698616] (-) TimerEvent: {}
+[16.799337] (-) TimerEvent: {}
+[16.899886] (-) TimerEvent: {}
+[17.000441] (-) TimerEvent: {}
+[17.100963] (-) TimerEvent: {}
+[17.201485] (-) TimerEvent: {}
+[17.301956] (-) TimerEvent: {}
+[17.402337] (-) TimerEvent: {}
+[17.502912] (-) TimerEvent: {}
+[17.603527] (-) TimerEvent: {}
+[17.704204] (-) TimerEvent: {}
+[17.804779] (-) TimerEvent: {}
+[17.905266] (-) TimerEvent: {}
+[18.005980] (-) TimerEvent: {}
+[18.106534] (-) TimerEvent: {}
+[18.207081] (-) TimerEvent: {}
+[18.307733] (-) TimerEvent: {}
+[18.408255] (-) TimerEvent: {}
+[18.508640] (-) TimerEvent: {}
+[18.609097] (-) TimerEvent: {}
+[18.709764] (-) TimerEvent: {}
+[18.810478] (-) TimerEvent: {}
+[18.910983] (-) TimerEvent: {}
+[19.011559] (-) TimerEvent: {}
+[19.112075] (-) TimerEvent: {}
+[19.212630] (-) TimerEvent: {}
+[19.313324] (-) TimerEvent: {}
+[19.414022] (-) TimerEvent: {}
+[19.514576] (-) TimerEvent: {}
+[19.614977] (-) TimerEvent: {}
+[19.715529] (-) TimerEvent: {}
+[19.816047] (-) TimerEvent: {}
+[19.916547] (-) TimerEvent: {}
+[20.017066] (-) TimerEvent: {}
+[20.117569] (-) TimerEvent: {}
+[20.218059] (-) TimerEvent: {}
+[20.318549] (-) TimerEvent: {}
+[20.419003] (-) TimerEvent: {}
+[20.519542] (-) TimerEvent: {}
+[20.620071] (-) TimerEvent: {}
+[20.720653] (-) TimerEvent: {}
+[20.821172] (-) TimerEvent: {}
+[20.921662] (-) TimerEvent: {}
+[20.999732] (esda_ros_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[21.021791] (-) TimerEvent: {}
+[21.122335] (-) TimerEvent: {}
+[21.222891] (-) TimerEvent: {}
+[21.226276] (esda_ros_interface) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[21.323112] (-) TimerEvent: {}
+[21.423507] (-) TimerEvent: {}
+[21.523987] (-) TimerEvent: {}
+[21.588544] (esda_ros_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[21.624400] (-) TimerEvent: {}
+[21.724969] (-) TimerEvent: {}
+[21.825502] (-) TimerEvent: {}
+[21.840649] (esda_ros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[21.925733] (-) TimerEvent: {}
+[22.026292] (-) TimerEvent: {}
+[22.126807] (-) TimerEvent: {}
+[22.130040] (esda_ros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[22.171433] (esda_ros_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[22.197506] (esda_ros_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[22.197688] (esda_ros_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[22.197733] (esda_ros_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[22.217486] (esda_ros_interface) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[22.217651] (esda_ros_interface) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[22.217701] (esda_ros_interface) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[22.217741] (esda_ros_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[22.217778] (esda_ros_interface) StderrLine: {'line': b'  CMakeLists.txt:36 (rosidl_target_interfaces)\n'}
+[22.217816] (esda_ros_interface) StderrLine: {'line': b'\n'}
+[22.217853] (esda_ros_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[22.227027] (-) TimerEvent: {}
+[22.230321] (esda_ros_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[22.238034] (esda_ros_interface) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rclcpp_components/cmake/rclcpp_components_register_node.cmake:70 (file):\n'}
+[22.238152] (esda_ros_interface) StderrLine: {'line': b'  Error evaluating generator expression:\n'}
+[22.238198] (esda_ros_interface) StderrLine: {'line': b'\n'}
+[22.238238] (esda_ros_interface) StderrLine: {'line': b'    $<TARGET_FILE_NAME:ros2_to_serial_bridge>\n'}
+[22.238275] (esda_ros_interface) StderrLine: {'line': b'\n'}
+[22.238310] (esda_ros_interface) StderrLine: {'line': b'  No target "ros2_to_serial_bridge"\n'}
+[22.238346] (esda_ros_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[22.238380] (esda_ros_interface) StderrLine: {'line': b'  CMakeLists.txt:30 (rclcpp_components_register_node)\n'}
+[22.238414] (esda_ros_interface) StderrLine: {'line': b'\n'}
+[22.238447] (esda_ros_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[22.238479] (esda_ros_interface) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rclcpp_components/cmake/rclcpp_components_register_node.cmake:70 (file):\n'}
+[22.238513] (esda_ros_interface) StderrLine: {'line': b'  Error evaluating generator expression:\n'}
+[22.238639] (esda_ros_interface) StderrLine: {'line': b'\n'}
+[22.238697] (esda_ros_interface) StderrLine: {'line': b'    $<TARGET_FILE_NAME:ros2_to_serial_bridge>\n'}
+[22.238736] (esda_ros_interface) StderrLine: {'line': b'\n'}
+[22.238773] (esda_ros_interface) StderrLine: {'line': b'  No target "ros2_to_serial_bridge"\n'}
+[22.238807] (esda_ros_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[22.238840] (esda_ros_interface) StderrLine: {'line': b'  CMakeLists.txt:30 (rclcpp_components_register_node)\n'}
+[22.238875] (esda_ros_interface) StderrLine: {'line': b'\n'}
+[22.238911] (esda_ros_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[22.238946] (esda_ros_interface) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake:93 (file):\n'}
+[22.238982] (esda_ros_interface) StderrLine: {'line': b'  Error evaluating generator expression:\n'}
+[22.239017] (esda_ros_interface) StderrLine: {'line': b'\n'}
+[22.239052] (esda_ros_interface) StderrLine: {'line': b'    $<TARGET_FILE_NAME:ros2_to_serial_bridge>\n'}
+[22.239086] (esda_ros_interface) StderrLine: {'line': b'\n'}
+[22.239120] (esda_ros_interface) StderrLine: {'line': b'  No target "ros2_to_serial_bridge"\n'}
+[22.239153] (esda_ros_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[22.239223] (esda_ros_interface) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp_components/cmake/rclcpp_components_package_hook.cmake:18 (ament_index_register_resource)\n'}
+[22.239341] (esda_ros_interface) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[22.239389] (esda_ros_interface) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[22.239425] (esda_ros_interface) StderrLine: {'line': b'  CMakeLists.txt:45 (ament_package)\n'}
+[22.239461] (esda_ros_interface) StderrLine: {'line': b'\n'}
+[22.239496] (esda_ros_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[22.239532] (esda_ros_interface) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake:93 (file):\n'}
+[22.239566] (esda_ros_interface) StderrLine: {'line': b'  Error evaluating generator expression:\n'}
+[22.239600] (esda_ros_interface) StderrLine: {'line': b'\n'}
+[22.239635] (esda_ros_interface) StderrLine: {'line': b'    $<TARGET_FILE_NAME:ros2_to_serial_bridge>\n'}
+[22.239669] (esda_ros_interface) StderrLine: {'line': b'\n'}
+[22.239701] (esda_ros_interface) StderrLine: {'line': b'  No target "ros2_to_serial_bridge"\n'}
+[22.239733] (esda_ros_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[22.239765] (esda_ros_interface) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp_components/cmake/rclcpp_components_package_hook.cmake:18 (ament_index_register_resource)\n'}
+[22.239800] (esda_ros_interface) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[22.239832] (esda_ros_interface) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[22.239865] (esda_ros_interface) StderrLine: {'line': b'  CMakeLists.txt:45 (ament_package)\n'}
+[22.239896] (esda_ros_interface) StderrLine: {'line': b'\n'}
+[22.239929] (esda_ros_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[22.283059] (esda_ros_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[22.285246] (esda_ros_interface) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[22.297208] (esda_ros_interface) StderrLine: {'line': b'gmake: *** [Makefile:788: cmake_check_build_system] Error 1\n'}
+[22.299249] (esda_ros_interface) CommandEnded: {'returncode': 2}
+[22.327350] (-) TimerEvent: {}
+[22.368264] (esda_ros_interface) JobEnded: {'identifier': 'esda_ros_interface', 'rc': 2}
+[22.378902] (-) EventReactorShutdown: {}

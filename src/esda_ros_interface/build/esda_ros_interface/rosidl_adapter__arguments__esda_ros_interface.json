@@ -1,0 +1,6 @@
+{
+  "package_name": "esda_ros_interface",
+  "non_idl_tuples": [
+    "/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface:msg/EsdaMessage.msg"
+  ]
+}

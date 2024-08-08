@@ -1,0 +1,51 @@
+[  3%] Built target esda_ros_interface__cpp
+[ 12%] Built target esda_ros_interface__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_esda_ros_interface
+[ 21%] Built target esda_ros_interface__rosidl_typesupport_introspection_cpp
+[ 30%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_cpp
+[ 39%] Built target esda_ros_interface__rosidl_typesupport_cpp
+[ 48%] Built target esda_ros_interface__rosidl_typesupport_introspection_c
+[ 60%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c
+[ 66%] Built target esda_ros_interface__rosidl_typesupport_c
+[ 66%] Built target esda_ros_interface
+[ 69%] Built target esda_ros_interface__py
+[ 72%] [32mBuilding CXX object CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o[0m
+[ 78%] Built target esda_ros_interface__rosidl_generator_py
+[ 84%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c__pyext
+[ 90%] Built target esda_ros_interface__rosidl_typesupport_c__pyext
+[ 96%] Built target esda_ros_interface__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing esda_ros_interface.egg-info/PKG-INFO
+writing dependency_links to esda_ros_interface.egg-info/dependency_links.txt
+writing top-level names to esda_ros_interface.egg-info/top_level.txt
+reading manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+writing manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_esda_ros_interface_egg
+In file included from [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:9[m[K:
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/esda_ros_interface/ros2_to_serial_bridge.hpp:48:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kpubsub[m[K’ is not a member of ‘[01m[Kros2_to_serial_bridge[m[K’
+   48 |     std::map<std::string, ros2_to_serial_bridge::[01;31m[Kpubsub[m[K::TopicMapping> parse_node_parameters_for_topics();
+      |                                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/esda_ros_interface/ros2_to_serial_bridge.hpp:48:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+   48 |     std::map<std::string, ros2_to_serial_bridge::pubsub::TopicMapping[01;31m[K>[m[K parse_node_parameters_for_topics();
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/esda_ros_interface/ros2_to_serial_bridge.hpp:48:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/esda_ros_interface/ros2_to_serial_bridge.hpp:49:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kpubsub[m[K’ is not a member of ‘[01m[Kros2_to_serial_bridge[m[K’
+   49 |     std::map<std::string, ros2_to_serial_bridge::[01;31m[Kpubsub[m[K::TopicMapping> dynamically_get_serial_mapping(uint64_t wait_ms);
+      |                                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/esda_ros_interface/ros2_to_serial_bridge.hpp:49:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+   49 |     std::map<std::string, ros2_to_serial_bridge::pubsub::TopicMapping[01;31m[K>[m[K dynamically_get_serial_mapping(uint64_t wait_ms);
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/esda_ros_interface/ros2_to_serial_bridge.hpp:49:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/esda_ros_interface/ros2_to_serial_bridge.hpp:52:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kpubsub[m[K’ is not a member of ‘[01m[Kros2_to_serial_bridge[m[K’
+   52 |     std::unique_ptr<ros2_to_serial_bridge::[01;31m[Kpubsub[m[K::ROS2Topics> ros2_topics_;
+      |                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/esda_ros_interface/ros2_to_serial_bridge.hpp:52:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   52 |     std::unique_ptr<ros2_to_serial_bridge::pubsub::ROS2Topics[01;31m[K>[m[K ros2_topics_;
+      |                                                              [01;31m[K^[m[K
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/esda_ros_interface/ros2_to_serial_bridge.hpp:52:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:14:1:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K}[m[K’ token
+   14 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/esda_serial_to_pc.dir/build.make:76: CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/esda_serial_to_pc.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

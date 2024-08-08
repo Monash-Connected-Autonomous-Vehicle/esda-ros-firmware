@@ -1,0 +1,566 @@
+[0.000000] (-) TimerEvent: {}
+[0.000585] (-) JobUnselected: {'identifier': 'serial'}
+[0.001306] (esda_ros_interface) JobQueued: {'identifier': 'esda_ros_interface', 'dependencies': OrderedDict()}
+[0.001595] (esda_ros_interface) JobStarted: {'identifier': 'esda_ros_interface'}
+[0.016107] (esda_ros_interface) JobProgress: {'identifier': 'esda_ros_interface', 'progress': 'cmake'}
+[0.018841] (esda_ros_interface) JobProgress: {'identifier': 'esda_ros_interface', 'progress': 'build'}
+[0.019648] (esda_ros_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface', '--', '-j20', '-l20'], 'cwd': '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'samue'), ('GIT_ASKPASS', '/home/samue/.vscode-server/bin/b1c0a14de1414fcdaa400695b4db1c0799bc3124/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/lib:/home/samue/install/examples_rclcpp_wait_set/lib:/home/samue/install/examples_rclcpp_minimal_subscriber/lib:/home/samue/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/samue'), ('OLDPWD', '/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface'), ('TERM_PROGRAM_VERSION', '1.92.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-04ffad9b-a4ae-40a3-b304-6ad770053e99.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/samue/.vscode-server/bin/b1c0a14de1414fcdaa400695b4db1c0799bc3124/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/samue/.vscode-server/bin/b1c0a14de1414fcdaa400695b4db1c0799bc3124/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/samue/GitHub/esda-ros-firmware/src/install:/home/samue/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'samue'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/854_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/samue/.vscode-server/bin/b1c0a14de1414fcdaa400695b4db1c0799bc3124/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft/jdk-17.0.7.7-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Users/samue/.rustup/toolchains/esp/xtensa-esp32-elf-clang/esp-clang/bin:/mnt/c/Users/samue/.rustup/toolchains/esp/xtensa-esp-elf/bin:/mnt/c/Users/samue/.cargo/bin:/mnt/c/opencv/opencv/build/x64/vc16/bin:/mnt/c/Users/samue/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/samue/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/samue/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/samue/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/intelFPGA_lite/18.1/modelsim_ae/win32aloem:/mnt/c/ProgramData/samue/GitHubDesktop/bin:/mnt/c/Users/samue/.dotnet/tools:/mnt/c/opencv/opencv/build/x64/vc16/bin:/mnt/c/Users/samue/AppData/Local/GitHubDesktop/bin:/mnt/c/users/samue/.local/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a7368b2dd3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/home/samue/install/examples_rclcpp_wait_set:/home/samue/install/examples_rclcpp_multithreaded_executor:/home/samue/install/examples_rclcpp_minimal_timer:/home/samue/install/examples_rclcpp_minimal_subscriber:/home/samue/install/examples_rclcpp_minimal_service:/home/samue/install/examples_rclcpp_minimal_publisher:/home/samue/install/examples_rclcpp_minimal_composition:/home/samue/install/examples_rclcpp_minimal_client:/home/samue/install/examples_rclcpp_minimal_action_server:/home/samue/install/examples_rclcpp_minimal_action_client:/home/samue/install/examples_rclcpp_cbg_executor:/home/samue/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface/local/lib/python3.10/dist-packages:/home/samue/build/launch_testing_examples:/home/samue/install/launch_testing_examples/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_executors:/home/samue/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/samue/GitHub/esda-ros-firmware/src/install/esda_ros_interface:/home/samue/install/examples_rclcpp_wait_set:/home/samue/install/examples_rclcpp_multithreaded_executor:/home/samue/install/examples_rclcpp_minimal_timer:/home/samue/install/examples_rclcpp_minimal_subscriber:/home/samue/install/examples_rclcpp_minimal_service:/home/samue/install/examples_rclcpp_minimal_publisher:/home/samue/install/examples_rclcpp_minimal_composition:/home/samue/install/examples_rclcpp_minimal_client:/home/samue/install/examples_rclcpp_minimal_action_server:/home/samue/install/examples_rclcpp_minimal_action_client:/home/samue/install/examples_rclcpp_cbg_executor:/home/samue/install/examples_rclcpp_async_client:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.099487] (-) TimerEvent: {}
+[0.180155] (esda_ros_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199621] (-) TimerEvent: {}
+[0.300095] (-) TimerEvent: {}
+[0.390458] (esda_ros_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.396228] (esda_ros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.400173] (-) TimerEvent: {}
+[0.400772] (esda_ros_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.500355] (-) TimerEvent: {}
+[0.600951] (-) TimerEvent: {}
+[0.701453] (-) TimerEvent: {}
+[0.801851] (-) TimerEvent: {}
+[0.877938] (esda_ros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.902004] (-) TimerEvent: {}
+[0.911920] (esda_ros_interface) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.990924] (esda_ros_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.993917] (esda_ros_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.002256] (-) TimerEvent: {}
+[1.102568] (-) TimerEvent: {}
+[1.203039] (-) TimerEvent: {}
+[1.303453] (-) TimerEvent: {}
+[1.403962] (-) TimerEvent: {}
+[1.504508] (-) TimerEvent: {}
+[1.605047] (-) TimerEvent: {}
+[1.705577] (-) TimerEvent: {}
+[1.806086] (-) TimerEvent: {}
+[1.906589] (-) TimerEvent: {}
+[2.007237] (-) TimerEvent: {}
+[2.107953] (-) TimerEvent: {}
+[2.208436] (-) TimerEvent: {}
+[2.308980] (-) TimerEvent: {}
+[2.409554] (-) TimerEvent: {}
+[2.510078] (-) TimerEvent: {}
+[2.610606] (-) TimerEvent: {}
+[2.711115] (-) TimerEvent: {}
+[2.811863] (-) TimerEvent: {}
+[2.912671] (-) TimerEvent: {}
+[3.013415] (-) TimerEvent: {}
+[3.113989] (-) TimerEvent: {}
+[3.214452] (-) TimerEvent: {}
+[3.314884] (-) TimerEvent: {}
+[3.415489] (-) TimerEvent: {}
+[3.516106] (-) TimerEvent: {}
+[3.616738] (-) TimerEvent: {}
+[3.717484] (-) TimerEvent: {}
+[3.818040] (-) TimerEvent: {}
+[3.918497] (-) TimerEvent: {}
+[4.019058] (-) TimerEvent: {}
+[4.119608] (-) TimerEvent: {}
+[4.220194] (-) TimerEvent: {}
+[4.320762] (-) TimerEvent: {}
+[4.421368] (-) TimerEvent: {}
+[4.521929] (-) TimerEvent: {}
+[4.622387] (-) TimerEvent: {}
+[4.722944] (-) TimerEvent: {}
+[4.823581] (-) TimerEvent: {}
+[4.924181] (-) TimerEvent: {}
+[5.024937] (-) TimerEvent: {}
+[5.125532] (-) TimerEvent: {}
+[5.226898] (-) TimerEvent: {}
+[5.327526] (-) TimerEvent: {}
+[5.428023] (-) TimerEvent: {}
+[5.528483] (-) TimerEvent: {}
+[5.629036] (-) TimerEvent: {}
+[5.729701] (-) TimerEvent: {}
+[5.830332] (-) TimerEvent: {}
+[5.930893] (-) TimerEvent: {}
+[6.031330] (-) TimerEvent: {}
+[6.131943] (-) TimerEvent: {}
+[6.232835] (-) TimerEvent: {}
+[6.333481] (-) TimerEvent: {}
+[6.434042] (-) TimerEvent: {}
+[6.534464] (-) TimerEvent: {}
+[6.635028] (-) TimerEvent: {}
+[6.735566] (-) TimerEvent: {}
+[6.836107] (-) TimerEvent: {}
+[6.936600] (-) TimerEvent: {}
+[7.037034] (-) TimerEvent: {}
+[7.137604] (-) TimerEvent: {}
+[7.238256] (-) TimerEvent: {}
+[7.338977] (-) TimerEvent: {}
+[7.439605] (-) TimerEvent: {}
+[7.540204] (-) TimerEvent: {}
+[7.640773] (-) TimerEvent: {}
+[7.741315] (-) TimerEvent: {}
+[7.841884] (-) TimerEvent: {}
+[7.942333] (-) TimerEvent: {}
+[8.042753] (-) TimerEvent: {}
+[8.143277] (-) TimerEvent: {}
+[8.243742] (-) TimerEvent: {}
+[8.344238] (-) TimerEvent: {}
+[8.444753] (-) TimerEvent: {}
+[8.545398] (-) TimerEvent: {}
+[8.645845] (-) TimerEvent: {}
+[8.746423] (-) TimerEvent: {}
+[8.846967] (-) TimerEvent: {}
+[8.947431] (-) TimerEvent: {}
+[9.047931] (-) TimerEvent: {}
+[9.148473] (-) TimerEvent: {}
+[9.249054] (-) TimerEvent: {}
+[9.349651] (-) TimerEvent: {}
+[9.450197] (-) TimerEvent: {}
+[9.550833] (-) TimerEvent: {}
+[9.651498] (-) TimerEvent: {}
+[9.752006] (-) TimerEvent: {}
+[9.852593] (-) TimerEvent: {}
+[9.953232] (-) TimerEvent: {}
+[10.053920] (-) TimerEvent: {}
+[10.154589] (-) TimerEvent: {}
+[10.255072] (-) TimerEvent: {}
+[10.355586] (-) TimerEvent: {}
+[10.456226] (-) TimerEvent: {}
+[10.556882] (-) TimerEvent: {}
+[10.657678] (-) TimerEvent: {}
+[10.758411] (-) TimerEvent: {}
+[10.858898] (-) TimerEvent: {}
+[10.959439] (-) TimerEvent: {}
+[11.059983] (-) TimerEvent: {}
+[11.160500] (-) TimerEvent: {}
+[11.261094] (-) TimerEvent: {}
+[11.361623] (-) TimerEvent: {}
+[11.462268] (-) TimerEvent: {}
+[11.562903] (-) TimerEvent: {}
+[11.663406] (-) TimerEvent: {}
+[11.763949] (-) TimerEvent: {}
+[11.864566] (-) TimerEvent: {}
+[11.965025] (-) TimerEvent: {}
+[12.065510] (-) TimerEvent: {}
+[12.166153] (-) TimerEvent: {}
+[12.266728] (-) TimerEvent: {}
+[12.367346] (-) TimerEvent: {}
+[12.468093] (-) TimerEvent: {}
+[12.568751] (-) TimerEvent: {}
+[12.669363] (-) TimerEvent: {}
+[12.769979] (-) TimerEvent: {}
+[12.870501] (-) TimerEvent: {}
+[12.971003] (-) TimerEvent: {}
+[13.071688] (-) TimerEvent: {}
+[13.172215] (-) TimerEvent: {}
+[13.272759] (-) TimerEvent: {}
+[13.373483] (-) TimerEvent: {}
+[13.474009] (-) TimerEvent: {}
+[13.574532] (-) TimerEvent: {}
+[13.675168] (-) TimerEvent: {}
+[13.775806] (-) TimerEvent: {}
+[13.876312] (-) TimerEvent: {}
+[13.976842] (-) TimerEvent: {}
+[14.077343] (-) TimerEvent: {}
+[14.177828] (-) TimerEvent: {}
+[14.278335] (-) TimerEvent: {}
+[14.378801] (-) TimerEvent: {}
+[14.479270] (-) TimerEvent: {}
+[14.579802] (-) TimerEvent: {}
+[14.680487] (-) TimerEvent: {}
+[14.781051] (-) TimerEvent: {}
+[14.881647] (-) TimerEvent: {}
+[14.982299] (-) TimerEvent: {}
+[15.082995] (-) TimerEvent: {}
+[15.183630] (-) TimerEvent: {}
+[15.284346] (-) TimerEvent: {}
+[15.384980] (-) TimerEvent: {}
+[15.485458] (-) TimerEvent: {}
+[15.585943] (-) TimerEvent: {}
+[15.686497] (-) TimerEvent: {}
+[15.787127] (-) TimerEvent: {}
+[15.887810] (-) TimerEvent: {}
+[15.988490] (-) TimerEvent: {}
+[16.089024] (-) TimerEvent: {}
+[16.189547] (-) TimerEvent: {}
+[16.290019] (-) TimerEvent: {}
+[16.390672] (-) TimerEvent: {}
+[16.491432] (-) TimerEvent: {}
+[16.591964] (-) TimerEvent: {}
+[16.692629] (-) TimerEvent: {}
+[16.793141] (-) TimerEvent: {}
+[16.893659] (-) TimerEvent: {}
+[16.994143] (-) TimerEvent: {}
+[17.094806] (-) TimerEvent: {}
+[17.195569] (-) TimerEvent: {}
+[17.296128] (-) TimerEvent: {}
+[17.396766] (-) TimerEvent: {}
+[17.497395] (-) TimerEvent: {}
+[17.597993] (-) TimerEvent: {}
+[17.698519] (-) TimerEvent: {}
+[17.799091] (-) TimerEvent: {}
+[17.899724] (-) TimerEvent: {}
+[18.000209] (-) TimerEvent: {}
+[18.100786] (-) TimerEvent: {}
+[18.201388] (-) TimerEvent: {}
+[18.301892] (-) TimerEvent: {}
+[18.402424] (-) TimerEvent: {}
+[18.502931] (-) TimerEvent: {}
+[18.603430] (-) TimerEvent: {}
+[18.704020] (-) TimerEvent: {}
+[18.804603] (-) TimerEvent: {}
+[18.905091] (-) TimerEvent: {}
+[18.954340] (esda_ros_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[19.005390] (-) TimerEvent: {}
+[19.105850] (-) TimerEvent: {}
+[19.122118] (esda_ros_interface) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[19.206025] (-) TimerEvent: {}
+[19.306675] (-) TimerEvent: {}
+[19.407277] (-) TimerEvent: {}
+[19.450647] (esda_ros_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[19.507609] (-) TimerEvent: {}
+[19.608034] (-) TimerEvent: {}
+[19.674594] (esda_ros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[19.708367] (-) TimerEvent: {}
+[19.808893] (-) TimerEvent: {}
+[19.909399] (-) TimerEvent: {}
+[19.948231] (esda_ros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[19.979971] (esda_ros_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[20.009785] (-) TimerEvent: {}
+[20.015732] (esda_ros_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[20.015974] (esda_ros_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[20.016050] (esda_ros_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[20.040732] (esda_ros_interface) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[20.040945] (esda_ros_interface) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[20.040996] (esda_ros_interface) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[20.041036] (esda_ros_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[20.041073] (esda_ros_interface) StderrLine: {'line': b'  CMakeLists.txt:39 (rosidl_target_interfaces)\n'}
+[20.041108] (esda_ros_interface) StderrLine: {'line': b'\n'}
+[20.041143] (esda_ros_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[20.052875] (esda_ros_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[20.108586] (esda_ros_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[20.109977] (-) TimerEvent: {}
+[20.111437] (esda_ros_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface\n'}
+[20.138829] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_generator_c\x1b[0m\n'}
+[20.139495] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_serial_to_pc_node\x1b[0m\n'}
+[20.146970] (esda_ros_interface) StdoutLine: {'line': b'[  8%] Built target esda_ros_interface__rosidl_generator_c\n'}
+[20.147757] (esda_ros_interface) StdoutLine: {'line': b'[ 11%] Built target esda_ros_interface__cpp\n'}
+[20.150900] (esda_ros_interface) StdoutLine: {'line': b'[ 17%] Built target esda_serial_to_pc_node\n'}
+[20.153797] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[20.154313] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_c\x1b[0m\n'}
+[20.154809] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[20.155456] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[20.157220] (esda_ros_interface) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_copy_esda_ros_interface\n'}
+[20.157583] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[20.159204] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[20.162721] (esda_ros_interface) StdoutLine: {'line': b'[ 25%] Built target esda_ros_interface__rosidl_typesupport_c\n'}
+[20.162922] (esda_ros_interface) StdoutLine: {'line': b'[ 34%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c\n'}
+[20.165066] (esda_ros_interface) StdoutLine: {'line': b'[ 42%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[20.166823] (esda_ros_interface) StdoutLine: {'line': b'[ 51%] Built target esda_ros_interface__rosidl_typesupport_introspection_cpp\n'}
+[20.167393] (esda_ros_interface) StdoutLine: {'line': b'[ 60%] Built target esda_ros_interface__rosidl_typesupport_introspection_c\n'}
+[20.168012] (esda_ros_interface) StdoutLine: {'line': b'[ 68%] Built target esda_ros_interface__rosidl_typesupport_cpp\n'}
+[20.180976] (esda_ros_interface) StdoutLine: {'line': b'[ 68%] Built target esda_ros_interface\n'}
+[20.190153] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_serial_to_pc\x1b[0m\n'}
+[20.195742] (esda_ros_interface) StdoutLine: {'line': b'[ 71%] Built target esda_ros_interface__py\n'}
+[20.201979] (esda_ros_interface) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o\x1b[0m\n'}
+[20.202652] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_generator_py\x1b[0m\n'}
+[20.210109] (-) TimerEvent: {}
+[20.211146] (esda_ros_interface) StdoutLine: {'line': b'[ 80%] Built target esda_ros_interface__rosidl_generator_py\n'}
+[20.218039] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[20.218641] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[20.218792] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[20.227590] (esda_ros_interface) StdoutLine: {'line': b'[ 97%] Built target esda_ros_interface__rosidl_typesupport_c__pyext\n'}
+[20.227786] (esda_ros_interface) StdoutLine: {'line': b'[ 97%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[20.227876] (esda_ros_interface) StdoutLine: {'line': b'[ 97%] Built target esda_ros_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[20.310438] (-) TimerEvent: {}
+[20.341819] (esda_ros_interface) StdoutLine: {'line': b'running egg_info\n'}
+[20.342843] (esda_ros_interface) StdoutLine: {'line': b'writing esda_ros_interface.egg-info/PKG-INFO\n'}
+[20.342970] (esda_ros_interface) StdoutLine: {'line': b'writing dependency_links to esda_ros_interface.egg-info/dependency_links.txt\n'}
+[20.343014] (esda_ros_interface) StdoutLine: {'line': b'writing top-level names to esda_ros_interface.egg-info/top_level.txt\n'}
+[20.345332] (esda_ros_interface) StdoutLine: {'line': b"reading manifest file 'esda_ros_interface.egg-info/SOURCES.txt'\n"}
+[20.345781] (esda_ros_interface) StdoutLine: {'line': b"writing manifest file 'esda_ros_interface.egg-info/SOURCES.txt'\n"}
+[20.364851] (esda_ros_interface) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_esda_ros_interface_egg\n'}
+[20.410586] (-) TimerEvent: {}
+[20.510952] (-) TimerEvent: {}
+[20.611426] (-) TimerEvent: {}
+[20.711781] (-) TimerEvent: {}
+[20.812110] (-) TimerEvent: {}
+[20.912649] (-) TimerEvent: {}
+[21.013217] (-) TimerEvent: {}
+[21.113778] (-) TimerEvent: {}
+[21.214243] (-) TimerEvent: {}
+[21.314698] (-) TimerEvent: {}
+[21.415154] (-) TimerEvent: {}
+[21.515768] (-) TimerEvent: {}
+[21.616247] (-) TimerEvent: {}
+[21.716738] (-) TimerEvent: {}
+[21.817160] (-) TimerEvent: {}
+[21.917593] (-) TimerEvent: {}
+[22.018095] (-) TimerEvent: {}
+[22.118659] (-) TimerEvent: {}
+[22.146823] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:12:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS2ToSerialBridge\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[22.147001] (esda_ros_interface) StderrLine: {'line': b'   12 | \x1b[01;31m\x1b[KROS2ToSerialBridge\x1b[m\x1b[K::ROS2ToSerialBridge(const rclcpp::NodeOptions& node_options)\n'}
+[22.147049] (esda_ros_interface) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.148993] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:115:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS2ToSerialBridge\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[22.149155] (esda_ros_interface) StderrLine: {'line': b'  115 | \x1b[01;31m\x1b[KROS2ToSerialBridge\x1b[m\x1b[K::~ROS2ToSerialBridge()\n'}
+[22.149203] (esda_ros_interface) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.149242] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:123:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS2ToSerialBridge\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.149281] (esda_ros_interface) StderrLine: {'line': b'  123 | void \x1b[01;31m\x1b[KROS2ToSerialBridge\x1b[m\x1b[K::read_thread_func(const std::shared_future<void> & local_future)\n'}
+[22.149317] (esda_ros_interface) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.158659] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid ros2_to_serial_bridge::read_thread_func(const std::shared_future<void>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.158790] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:129:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBUFFER_SIZE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.158835] (esda_ros_interface) StderrLine: {'line': b'  129 |     std::unique_ptr<uint8_t[]> data_buffer(new uint8_t[\x1b[01;31m\x1b[KBUFFER_SIZE\x1b[m\x1b[K]);\n'}
+[22.158873] (esda_ros_interface) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.163196] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:131:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktopic_id_size_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.163307] (esda_ros_interface) StderrLine: {'line': b'  131 |     \x1b[01;31m\x1b[Ktopic_id_size_t\x1b[m\x1b[K topic_ID;\n'}
+[22.163358] (esda_ros_interface) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.166737] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:136:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransporter_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.166828] (esda_ros_interface) StderrLine: {'line': b'  136 |         if ((length = \x1b[01;31m\x1b[Ktransporter_\x1b[m\x1b[K->read(&topic_ID, data_buffer.get(), BUFFER_SIZE)) >= 0)\n'}
+[22.166873] (esda_ros_interface) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.169927] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:136:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktopic_ID\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.170039] (esda_ros_interface) StderrLine: {'line': b'  136 |         if ((length = transporter_->read(&\x1b[01;31m\x1b[Ktopic_ID\x1b[m\x1b[K, data_buffer.get(), BUFFER_SIZE)) >= 0)\n'}
+[22.170094] (esda_ros_interface) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[22.174922] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:138:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros2_topics_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.175038] (esda_ros_interface) StderrLine: {'line': b'  138 |             \x1b[01;31m\x1b[Kros2_topics_\x1b[m\x1b[K->dispatch(topic_ID, data_buffer.get(), length);\n'}
+[22.175095] (esda_ros_interface) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.175711] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:\x1b[m\x1b[K At global scope:\n'}
+[22.175859] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:144:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpubsub\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kros2_to_serial_bridge\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.175924] (esda_ros_interface) StderrLine: {'line': b'  144 | std::map<std::string, ros2_to_serial_bridge::\x1b[01;31m\x1b[Kpubsub\x1b[m\x1b[K::TopicMapping> ROS2ToSerialBridge::parse_node_parameters_for_topics()\n'}
+[22.175986] (esda_ros_interface) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[22.176035] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:144:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[22.176084] (esda_ros_interface) StderrLine: {'line': b'  144 | std::map<std::string, ros2_to_serial_bridge::pubsub::TopicMapping\x1b[01;31m\x1b[K>\x1b[m\x1b[K ROS2ToSerialBridge::parse_node_parameters_for_topics()\n'}
+[22.176385] (esda_ros_interface) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.176462] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:144:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[22.176524] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:144:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS2ToSerialBridge\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.176574] (esda_ros_interface) StderrLine: {'line': b'  144 | std::map<std::string, ros2_to_serial_bridge::pubsub::TopicMapping> \x1b[01;31m\x1b[KROS2ToSerialBridge\x1b[m\x1b[K::parse_node_parameters_for_topics()\n'}
+[22.176623] (esda_ros_interface) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.176667] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint ros2_to_serial_bridge::parse_node_parameters_for_topics()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.176711] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:154:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpubsub\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kros2_to_serial_bridge\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.176796] (esda_ros_interface) StderrLine: {'line': b'  154 |     std::map<std::string, ros2_to_serial_bridge::\x1b[01;31m\x1b[Kpubsub\x1b[m\x1b[K::TopicMapping> topic_names_and_serialization;\n'}
+[22.176859] (esda_ros_interface) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[22.176906] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:154:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[22.176950] (esda_ros_interface) StderrLine: {'line': b'  154 |     std::map<std::string, ros2_to_serial_bridge::pubsub::TopicMapping\x1b[01;31m\x1b[K>\x1b[m\x1b[K topic_names_and_serialization;\n'}
+[22.176995] (esda_ros_interface) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.177039] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:154:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[22.180370] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:156:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klist_parameters\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Klist_params_result\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[22.180484] (esda_ros_interface) StderrLine: {'line': b'  156 |     rcl_interfaces::msg::ListParametersResult list_params_result = \x1b[01;31m\x1b[Klist_parameters\x1b[m\x1b[K({}, 0);\n'}
+[22.180530] (esda_ros_interface) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.180587] (esda_ros_interface) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[Klist_params_result\x1b[m\x1b[K\n'}
+[22.182615] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:206:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kcount\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Ktopic_names_and_serialization\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.182776] (esda_ros_interface) StderrLine: {'line': b'  206 |         if (topic_names_and_serialization.\x1b[01;31m\x1b[Kcount\x1b[m\x1b[K(topic_name) == 0)\n'}
+[22.182825] (esda_ros_interface) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[22.182864] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:208:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[22.182905] (esda_ros_interface) StderrLine: {'line': b'  208 |             topic_names_and_serialization\x1b[01;31m\x1b[K[\x1b[m\x1b[Ktopic_name] = ros2_to_serial_bridge::pubsub::TopicMapping();\n'}
+[22.182942] (esda_ros_interface) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.182978] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:208:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros2_to_serial_bridge::pubsub\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.183019] (esda_ros_interface) StderrLine: {'line': b'  208 |             topic_names_and_serialization[topic_name] = ros2_to_serial_bridge::\x1b[01;31m\x1b[Kpubsub\x1b[m\x1b[K::TopicMapping();\n'}
+[22.183057] (esda_ros_interface) StderrLine: {'line': b'      |                                                                                \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[22.186627] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:213:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_parameter\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.186775] (esda_ros_interface) StderrLine: {'line': b'  213 |             int64_t serial_mapping = \x1b[01;31m\x1b[Kget_parameter\x1b[m\x1b[K(name).get_value<int64_t>();\n'}
+[22.186823] (esda_ros_interface) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.186861] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:213:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[22.186898] (esda_ros_interface) StderrLine: {'line': b'  213 |             int64_t serial_mapping = get_parameter(name).get_value<int64_t\x1b[01;31m\x1b[K>\x1b[m\x1b[K();\n'}
+[22.186932] (esda_ros_interface) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.186966] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:213:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[22.187000] (esda_ros_interface) StderrLine: {'line': b'  213 |             int64_t serial_mapping = get_parameter(name).get_value<int64_t>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[22.187033] (esda_ros_interface) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.187065] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:214:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[22.187104] (esda_ros_interface) StderrLine: {'line': b'  214 |             topic_names_and_serialization\x1b[01;31m\x1b[K[\x1b[m\x1b[Ktopic_name].serial_mapping = static_cast<topic_id_size_t>(serial_mapping);\n'}
+[22.187138] (esda_ros_interface) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.188381] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:214:84:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktopic_id_size_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[22.188485] (esda_ros_interface) StderrLine: {'line': b'  214 |             topic_names_and_serialization[topic_name].serial_mapping = static_cast<\x1b[01;31m\x1b[Ktopic_id_size_t\x1b[m\x1b[K>(serial_mapping);\n'}
+[22.188530] (esda_ros_interface) StderrLine: {'line': b'      |                                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.188568] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:218:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[22.188606] (esda_ros_interface) StderrLine: {'line': b'  218 |             topic_names_and_serialization\x1b[01;31m\x1b[K[\x1b[m\x1b[Ktopic_name].type = get_parameter(name).get_value<std::string>();\n'}
+[22.188641] (esda_ros_interface) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.191971] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:218:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_parameter\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.192096] (esda_ros_interface) StderrLine: {'line': b'  218 |             topic_names_and_serialization[topic_name].type = \x1b[01;31m\x1b[Kget_parameter\x1b[m\x1b[K(name).get_value<std::string>();\n'}
+[22.192141] (esda_ros_interface) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.192178] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:218:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[22.192214] (esda_ros_interface) StderrLine: {'line': b'  218 |             topic_names_and_serialization[topic_name].type = get_parameter(name).get_value<std::string\x1b[01;31m\x1b[K>\x1b[m\x1b[K();\n'}
+[22.192249] (esda_ros_interface) StderrLine: {'line': b'      |                                                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.192284] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:218:105:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[22.192317] (esda_ros_interface) StderrLine: {'line': b'  218 |             topic_names_and_serialization[topic_name].type = get_parameter(name).get_value<std::string>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[22.192358] (esda_ros_interface) StderrLine: {'line': b'      |                                                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.195502] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:222:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_parameter\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.195625] (esda_ros_interface) StderrLine: {'line': b'  222 |             std::string dirstring = \x1b[01;31m\x1b[Kget_parameter\x1b[m\x1b[K(name).get_value<std::string>();\n'}
+[22.195677] (esda_ros_interface) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.195714] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:222:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[22.195753] (esda_ros_interface) StderrLine: {'line': b'  222 |             std::string dirstring = get_parameter(name).get_value<std::string\x1b[01;31m\x1b[K>\x1b[m\x1b[K();\n'}
+[22.195788] (esda_ros_interface) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.195822] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:222:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[22.195856] (esda_ros_interface) StderrLine: {'line': b'  222 |             std::string dirstring = get_parameter(name).get_value<std::string>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[22.195890] (esda_ros_interface) StderrLine: {'line': b'      |                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.195923] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:223:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros2_to_serial_bridge::pubsub\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.195957] (esda_ros_interface) StderrLine: {'line': b'  223 |             ros2_to_serial_bridge::\x1b[01;31m\x1b[Kpubsub\x1b[m\x1b[K::TopicMapping::Direction direction = ros2_to_serial_bridge::pubsub::TopicMapping::Direction::UNKNOWN;\n'}
+[22.195996] (esda_ros_interface) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[22.198156] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:226:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdirection\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksigaction\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[22.198270] (esda_ros_interface) StderrLine: {'line': b'  226 |                 \x1b[01;31m\x1b[Kdirection\x1b[m\x1b[K = ros2_to_serial_bridge::pubsub::TopicMapping::Direction::SERIAL_TO_ROS2;\n'}
+[22.198315] (esda_ros_interface) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[22.198353] (esda_ros_interface) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Ksigaction\x1b[m\x1b[K\n'}
+[22.198388] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:226:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros2_to_serial_bridge::pubsub\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.198424] (esda_ros_interface) StderrLine: {'line': b'  226 |                 direction = ros2_to_serial_bridge::\x1b[01;31m\x1b[Kpubsub\x1b[m\x1b[K::TopicMapping::Direction::SERIAL_TO_ROS2;\n'}
+[22.198467] (esda_ros_interface) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[22.200850] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:230:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdirection\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksigaction\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[22.200927] (esda_ros_interface) StderrLine: {'line': b'  230 |                 \x1b[01;31m\x1b[Kdirection\x1b[m\x1b[K = ros2_to_serial_bridge::pubsub::TopicMapping::Direction::ROS2_TO_SERIAL;\n'}
+[22.200967] (esda_ros_interface) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[22.201003] (esda_ros_interface) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Ksigaction\x1b[m\x1b[K\n'}
+[22.201038] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:230:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros2_to_serial_bridge::pubsub\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.201074] (esda_ros_interface) StderrLine: {'line': b'  230 |                 direction = ros2_to_serial_bridge::\x1b[01;31m\x1b[Kpubsub\x1b[m\x1b[K::TopicMapping::Direction::ROS2_TO_SERIAL;\n'}
+[22.201108] (esda_ros_interface) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[22.201142] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:237:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[22.201178] (esda_ros_interface) StderrLine: {'line': b'  237 |             topic_names_and_serialization\x1b[01;31m\x1b[K[\x1b[m\x1b[Ktopic_name].direction = direction;\n'}
+[22.201213] (esda_ros_interface) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.203520] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:237:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdirection\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksigaction\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[22.203602] (esda_ros_interface) StderrLine: {'line': b'  237 |             topic_names_and_serialization[topic_name].direction = \x1b[01;31m\x1b[Kdirection\x1b[m\x1b[K;\n'}
+[22.203641] (esda_ros_interface) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[22.203678] (esda_ros_interface) StderrLine: {'line': b'      |                                                                   \x1b[32m\x1b[Ksigaction\x1b[m\x1b[K\n'}
+[22.203985] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:\x1b[m\x1b[K At global scope:\n'}
+[22.204045] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:248:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpubsub\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kros2_to_serial_bridge\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.204090] (esda_ros_interface) StderrLine: {'line': b'  248 | std::map<std::string, ros2_to_serial_bridge::\x1b[01;31m\x1b[Kpubsub\x1b[m\x1b[K::TopicMapping> ROS2ToSerialBridge::dynamically_get_serial_mapping(uint64_t wait_ms)\n'}
+[22.204126] (esda_ros_interface) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[22.204161] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:248:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[22.204197] (esda_ros_interface) StderrLine: {'line': b'  248 | std::map<std::string, ros2_to_serial_bridge::pubsub::TopicMapping\x1b[01;31m\x1b[K>\x1b[m\x1b[K ROS2ToSerialBridge::dynamically_get_serial_mapping(uint64_t wait_ms)\n'}
+[22.204232] (esda_ros_interface) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.204404] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:248:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[22.204455] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:248:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS2ToSerialBridge\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.204493] (esda_ros_interface) StderrLine: {'line': b'  248 | std::map<std::string, ros2_to_serial_bridge::pubsub::TopicMapping> \x1b[01;31m\x1b[KROS2ToSerialBridge\x1b[m\x1b[K::dynamically_get_serial_mapping(uint64_t wait_ms)\n'}
+[22.204530] (esda_ros_interface) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.204564] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint ros2_to_serial_bridge::dynamically_get_serial_mapping(uint64_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.204600] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:250:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpubsub\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kros2_to_serial_bridge\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.204635] (esda_ros_interface) StderrLine: {'line': b'  250 |     std::map<std::string, ros2_to_serial_bridge::\x1b[01;31m\x1b[Kpubsub\x1b[m\x1b[K::TopicMapping> topic_names_and_serialization;\n'}
+[22.204669] (esda_ros_interface) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[22.204702] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:250:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[22.204736] (esda_ros_interface) StderrLine: {'line': b'  250 |     std::map<std::string, ros2_to_serial_bridge::pubsub::TopicMapping\x1b[01;31m\x1b[K>\x1b[m\x1b[K topic_names_and_serialization;\n'}
+[22.204770] (esda_ros_interface) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.204804] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:250:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[22.204837] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:256:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.204872] (esda_ros_interface) StderrLine: {'line': b'  256 |         \x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::Empty dynamic_request;\n'}
+[22.204905] (esda_ros_interface) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[22.204937] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:257:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.204971] (esda_ros_interface) StderrLine: {'line': b'  257 |         size_t serialized_size = \x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::typesupport_fastrtps_cpp::get_serialized_size(dynamic_request, 0);\n'}
+[22.205004] (esda_ros_interface) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[22.208123] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:257:95:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdynamic_request\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.208182] (esda_ros_interface) StderrLine: {'line': b'  257 |         size_t serialized_size = std_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(\x1b[01;31m\x1b[Kdynamic_request\x1b[m\x1b[K, 0);\n'}
+[22.208220] (esda_ros_interface) StderrLine: {'line': b'      |                                                                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.209097] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:264:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Keprosima\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.209154] (esda_ros_interface) StderrLine: {'line': b'  264 |             \x1b[01;31m\x1b[Keprosima\x1b[m\x1b[K::fastcdr::FastBuffer cdrbuffer(reinterpret_cast<char *>(data_buffer.get()), serialized_size);\n'}
+[22.209191] (esda_ros_interface) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[22.209227] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:265:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Keprosima\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.209262] (esda_ros_interface) StderrLine: {'line': b'  265 |             \x1b[01;31m\x1b[Keprosima\x1b[m\x1b[K::fastcdr::Cdr scdr(cdrbuffer);\n'}
+[22.209297] (esda_ros_interface) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[22.209330] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:266:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.209366] (esda_ros_interface) StderrLine: {'line': b'  266 |             \x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::typesupport_fastrtps_cpp::cdr_serialize(dynamic_request, scdr);\n'}
+[22.209399] (esda_ros_interface) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[22.211114] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:266:85:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kscdr\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.211166] (esda_ros_interface) StderrLine: {'line': b'  266 |             std_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(dynamic_request, \x1b[01;31m\x1b[Kscdr\x1b[m\x1b[K);\n'}
+[22.211204] (esda_ros_interface) StderrLine: {'line': b'      |                                                                                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[22.214397] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:271:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransporter_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.214498] (esda_ros_interface) StderrLine: {'line': b'  271 |         if (\x1b[01;31m\x1b[Ktransporter_\x1b[m\x1b[K->write(0, bufferp, serialized_data_length) < 0)\n'}
+[22.214539] (esda_ros_interface) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.217831] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:278:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBUFFER_SIZE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.217910] (esda_ros_interface) StderrLine: {'line': b'  278 |     std::unique_ptr<uint8_t[]> data_buffer(new uint8_t[\x1b[01;31m\x1b[KBUFFER_SIZE\x1b[m\x1b[K]);\n'}
+[22.217950] (esda_ros_interface) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.218721] (-) TimerEvent: {}
+[22.219256] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:281:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros2_serial_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.219387] (esda_ros_interface) StderrLine: {'line': b'  281 |     \x1b[01;31m\x1b[Kros2_serial_msgs\x1b[m\x1b[K::msg::SerialMapping serial_mapping_msg;\n'}
+[22.219432] (esda_ros_interface) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.223108] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:286:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktopic_id_size_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.223199] (esda_ros_interface) StderrLine: {'line': b'  286 |         \x1b[01;31m\x1b[Ktopic_id_size_t\x1b[m\x1b[K topic_ID;\n'}
+[22.223239] (esda_ros_interface) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.226426] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:287:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransporter_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.226555] (esda_ros_interface) StderrLine: {'line': b'  287 |         if ((length = \x1b[01;31m\x1b[Ktransporter_\x1b[m\x1b[K->read(&topic_ID, data_buffer.get(), BUFFER_SIZE)) > 0)\n'}
+[22.226600] (esda_ros_interface) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.229285] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:287:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktopic_ID\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.229428] (esda_ros_interface) StderrLine: {'line': b'  287 |         if ((length = transporter_->read(&\x1b[01;31m\x1b[Ktopic_ID\x1b[m\x1b[K, data_buffer.get(), BUFFER_SIZE)) > 0)\n'}
+[22.229473] (esda_ros_interface) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[22.229511] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:291:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Keprosima\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.229558] (esda_ros_interface) StderrLine: {'line': b'  291 |                 \x1b[01;31m\x1b[Keprosima\x1b[m\x1b[K::fastcdr::FastBuffer cdrbuffer(reinterpret_cast<char *>(data_buffer.get()), length);\n'}
+[22.229597] (esda_ros_interface) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[22.229632] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:292:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Keprosima\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.229666] (esda_ros_interface) StderrLine: {'line': b'  292 |                 \x1b[01;31m\x1b[Keprosima\x1b[m\x1b[K::fastcdr::Cdr cdrdes(cdrbuffer);\n'}
+[22.229701] (esda_ros_interface) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[22.229734] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:298:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros2_serial_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.229766] (esda_ros_interface) StderrLine: {'line': b'  298 |                     \x1b[01;31m\x1b[Kros2_serial_msgs\x1b[m\x1b[K::msg::typesupport_fastrtps_cpp::cdr_deserialize(cdrdes, serial_mapping_msg);\n'}
+[22.229823] (esda_ros_interface) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.231768] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:298:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcdrdes\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.231890] (esda_ros_interface) StderrLine: {'line': b'  298 |                     ros2_serial_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(\x1b[01;31m\x1b[Kcdrdes\x1b[m\x1b[K, serial_mapping_msg);\n'}
+[22.231934] (esda_ros_interface) StderrLine: {'line': b'      |                                                                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[22.236334] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:298:94:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kserial_mapping_msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.236467] (esda_ros_interface) StderrLine: {'line': b'  298 |                     ros2_serial_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(cdrdes, \x1b[01;31m\x1b[Kserial_mapping_msg\x1b[m\x1b[K);\n'}
+[22.236512] (esda_ros_interface) StderrLine: {'line': b'      |                                                                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.237889] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:300:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Keprosima\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.238013] (esda_ros_interface) StderrLine: {'line': b'  300 |                 catch(const \x1b[01;31m\x1b[Keprosima\x1b[m\x1b[K::fastcdr::exception::NotEnoughMemoryException & err)\n'}
+[22.238133] (esda_ros_interface) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[22.238185] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:300:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[22.238237] (esda_ros_interface) StderrLine: {'line': b'  300 |                 catch\x1b[34m\x1b[K(\x1b[m\x1b[Kconst eprosima\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[Kfastcdr::exception::NotEnoughMemoryException & err)\n'}
+[22.238278] (esda_ros_interface) StderrLine: {'line': b'      |                      \x1b[34m\x1b[K~\x1b[m\x1b[K              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[22.238315] (esda_ros_interface) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[22.238350] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:300:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[22.238386] (esda_ros_interface) StderrLine: {'line': b'  300 |                 catch(const eprosima\x1b[01;31m\x1b[K::\x1b[m\x1b[Kfastcdr::exception::NotEnoughMemoryException & err)\n'}
+[22.238422] (esda_ros_interface) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[22.238456] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:300:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::fastcdr\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.238492] (esda_ros_interface) StderrLine: {'line': b'  300 |                 catch(const eprosima::\x1b[01;31m\x1b[Kfastcdr\x1b[m\x1b[K::exception::NotEnoughMemoryException & err)\n'}
+[22.238526] (esda_ros_interface) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[22.240197] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:300:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kerr\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kerf\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[22.240262] (esda_ros_interface) StderrLine: {'line': b'  300 |                 catch(const eprosima::fastcdr::exception::NotEnoughMemoryException & \x1b[01;31m\x1b[Kerr\x1b[m\x1b[K)\n'}
+[22.240303] (esda_ros_interface) StderrLine: {'line': b'      |                                                                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[22.240340] (esda_ros_interface) StderrLine: {'line': b'      |                                                                                      \x1b[32m\x1b[Kerf\x1b[m\x1b[K\n'}
+[22.245547] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:321:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kserial_mapping_msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.245637] (esda_ros_interface) StderrLine: {'line': b'  321 |     if (\x1b[01;31m\x1b[Kserial_mapping_msg\x1b[m\x1b[K.topic_names.size() != serial_mapping_msg.serial_mappings.size() ||\n'}
+[22.245678] (esda_ros_interface) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.250313] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:328:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kserial_mapping_msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.250454] (esda_ros_interface) StderrLine: {'line': b'  328 |     for (size_t i = 0; i < \x1b[01;31m\x1b[Kserial_mapping_msg\x1b[m\x1b[K.topic_names.size(); ++i)\n'}
+[22.250500] (esda_ros_interface) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.250541] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:332:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[22.250585] (esda_ros_interface) StderrLine: {'line': b'  332 |         topic_names_and_serialization\x1b[01;31m\x1b[K[\x1b[m\x1b[Ktopic_name] = ros2_to_serial_bridge::pubsub::TopicMapping();\n'}
+[22.250623] (esda_ros_interface) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.250660] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:332:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros2_to_serial_bridge::pubsub\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.250696] (esda_ros_interface) StderrLine: {'line': b'  332 |         topic_names_and_serialization[topic_name] = ros2_to_serial_bridge::\x1b[01;31m\x1b[Kpubsub\x1b[m\x1b[K::TopicMapping();\n'}
+[22.250730] (esda_ros_interface) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[22.250766] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:333:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[22.250804] (esda_ros_interface) StderrLine: {'line': b'  333 |         topic_names_and_serialization\x1b[01;31m\x1b[K[\x1b[m\x1b[Ktopic_name].serial_mapping = serial_mapping_msg.serial_mappings[i];\n'}
+[22.250840] (esda_ros_interface) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.250874] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:334:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[22.250911] (esda_ros_interface) StderrLine: {'line': b'  334 |         topic_names_and_serialization\x1b[01;31m\x1b[K[\x1b[m\x1b[Ktopic_name].type = serial_mapping_msg.types[i];\n'}
+[22.250945] (esda_ros_interface) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.250979] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:337:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros2_serial_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.251014] (esda_ros_interface) StderrLine: {'line': b'  337 |         if (direction == \x1b[01;31m\x1b[Kros2_serial_msgs\x1b[m\x1b[K::msg::SerialMapping::SERIALTOROS2)\n'}
+[22.251047] (esda_ros_interface) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.251080] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:339:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[22.251116] (esda_ros_interface) StderrLine: {'line': b'  339 |             topic_names_and_serialization\x1b[01;31m\x1b[K[\x1b[m\x1b[Ktopic_name].direction = ros2_to_serial_bridge::pubsub::TopicMapping::Direction::SERIAL_TO_ROS2;\n'}
+[22.251152] (esda_ros_interface) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.251186] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:339:90:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros2_to_serial_bridge::pubsub\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.251252] (esda_ros_interface) StderrLine: {'line': b'  339 |             topic_names_and_serialization[topic_name].direction = ros2_to_serial_bridge::\x1b[01;31m\x1b[Kpubsub\x1b[m\x1b[K::TopicMapping::Direction::SERIAL_TO_ROS2;\n'}
+[22.251306] (esda_ros_interface) StderrLine: {'line': b'      |                                                                                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[22.251344] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:341:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros2_serial_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.251384] (esda_ros_interface) StderrLine: {'line': b'  341 |         else if (direction == \x1b[01;31m\x1b[Kros2_serial_msgs\x1b[m\x1b[K::msg::SerialMapping::ROS2TOSERIAL)\n'}
+[22.251421] (esda_ros_interface) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.251458] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:343:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator[]\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[22.251499] (esda_ros_interface) StderrLine: {'line': b'  343 |             topic_names_and_serialization\x1b[01;31m\x1b[K[\x1b[m\x1b[Ktopic_name].direction = ros2_to_serial_bridge::pubsub::TopicMapping::Direction::ROS2_TO_SERIAL;\n'}
+[22.251535] (esda_ros_interface) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.251570] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:343:90:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros2_to_serial_bridge::pubsub\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[22.251605] (esda_ros_interface) StderrLine: {'line': b'  343 |             topic_names_and_serialization[topic_name].direction = ros2_to_serial_bridge::\x1b[01;31m\x1b[Kpubsub\x1b[m\x1b[K::TopicMapping::Direction::ROS2_TO_SERIAL;\n'}
+[22.251640] (esda_ros_interface) StderrLine: {'line': b'      |                                                                                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[22.261656] (esda_ros_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56\x1b[m\x1b[K,\n'}
+[22.261790] (esda_ros_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:18\x1b[m\x1b[K,\n'}
+[22.261836] (esda_ros_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:356\x1b[m\x1b[K:\n'}
+[22.261879] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:\x1b[m\x1b[K At global scope:\n'}
+[22.261915] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:358:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROS2ToSerialBridge\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kros2_to_serial_bridge\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.261953] (esda_ros_interface) StderrLine: {'line': b'  358 | RCLCPP_COMPONENTS_REGISTER_NODE(ros2_to_serial_bridge::\x1b[01;31m\x1b[KROS2ToSerialBridge\x1b[m\x1b[K)\n'}
+[22.261989] (esda_ros_interface) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.262024] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:358:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[22.262060] (esda_ros_interface) StderrLine: {'line': b'  358 | \x1b[01;31m\x1b[KRCLCPP_COMPONENTS_REGISTER_NODE\x1b[m\x1b[K(ros2_to_serial_bridge::ROS2ToSerialBridge)\n'}
+[22.262094] (esda_ros_interface) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.318959] (-) TimerEvent: {}
+[22.419344] (-) TimerEvent: {}
+[22.519966] (-) TimerEvent: {}
+[22.573987] (esda_ros_interface) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57\x1b[m\x1b[K,\n'}
+[22.574160] (esda_ros_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55\x1b[m\x1b[K,\n'}
+[22.574206] (esda_ros_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:18\x1b[m\x1b[K,\n'}
+[22.574245] (esda_ros_interface) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:356\x1b[m\x1b[K:\n'}
+[22.574281] (esda_ros_interface) StderrLine: {'line': b'/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = int; B = rclcpp_components::NodeFactory]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.574320] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:\x1b[m\x1b[K   required from here\n'}
+[22.574354] (esda_ros_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kint*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp_components::NodeFactory*\x1b[m\x1b[K\xe2\x80\x99 in return\n'}
+[22.574391] (esda_ros_interface) StderrLine: {'line': b'  218 |     return \x1b[01;31m\x1b[Knew C\x1b[m\x1b[K;\n'}
+[22.574425] (esda_ros_interface) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[22.574459] (esda_ros_interface) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[22.574493] (esda_ros_interface) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[Kint*\x1b[m\x1b[K\n'}
+[22.618788] (esda_ros_interface) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/esda_serial_to_pc.dir/build.make:76: CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o] Error 1\n'}
+[22.619496] (esda_ros_interface) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/esda_serial_to_pc.dir/all] Error 2\n'}
+[22.619548] (esda_ros_interface) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[22.620269] (-) TimerEvent: {}
+[22.622612] (esda_ros_interface) CommandEnded: {'returncode': 2}
+[22.681632] (esda_ros_interface) JobEnded: {'identifier': 'esda_ros_interface', 'rc': 2}
+[22.692815] (-) EventReactorShutdown: {}

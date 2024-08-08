@@ -1,0 +1,5 @@
+float64 current_vel_right
+float64 current_vel_left
+float64 steering_angle
+bool auto_mode
+bool estop

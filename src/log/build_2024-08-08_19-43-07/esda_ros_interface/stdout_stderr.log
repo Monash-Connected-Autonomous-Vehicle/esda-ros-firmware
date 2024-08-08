@@ -1,0 +1,48 @@
+[  2%] Built target esda_ros_interface__cpp
+[ 11%] Built target esda_ros_interface__rosidl_generator_c
+[ 17%] Built target esda_serial_to_pc_node
+[ 17%] Built target ament_cmake_python_copy_esda_ros_interface
+[ 25%] Built target esda_ros_interface__rosidl_typesupport_cpp
+[ 34%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_cpp
+[ 42%] Built target esda_ros_interface__rosidl_typesupport_introspection_cpp
+[ 51%] Built target esda_ros_interface__rosidl_typesupport_introspection_c
+[ 60%] Built target esda_ros_interface__rosidl_typesupport_c
+[ 68%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c
+[ 68%] Built target esda_ros_interface
+[35m[1mConsolidate compiler generated dependencies of target esda_serial_to_pc[0m
+[ 71%] Built target esda_ros_interface__py
+[ 74%] [32mBuilding CXX object CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o[0m
+[ 80%] Built target esda_ros_interface__rosidl_generator_py
+[ 85%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target esda_ros_interface__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target esda_ros_interface__rosidl_typesupport_c__pyext
+running egg_info
+writing esda_ros_interface.egg-info/PKG-INFO
+writing dependency_links to esda_ros_interface.egg-info/dependency_links.txt
+writing top-level names to esda_ros_interface.egg-info/top_level.txt
+reading manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+writing manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_esda_ros_interface_egg
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:18[m[K,
+                 from [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:11[m[K:
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:13:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kros2_to_serial_bridge[m[K’ was not declared in this scope
+   13 | RCLCPP_COMPONENTS_REGISTER_NODE([01;31m[Kros2_to_serial_bridge[m[K::ROS2ToSerialBridge)
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:13:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 | [01;31m[KRCLCPP_COMPONENTS_REGISTER_NODE[m[K(ros2_to_serial_bridge::ROS2ToSerialBridge)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:18[m[K,
+                 from [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:11[m[K:
+/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = int; B = rclcpp_components::NodeFactory][m[K’:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint*[m[K’ to ‘[01m[Krclcpp_components::NodeFactory*[m[K’ in return
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+      |            [01;31m[K|[m[K
+      |            [01;31m[Kint*[m[K
+gmake[2]: *** [CMakeFiles/esda_serial_to_pc.dir/build.make:76: CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/esda_serial_to_pc.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,26 @@
+[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):
+  add_custom_target cannot create target "esda_ros_interface" because another
+  target with the same name already exists.  The existing target is a shared
+  library created in source directory
+  "/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface".  See
+  documentation for policy CMP0002 for more details.
+Call Stack (most recent call first):
+  CMakeLists.txt:24 (rosidl_generate_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:45 (rosidl_target_interfaces)
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:47 (message):
+  rosidl_target_interfaces() the second argument 'esda_ros_interface'
+  concatenated with the third argument 'rosidl_typesupport_cpp' using double
+  underscores must be a valid target name
+Call Stack (most recent call first):
+  CMakeLists.txt:45 (rosidl_target_interfaces)
+
+[0m
+gmake: *** [Makefile:829: cmake_check_build_system] Error 1

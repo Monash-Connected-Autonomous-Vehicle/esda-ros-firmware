@@ -1,0 +1,333 @@
+[0.024s] Invoking command in '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface -- -j20 -l20
+[0.056s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.246s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.252s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.257s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.826s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.873s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.029s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.035s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[19.093s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[19.223s] -- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)
+[19.528s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[19.744s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[19.988s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[20.037s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[20.076s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[20.076s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[20.076s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[20.093s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[20.093s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[20.093s]   rosidl_target_interfaces()
+[20.093s] Call Stack (most recent call first):
+[20.093s]   CMakeLists.txt:39 (rosidl_target_interfaces)
+[20.093s] 
+[20.094s] [0m
+[20.096s] -- Configuring done
+[20.122s] -- Generating done
+[20.125s] -- Build files have been written to: /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface
+[20.146s] [35m[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_generator_c[0m
+[20.147s] [35m[1mConsolidate compiler generated dependencies of target esda_serial_to_pc_node[0m
+[20.153s] [  8%] Built target esda_ros_interface__rosidl_generator_c
+[20.155s] [ 11%] Built target esda_ros_interface__cpp
+[20.158s] [ 11%] Built target ament_cmake_python_copy_esda_ros_interface
+[20.160s] [35m[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_fastrtps_c[0m
+[20.160s] [35m[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_c[0m
+[20.161s] [35m[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_introspection_c[0m
+[20.162s] [ 17%] Built target esda_serial_to_pc_node
+[20.162s] [35m[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_cpp[0m
+[20.165s] [35m[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_introspection_cpp[0m
+[20.165s] [35m[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_fastrtps_cpp[0m
+[20.168s] [ 25%] Built target esda_ros_interface__rosidl_typesupport_c
+[20.169s] [ 34%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c
+[20.170s] [ 42%] Built target esda_ros_interface__rosidl_typesupport_cpp
+[20.170s] [ 51%] Built target esda_ros_interface__rosidl_typesupport_introspection_c
+[20.175s] [ 60%] Built target esda_ros_interface__rosidl_typesupport_introspection_cpp
+[20.175s] [ 68%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_cpp
+[20.188s] [ 68%] Built target esda_ros_interface
+[20.196s] [35m[1mConsolidate compiler generated dependencies of target esda_serial_to_pc[0m
+[20.202s] [ 71%] Built target esda_ros_interface__py
+[20.208s] [ 74%] [32mBuilding CXX object CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o[0m
+[20.208s] [35m[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_generator_py[0m
+[20.217s] [ 80%] Built target esda_ros_interface__rosidl_generator_py
+[20.224s] [35m[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[20.225s] [35m[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_introspection_c__pyext[0m
+[20.226s] [35m[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_c__pyext[0m
+[20.235s] [ 91%] Built target esda_ros_interface__rosidl_typesupport_introspection_c__pyext
+[20.235s] [ 91%] Built target esda_ros_interface__rosidl_typesupport_c__pyext
+[20.236s] [ 97%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c__pyext
+[20.345s] running egg_info
+[20.346s] writing esda_ros_interface.egg-info/PKG-INFO
+[20.346s] writing dependency_links to esda_ros_interface.egg-info/dependency_links.txt
+[20.346s] writing top-level names to esda_ros_interface.egg-info/top_level.txt
+[20.348s] reading manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+[20.348s] writing manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+[20.367s] [ 97%] Built target ament_cmake_python_build_esda_ros_interface_egg
+[21.946s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:12:1:[m[K [01;31m[Kerror: [m[K‘[01m[KROS2ToSerialBridge[m[K’ does not name a type
+[21.946s]    12 | [01;31m[KROS2ToSerialBridge[m[K::ROS2ToSerialBridge(const rclcpp::NodeOptions& node_options)
+[21.946s]       | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[21.948s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:115:1:[m[K [01;31m[Kerror: [m[K‘[01m[KROS2ToSerialBridge[m[K’ does not name a type
+[21.948s]   115 | [01;31m[KROS2ToSerialBridge[m[K::~ROS2ToSerialBridge()
+[21.948s]       | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[21.948s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:123:6:[m[K [01;31m[Kerror: [m[K‘[01m[KROS2ToSerialBridge[m[K’ has not been declared
+[21.948s]   123 | void [01;31m[KROS2ToSerialBridge[m[K::read_thread_func(const std::shared_future<void> & local_future)
+[21.948s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[21.958s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:[m[K In function ‘[01m[Kvoid ros2_to_serial_bridge::read_thread_func(const std::shared_future<void>&)[m[K’:
+[21.958s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:129:56:[m[K [01;31m[Kerror: [m[K‘[01m[KBUFFER_SIZE[m[K’ was not declared in this scope
+[21.958s]   129 |     std::unique_ptr<uint8_t[]> data_buffer(new uint8_t[[01;31m[KBUFFER_SIZE[m[K]);
+[21.958s]       |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[21.962s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:131:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_id_size_t[m[K’ was not declared in this scope
+[21.962s]   131 |     [01;31m[Ktopic_id_size_t[m[K topic_ID;
+[21.962s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[21.965s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:136:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransporter_[m[K’ was not declared in this scope
+[21.965s]   136 |         if ((length = [01;31m[Ktransporter_[m[K->read(&topic_ID, data_buffer.get(), BUFFER_SIZE)) >= 0)
+[21.965s]       |                       [01;31m[K^~~~~~~~~~~~[m[K
+[21.968s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:136:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_ID[m[K’ was not declared in this scope
+[21.968s]   136 |         if ((length = transporter_->read(&[01;31m[Ktopic_ID[m[K, data_buffer.get(), BUFFER_SIZE)) >= 0)
+[21.968s]       |                                           [01;31m[K^~~~~~~~[m[K
+[21.971s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:138:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kros2_topics_[m[K’ was not declared in this scope
+[21.971s]   138 |             [01;31m[Kros2_topics_[m[K->dispatch(topic_ID, data_buffer.get(), length);
+[21.971s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[21.972s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:[m[K At global scope:
+[21.972s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:144:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kpubsub[m[K’ is not a member of ‘[01m[Kros2_to_serial_bridge[m[K’
+[21.972s]   144 | std::map<std::string, ros2_to_serial_bridge::[01;31m[Kpubsub[m[K::TopicMapping> ROS2ToSerialBridge::parse_node_parameters_for_topics()
+[21.972s]       |                                              [01;31m[K^~~~~~[m[K
+[21.972s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:144:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[21.972s]   144 | std::map<std::string, ros2_to_serial_bridge::pubsub::TopicMapping[01;31m[K>[m[K ROS2ToSerialBridge::parse_node_parameters_for_topics()
+[21.972s]       |                                                                  [01;31m[K^[m[K
+[21.972s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:144:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[21.972s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:144:68:[m[K [01;31m[Kerror: [m[K‘[01m[KROS2ToSerialBridge[m[K’ has not been declared
+[21.972s]   144 | std::map<std::string, ros2_to_serial_bridge::pubsub::TopicMapping> [01;31m[KROS2ToSerialBridge[m[K::parse_node_parameters_for_topics()
+[21.972s]       |                                                                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[21.972s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:[m[K In function ‘[01m[Kint ros2_to_serial_bridge::parse_node_parameters_for_topics()[m[K’:
+[21.972s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:154:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kpubsub[m[K’ is not a member of ‘[01m[Kros2_to_serial_bridge[m[K’
+[21.973s]   154 |     std::map<std::string, ros2_to_serial_bridge::[01;31m[Kpubsub[m[K::TopicMapping> topic_names_and_serialization;
+[21.973s]       |                                                  [01;31m[K^~~~~~[m[K
+[21.973s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:154:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[21.973s]   154 |     std::map<std::string, ros2_to_serial_bridge::pubsub::TopicMapping[01;31m[K>[m[K topic_names_and_serialization;
+[21.973s]       |                                                                      [01;31m[K^[m[K
+[21.973s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:154:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[21.976s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:156:68:[m[K [01;31m[Kerror: [m[K‘[01m[Klist_parameters[m[K’ was not declared in this scope; did you mean ‘[01m[Klist_params_result[m[K’?
+[21.976s]   156 |     rcl_interfaces::msg::ListParametersResult list_params_result = [01;31m[Klist_parameters[m[K({}, 0);
+[21.976s]       |                                                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[21.976s]       |                                                                    [32m[Klist_params_result[m[K
+[21.977s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:206:43:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcount[m[K’ in ‘[01m[Ktopic_names_and_serialization[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[21.977s]   206 |         if (topic_names_and_serialization.[01;31m[Kcount[m[K(topic_name) == 0)
+[21.977s]       |                                           [01;31m[K^~~~~[m[K
+[21.977s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:208:42:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+[21.978s]   208 |             topic_names_and_serialization[01;31m[K[[m[Ktopic_name] = ros2_to_serial_bridge::pubsub::TopicMapping();
+[21.978s]       |                                          [01;31m[K^[m[K
+[21.978s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:208:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kros2_to_serial_bridge::pubsub[m[K’ has not been declared
+[21.978s]   208 |             topic_names_and_serialization[topic_name] = ros2_to_serial_bridge::[01;31m[Kpubsub[m[K::TopicMapping();
+[21.978s]       |                                                                                [01;31m[K^~~~~~[m[K
+[21.981s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:213:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_parameter[m[K’ was not declared in this scope
+[21.981s]   213 |             int64_t serial_mapping = [01;31m[Kget_parameter[m[K(name).get_value<int64_t>();
+[21.981s]       |                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[21.981s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:213:75:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[21.981s]   213 |             int64_t serial_mapping = get_parameter(name).get_value<int64_t[01;31m[K>[m[K();
+[21.981s]       |                                                                           [01;31m[K^[m[K
+[21.982s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:213:77:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[21.982s]   213 |             int64_t serial_mapping = get_parameter(name).get_value<int64_t>([01;31m[K)[m[K;
+[21.982s]       |                                                                             [01;31m[K^[m[K
+[21.982s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:214:42:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+[21.982s]   214 |             topic_names_and_serialization[01;31m[K[[m[Ktopic_name].serial_mapping = static_cast<topic_id_size_t>(serial_mapping);
+[21.982s]       |                                          [01;31m[K^[m[K
+[21.983s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:214:84:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_id_size_t[m[K’ does not name a type
+[21.983s]   214 |             topic_names_and_serialization[topic_name].serial_mapping = static_cast<[01;31m[Ktopic_id_size_t[m[K>(serial_mapping);
+[21.983s]       |                                                                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[21.983s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:218:42:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+[21.983s]   218 |             topic_names_and_serialization[01;31m[K[[m[Ktopic_name].type = get_parameter(name).get_value<std::string>();
+[21.983s]       |                                          [01;31m[K^[m[K
+[21.987s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:218:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_parameter[m[K’ was not declared in this scope
+[21.987s]   218 |             topic_names_and_serialization[topic_name].type = [01;31m[Kget_parameter[m[K(name).get_value<std::string>();
+[21.987s]       |                                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[21.987s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:218:103:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[21.987s]   218 |             topic_names_and_serialization[topic_name].type = get_parameter(name).get_value<std::string[01;31m[K>[m[K();
+[21.987s]       |                                                                                                       [01;31m[K^[m[K
+[21.987s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:218:105:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[21.987s]   218 |             topic_names_and_serialization[topic_name].type = get_parameter(name).get_value<std::string>([01;31m[K)[m[K;
+[21.987s]       |                                                                                                         [01;31m[K^[m[K
+[21.990s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:222:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_parameter[m[K’ was not declared in this scope
+[21.990s]   222 |             std::string dirstring = [01;31m[Kget_parameter[m[K(name).get_value<std::string>();
+[21.990s]       |                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[21.990s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:222:78:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[21.990s]   222 |             std::string dirstring = get_parameter(name).get_value<std::string[01;31m[K>[m[K();
+[21.990s]       |                                                                              [01;31m[K^[m[K
+[21.990s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:222:80:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[21.991s]   222 |             std::string dirstring = get_parameter(name).get_value<std::string>([01;31m[K)[m[K;
+[21.991s]       |                                                                                [01;31m[K^[m[K
+[21.991s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:223:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kros2_to_serial_bridge::pubsub[m[K’ has not been declared
+[21.991s]   223 |             ros2_to_serial_bridge::[01;31m[Kpubsub[m[K::TopicMapping::Direction direction = ros2_to_serial_bridge::pubsub::TopicMapping::Direction::UNKNOWN;
+[21.991s]       |                                    [01;31m[K^~~~~~[m[K
+[21.993s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:226:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdirection[m[K’ was not declared in this scope; did you mean ‘[01m[Ksigaction[m[K’?
+[21.993s]   226 |                 [01;31m[Kdirection[m[K = ros2_to_serial_bridge::pubsub::TopicMapping::Direction::SERIAL_TO_ROS2;
+[21.993s]       |                 [01;31m[K^~~~~~~~~[m[K
+[21.993s]       |                 [32m[Ksigaction[m[K
+[21.993s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:226:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kros2_to_serial_bridge::pubsub[m[K’ has not been declared
+[21.993s]   226 |                 direction = ros2_to_serial_bridge::[01;31m[Kpubsub[m[K::TopicMapping::Direction::SERIAL_TO_ROS2;
+[21.993s]       |                                                    [01;31m[K^~~~~~[m[K
+[21.996s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:230:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdirection[m[K’ was not declared in this scope; did you mean ‘[01m[Ksigaction[m[K’?
+[21.996s]   230 |                 [01;31m[Kdirection[m[K = ros2_to_serial_bridge::pubsub::TopicMapping::Direction::ROS2_TO_SERIAL;
+[21.996s]       |                 [01;31m[K^~~~~~~~~[m[K
+[21.996s]       |                 [32m[Ksigaction[m[K
+[21.996s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:230:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kros2_to_serial_bridge::pubsub[m[K’ has not been declared
+[21.996s]   230 |                 direction = ros2_to_serial_bridge::[01;31m[Kpubsub[m[K::TopicMapping::Direction::ROS2_TO_SERIAL;
+[21.996s]       |                                                    [01;31m[K^~~~~~[m[K
+[21.996s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:237:42:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+[21.996s]   237 |             topic_names_and_serialization[01;31m[K[[m[Ktopic_name].direction = direction;
+[21.996s]       |                                          [01;31m[K^[m[K
+[21.999s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:237:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kdirection[m[K’ was not declared in this scope; did you mean ‘[01m[Ksigaction[m[K’?
+[21.999s]   237 |             topic_names_and_serialization[topic_name].direction = [01;31m[Kdirection[m[K;
+[21.999s]       |                                                                   [01;31m[K^~~~~~~~~[m[K
+[21.999s]       |                                                                   [32m[Ksigaction[m[K
+[21.999s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:[m[K At global scope:
+[21.999s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:248:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kpubsub[m[K’ is not a member of ‘[01m[Kros2_to_serial_bridge[m[K’
+[21.999s]   248 | std::map<std::string, ros2_to_serial_bridge::[01;31m[Kpubsub[m[K::TopicMapping> ROS2ToSerialBridge::dynamically_get_serial_mapping(uint64_t wait_ms)
+[21.999s]       |                                              [01;31m[K^~~~~~[m[K
+[21.999s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:248:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[21.999s]   248 | std::map<std::string, ros2_to_serial_bridge::pubsub::TopicMapping[01;31m[K>[m[K ROS2ToSerialBridge::dynamically_get_serial_mapping(uint64_t wait_ms)
+[21.999s]       |                                                                  [01;31m[K^[m[K
+[21.999s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:248:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[22.000s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:248:68:[m[K [01;31m[Kerror: [m[K‘[01m[KROS2ToSerialBridge[m[K’ has not been declared
+[22.000s]   248 | std::map<std::string, ros2_to_serial_bridge::pubsub::TopicMapping> [01;31m[KROS2ToSerialBridge[m[K::dynamically_get_serial_mapping(uint64_t wait_ms)
+[22.000s]       |                                                                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[22.000s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:[m[K In function ‘[01m[Kint ros2_to_serial_bridge::dynamically_get_serial_mapping(uint64_t)[m[K’:
+[22.000s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:250:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kpubsub[m[K’ is not a member of ‘[01m[Kros2_to_serial_bridge[m[K’
+[22.000s]   250 |     std::map<std::string, ros2_to_serial_bridge::[01;31m[Kpubsub[m[K::TopicMapping> topic_names_and_serialization;
+[22.000s]       |                                                  [01;31m[K^~~~~~[m[K
+[22.000s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:250:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[22.000s]   250 |     std::map<std::string, ros2_to_serial_bridge::pubsub::TopicMapping[01;31m[K>[m[K topic_names_and_serialization;
+[22.000s]       |                                                                      [01;31m[K^[m[K
+[22.000s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:250:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[22.000s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:256:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ has not been declared
+[22.000s]   256 |         [01;31m[Kstd_msgs[m[K::msg::Empty dynamic_request;
+[22.000s]       |         [01;31m[K^~~~~~~~[m[K
+[22.000s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:257:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ has not been declared
+[22.000s]   257 |         size_t serialized_size = [01;31m[Kstd_msgs[m[K::msg::typesupport_fastrtps_cpp::get_serialized_size(dynamic_request, 0);
+[22.000s]       |                                  [01;31m[K^~~~~~~~[m[K
+[22.003s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:257:95:[m[K [01;31m[Kerror: [m[K‘[01m[Kdynamic_request[m[K’ was not declared in this scope
+[22.003s]   257 |         size_t serialized_size = std_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size([01;31m[Kdynamic_request[m[K, 0);
+[22.003s]       |                                                                                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[22.004s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:264:13:[m[K [01;31m[Kerror: [m[K‘[01m[Keprosima[m[K’ has not been declared
+[22.004s]   264 |             [01;31m[Keprosima[m[K::fastcdr::FastBuffer cdrbuffer(reinterpret_cast<char *>(data_buffer.get()), serialized_size);
+[22.004s]       |             [01;31m[K^~~~~~~~[m[K
+[22.004s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:265:13:[m[K [01;31m[Kerror: [m[K‘[01m[Keprosima[m[K’ has not been declared
+[22.004s]   265 |             [01;31m[Keprosima[m[K::fastcdr::Cdr scdr(cdrbuffer);
+[22.004s]       |             [01;31m[K^~~~~~~~[m[K
+[22.004s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:266:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ has not been declared
+[22.005s]   266 |             [01;31m[Kstd_msgs[m[K::msg::typesupport_fastrtps_cpp::cdr_serialize(dynamic_request, scdr);
+[22.005s]       |             [01;31m[K^~~~~~~~[m[K
+[22.006s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:266:85:[m[K [01;31m[Kerror: [m[K‘[01m[Kscdr[m[K’ was not declared in this scope
+[22.006s]   266 |             std_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(dynamic_request, [01;31m[Kscdr[m[K);
+[22.006s]       |                                                                                     [01;31m[K^~~~[m[K
+[22.010s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:271:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransporter_[m[K’ was not declared in this scope
+[22.010s]   271 |         if ([01;31m[Ktransporter_[m[K->write(0, bufferp, serialized_data_length) < 0)
+[22.010s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[22.013s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:278:56:[m[K [01;31m[Kerror: [m[K‘[01m[KBUFFER_SIZE[m[K’ was not declared in this scope
+[22.013s]   278 |     std::unique_ptr<uint8_t[]> data_buffer(new uint8_t[[01;31m[KBUFFER_SIZE[m[K]);
+[22.013s]       |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[22.014s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:281:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros2_serial_msgs[m[K’ has not been declared
+[22.014s]   281 |     [01;31m[Kros2_serial_msgs[m[K::msg::SerialMapping serial_mapping_msg;
+[22.014s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[22.018s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:286:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_id_size_t[m[K’ was not declared in this scope
+[22.018s]   286 |         [01;31m[Ktopic_id_size_t[m[K topic_ID;
+[22.018s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[22.022s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:287:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransporter_[m[K’ was not declared in this scope
+[22.022s]   287 |         if ((length = [01;31m[Ktransporter_[m[K->read(&topic_ID, data_buffer.get(), BUFFER_SIZE)) > 0)
+[22.022s]       |                       [01;31m[K^~~~~~~~~~~~[m[K
+[22.024s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:287:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_ID[m[K’ was not declared in this scope
+[22.024s]   287 |         if ((length = transporter_->read(&[01;31m[Ktopic_ID[m[K, data_buffer.get(), BUFFER_SIZE)) > 0)
+[22.025s]       |                                           [01;31m[K^~~~~~~~[m[K
+[22.025s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:291:17:[m[K [01;31m[Kerror: [m[K‘[01m[Keprosima[m[K’ has not been declared
+[22.025s]   291 |                 [01;31m[Keprosima[m[K::fastcdr::FastBuffer cdrbuffer(reinterpret_cast<char *>(data_buffer.get()), length);
+[22.025s]       |                 [01;31m[K^~~~~~~~[m[K
+[22.025s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:292:17:[m[K [01;31m[Kerror: [m[K‘[01m[Keprosima[m[K’ has not been declared
+[22.025s]   292 |                 [01;31m[Keprosima[m[K::fastcdr::Cdr cdrdes(cdrbuffer);
+[22.025s]       |                 [01;31m[K^~~~~~~~[m[K
+[22.025s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:298:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kros2_serial_msgs[m[K’ has not been declared
+[22.025s]   298 |                     [01;31m[Kros2_serial_msgs[m[K::msg::typesupport_fastrtps_cpp::cdr_deserialize(cdrdes, serial_mapping_msg);
+[22.025s]       |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[22.027s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:298:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kcdrdes[m[K’ was not declared in this scope
+[22.027s]   298 |                     ros2_serial_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize([01;31m[Kcdrdes[m[K, serial_mapping_msg);
+[22.027s]       |                                                                                      [01;31m[K^~~~~~[m[K
+[22.031s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:298:94:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_mapping_msg[m[K’ was not declared in this scope
+[22.032s]   298 |                     ros2_serial_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(cdrdes, [01;31m[Kserial_mapping_msg[m[K);
+[22.032s]       |                                                                                              [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[22.033s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:300:29:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Keprosima[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[22.033s]   300 |                 catch(const [01;31m[Keprosima[m[K::fastcdr::exception::NotEnoughMemoryException & err)
+[22.033s]       |                             [01;31m[K^~~~~~~~[m[K
+[22.033s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:300:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[22.033s]   300 |                 catch[34m[K([m[Kconst eprosima[01;31m[K:[m[K[32m[K:[m[Kfastcdr::exception::NotEnoughMemoryException & err)
+[22.033s]       |                      [34m[K~[m[K              [01;31m[K^[m[K[32m[K~[m[K
+[22.033s]       |                                     [32m[K)[m[K
+[22.033s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:300:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K::[m[K’ token
+[22.034s]   300 |                 catch(const eprosima[01;31m[K::[m[Kfastcdr::exception::NotEnoughMemoryException & err)
+[22.034s]       |                                     [01;31m[K^~[m[K
+[22.034s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:300:39:[m[K [01;31m[Kerror: [m[K‘[01m[K::fastcdr[m[K’ has not been declared
+[22.034s]   300 |                 catch(const eprosima::[01;31m[Kfastcdr[m[K::exception::NotEnoughMemoryException & err)
+[22.034s]       |                                       [01;31m[K^~~~~~~[m[K
+[22.036s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:300:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kerr[m[K’ was not declared in this scope; did you mean ‘[01m[Kerf[m[K’?
+[22.036s]   300 |                 catch(const eprosima::fastcdr::exception::NotEnoughMemoryException & [01;31m[Kerr[m[K)
+[22.036s]       |                                                                                      [01;31m[K^~~[m[K
+[22.036s]       |                                                                                      [32m[Kerf[m[K
+[22.041s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:321:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_mapping_msg[m[K’ was not declared in this scope
+[22.041s]   321 |     if ([01;31m[Kserial_mapping_msg[m[K.topic_names.size() != serial_mapping_msg.serial_mappings.size() ||
+[22.041s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[22.046s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:328:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_mapping_msg[m[K’ was not declared in this scope
+[22.046s]   328 |     for (size_t i = 0; i < [01;31m[Kserial_mapping_msg[m[K.topic_names.size(); ++i)
+[22.046s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[22.046s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:332:38:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+[22.046s]   332 |         topic_names_and_serialization[01;31m[K[[m[Ktopic_name] = ros2_to_serial_bridge::pubsub::TopicMapping();
+[22.046s]       |                                      [01;31m[K^[m[K
+[22.046s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:332:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kros2_to_serial_bridge::pubsub[m[K’ has not been declared
+[22.046s]   332 |         topic_names_and_serialization[topic_name] = ros2_to_serial_bridge::[01;31m[Kpubsub[m[K::TopicMapping();
+[22.046s]       |                                                                            [01;31m[K^~~~~~[m[K
+[22.046s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:333:38:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+[22.046s]   333 |         topic_names_and_serialization[01;31m[K[[m[Ktopic_name].serial_mapping = serial_mapping_msg.serial_mappings[i];
+[22.047s]       |                                      [01;31m[K^[m[K
+[22.047s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:334:38:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+[22.047s]   334 |         topic_names_and_serialization[01;31m[K[[m[Ktopic_name].type = serial_mapping_msg.types[i];
+[22.047s]       |                                      [01;31m[K^[m[K
+[22.047s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:337:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kros2_serial_msgs[m[K’ has not been declared
+[22.047s]   337 |         if (direction == [01;31m[Kros2_serial_msgs[m[K::msg::SerialMapping::SERIALTOROS2)
+[22.047s]       |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[22.047s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:339:42:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+[22.047s]   339 |             topic_names_and_serialization[01;31m[K[[m[Ktopic_name].direction = ros2_to_serial_bridge::pubsub::TopicMapping::Direction::SERIAL_TO_ROS2;
+[22.047s]       |                                          [01;31m[K^[m[K
+[22.047s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:339:90:[m[K [01;31m[Kerror: [m[K‘[01m[Kros2_to_serial_bridge::pubsub[m[K’ has not been declared
+[22.047s]   339 |             topic_names_and_serialization[topic_name].direction = ros2_to_serial_bridge::[01;31m[Kpubsub[m[K::TopicMapping::Direction::SERIAL_TO_ROS2;
+[22.047s]       |                                                                                          [01;31m[K^~~~~~[m[K
+[22.047s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:341:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kros2_serial_msgs[m[K’ has not been declared
+[22.047s]   341 |         else if (direction == [01;31m[Kros2_serial_msgs[m[K::msg::SerialMapping::ROS2TOSERIAL)
+[22.047s]       |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[22.047s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:343:42:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kint[m[K’ and ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+[22.047s]   343 |             topic_names_and_serialization[01;31m[K[[m[Ktopic_name].direction = ros2_to_serial_bridge::pubsub::TopicMapping::Direction::ROS2_TO_SERIAL;
+[22.047s]       |                                          [01;31m[K^[m[K
+[22.047s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:343:90:[m[K [01;31m[Kerror: [m[K‘[01m[Kros2_to_serial_bridge::pubsub[m[K’ has not been declared
+[22.047s]   343 |             topic_names_and_serialization[topic_name].direction = ros2_to_serial_bridge::[01;31m[Kpubsub[m[K::TopicMapping::Direction::ROS2_TO_SERIAL;
+[22.047s]       |                                                                                          [01;31m[K^~~~~~[m[K
+[22.058s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[22.058s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:18[m[K,
+[22.058s]                  from [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:356[m[K:
+[22.058s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:[m[K At global scope:
+[22.058s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:358:56:[m[K [01;31m[Kerror: [m[K‘[01m[KROS2ToSerialBridge[m[K’ is not a member of ‘[01m[Kros2_to_serial_bridge[m[K’
+[22.058s]   358 | RCLCPP_COMPONENTS_REGISTER_NODE(ros2_to_serial_bridge::[01;31m[KROS2ToSerialBridge[m[K)
+[22.058s]       |                                                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[22.058s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:358:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[22.058s]   358 | [01;31m[KRCLCPP_COMPONENTS_REGISTER_NODE[m[K(ros2_to_serial_bridge::ROS2ToSerialBridge)
+[22.058s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.377s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[22.378s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[22.378s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:18[m[K,
+[22.378s]                  from [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:356[m[K:
+[22.378s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = int; B = rclcpp_components::NodeFactory][m[K’:
+[22.378s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[22.378s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint*[m[K’ to ‘[01m[Krclcpp_components::NodeFactory*[m[K’ in return
+[22.378s]   218 |     return [01;31m[Knew C[m[K;
+[22.378s]       |            [01;31m[K^~~~~[m[K
+[22.378s]       |            [01;31m[K|[m[K
+[22.378s]       |            [01;31m[Kint*[m[K
+[22.424s] gmake[2]: *** [CMakeFiles/esda_serial_to_pc.dir/build.make:76: CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o] Error 1
+[22.425s] gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/esda_serial_to_pc.dir/all] Error 2
+[22.425s] gmake: *** [Makefile:146: all] Error 2
+[22.427s] Invoked command in '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface -- -j20 -l20

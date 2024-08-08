@@ -16,6 +16,7 @@
 /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface/CMakeFiles/esda_ros_interface__rosidl_typesupport_introspection_c__pyext.dir
 /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface/CMakeFiles/esda_ros_interface__rosidl_typesupport_c__pyext.dir
 /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface/CMakeFiles/esda_serial_to_pc.dir
+/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface/CMakeFiles/esda_serial_to_pc_node.dir
 /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface/CMakeFiles/test.dir
 /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface/CMakeFiles/edit_cache.dir
 /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface/CMakeFiles/rebuild_cache.dir

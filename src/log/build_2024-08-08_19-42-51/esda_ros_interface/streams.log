@@ -1,0 +1,50 @@
+[0.013s] Invoking command in '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface -- -j20 -l20
+[0.103s] [  2%] Built target esda_ros_interface__cpp
+[0.103s] [ 11%] Built target esda_ros_interface__rosidl_generator_c
+[0.109s] [ 17%] Built target esda_serial_to_pc_node
+[0.115s] [ 17%] Built target ament_cmake_python_copy_esda_ros_interface
+[0.125s] [ 25%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_cpp
+[0.125s] [ 34%] Built target esda_ros_interface__rosidl_typesupport_introspection_cpp
+[0.129s] [ 42%] Built target esda_ros_interface__rosidl_typesupport_cpp
+[0.131s] [ 51%] Built target esda_ros_interface__rosidl_typesupport_c
+[0.135s] [ 60%] Built target esda_ros_interface__rosidl_typesupport_introspection_c
+[0.136s] [ 68%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c
+[0.151s] [ 68%] Built target esda_ros_interface
+[0.162s] [35m[1mConsolidate compiler generated dependencies of target esda_serial_to_pc[0m
+[0.165s] [ 71%] Built target esda_ros_interface__py
+[0.174s] [ 74%] [32mBuilding CXX object CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o[0m
+[0.181s] [ 80%] Built target esda_ros_interface__rosidl_generator_py
+[0.199s] [ 91%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.199s] [ 91%] Built target esda_ros_interface__rosidl_typesupport_c__pyext
+[0.200s] [ 97%] Built target esda_ros_interface__rosidl_typesupport_introspection_c__pyext
+[0.308s] running egg_info
+[0.309s] writing esda_ros_interface.egg-info/PKG-INFO
+[0.309s] writing dependency_links to esda_ros_interface.egg-info/dependency_links.txt
+[0.309s] writing top-level names to esda_ros_interface.egg-info/top_level.txt
+[0.312s] reading manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+[0.312s] writing manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+[0.332s] [ 97%] Built target ament_cmake_python_build_esda_ros_interface_egg
+[2.149s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[2.149s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:18[m[K,
+[2.149s]                  from [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:11[m[K:
+[2.150s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:13:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kros2_to_serial_bridge[m[K’ was not declared in this scope
+[2.150s]    13 | RCLCPP_COMPONENTS_REGISTER_NODE([01;31m[Kros2_to_serial_bridge[m[K::ROS2ToSerialBridge)
+[2.150s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.150s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:13:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.150s]    13 | [01;31m[KRCLCPP_COMPONENTS_REGISTER_NODE[m[K(ros2_to_serial_bridge::ROS2ToSerialBridge)
+[2.150s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.464s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[2.464s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[2.465s]                  from [01m[K/opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp:18[m[K,
+[2.465s]                  from [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:11[m[K:
+[2.465s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = int; B = rclcpp_components::NodeFactory][m[K’:
+[2.465s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[2.465s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint*[m[K’ to ‘[01m[Krclcpp_components::NodeFactory*[m[K’ in return
+[2.465s]   218 |     return [01;31m[Knew C[m[K;
+[2.465s]       |            [01;31m[K^~~~~[m[K
+[2.465s]       |            [01;31m[K|[m[K
+[2.465s]       |            [01;31m[Kint*[m[K
+[2.506s] gmake[2]: *** [CMakeFiles/esda_serial_to_pc.dir/build.make:76: CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o] Error 1
+[2.506s] gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/esda_serial_to_pc.dir/all] Error 2
+[2.507s] gmake: *** [Makefile:146: all] Error 2
+[2.510s] Invoked command in '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface -- -j20 -l20
