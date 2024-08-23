@@ -1,0 +1,7 @@
+[  8%] Built target esda_ros_interface__rosidl_generator_c
+[ 14%] Built target esda_serial_to_pc_node
+[35m[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_introspection_c[0m
+[ 17%] Built target esda_ros_interface__cpp
+[35m[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_fastrtps_c[0m
+[ 25%] Built target esda_ros_interface__rosidl_typesupport_introspection_c
+[ 34%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c

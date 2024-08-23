@@ -1,0 +1,15 @@
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:40 (rosidl_target_interfaces)
+
+[0m
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+    8 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/esda_serial_to_pc.dir/build.make:76: CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/esda_serial_to_pc.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,1 @@
+/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/msg/EsdaMessage.msg

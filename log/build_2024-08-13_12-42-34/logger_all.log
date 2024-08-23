@@ -1,0 +1,200 @@
+[0.603s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-up-to', 'esda_ros_interface']
+[0.603s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['esda_ros_interface'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f7b4e94bdf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7b4e94b8b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7b4e94b8b0>>, mixin_verb=('build',))
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.754s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/samue/GitHub/esda-ros-firmware'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface) by extension 'ignore'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface) by extension 'ignore_ament_install'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface) by extensions ['colcon_pkg']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface) by extension 'colcon_pkg'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface) by extensions ['colcon_meta']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface) by extension 'colcon_meta'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface) by extensions ['ros']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface) by extension 'ros'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface) by extensions ['cmake', 'python']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface) by extension 'cmake'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface) by extension 'python'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface) by extensions ['python_setup_py']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface) by extension 'python_setup_py'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface/msg) by extensions ['ignore', 'ignore_ament_install']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface/msg) by extension 'ignore'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface/msg) by extension 'ignore_ament_install'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface/msg) by extensions ['colcon_pkg']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface/msg) by extension 'colcon_pkg'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface/msg) by extensions ['colcon_meta']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface/msg) by extension 'colcon_meta'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface/msg) by extensions ['ros']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface/msg) by extension 'ros'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface/msg) by extensions ['cmake', 'python']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface/msg) by extension 'cmake'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface/msg) by extension 'python'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface/msg) by extensions ['python_setup_py']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_firmware_interface/msg) by extension 'python_setup_py'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_ros_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_ros_interface) by extension 'ignore'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_ros_interface) by extension 'ignore_ament_install'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_ros_interface) by extensions ['colcon_pkg']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_ros_interface) by extension 'colcon_pkg'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_ros_interface) by extensions ['colcon_meta']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_ros_interface) by extension 'colcon_meta'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_ros_interface) by extensions ['ros']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(src/esda_ros_interface) by extension 'ros'
+[0.777s] DEBUG:colcon.colcon_core.package_identification:Package 'src/esda_ros_interface' with type 'ros.ament_cmake' and name 'esda_ros_interface'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[0.784s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.catkin' and name 'serial'
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.857s] INFO:colcon.colcon_core.package_selection:Skipping package 'serial' in 'src/serial'
+[0.858s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.858s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.865s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/samue/GitHub/src/install
+[0.866s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 22 installed packages in /home/samue/install
+[0.867s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 237 installed packages in /opt/ros/humble
+[0.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'esda_ros_interface' build argument 'cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'esda_ros_interface' build argument 'cmake_target' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'esda_ros_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'esda_ros_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'esda_ros_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'esda_ros_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'esda_ros_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'esda_ros_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'esda_ros_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.972s] DEBUG:colcon.colcon_core.verb:Building package 'esda_ros_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface', 'merge_install': False, 'path': '/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface', 'symlink_install': False, 'test_result_base': None}
+[0.973s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.974s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.975s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface' with build type 'ament_cmake'
+[0.975s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface'
+[0.984s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface -- -j20 -l20
+[40.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface -- -j20 -l20
+[40.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface
+[41.063s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(esda_ros_interface)
+[41.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface
+[41.076s] Level 1:colcon.colcon_core.environment:checking '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface' for CMake module files
+[41.077s] Level 1:colcon.colcon_core.environment:checking '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface' for CMake config files
+[41.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('esda_ros_interface', 'cmake_prefix_path')
+[41.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/hook/cmake_prefix_path.ps1'
+[41.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/hook/cmake_prefix_path.dsv'
+[41.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/hook/cmake_prefix_path.sh'
+[41.081s] Level 1:colcon.colcon_core.environment:checking '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib'
+[41.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('esda_ros_interface', 'ld_library_path_lib')
+[41.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/hook/ld_library_path_lib.ps1'
+[41.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/hook/ld_library_path_lib.dsv'
+[41.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/hook/ld_library_path_lib.sh'
+[41.082s] Level 1:colcon.colcon_core.environment:checking '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/bin'
+[41.082s] Level 1:colcon.colcon_core.environment:checking '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/pkgconfig/esda_ros_interface.pc'
+[41.083s] Level 1:colcon.colcon_core.environment:checking '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/python3.10/site-packages'
+[41.083s] Level 1:colcon.colcon_core.environment:checking '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/bin'
+[41.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/package.ps1'
+[41.084s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/package.dsv'
+[41.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/package.sh'
+[41.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/package.bash'
+[41.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/package.zsh'
+[41.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/colcon-core/packages/esda_ros_interface)
+[41.163s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(esda_ros_interface)
+[41.163s] Level 1:colcon.colcon_core.environment:checking '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface' for CMake module files
+[41.164s] Level 1:colcon.colcon_core.environment:checking '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface' for CMake config files
+[41.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('esda_ros_interface', 'cmake_prefix_path')
+[41.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/hook/cmake_prefix_path.ps1'
+[41.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/hook/cmake_prefix_path.dsv'
+[41.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/hook/cmake_prefix_path.sh'
+[41.165s] Level 1:colcon.colcon_core.environment:checking '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib'
+[41.165s] Level 1:colcon.colcon_core.shell:create_environment_hook('esda_ros_interface', 'ld_library_path_lib')
+[41.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/hook/ld_library_path_lib.ps1'
+[41.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/hook/ld_library_path_lib.dsv'
+[41.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/hook/ld_library_path_lib.sh'
+[41.166s] Level 1:colcon.colcon_core.environment:checking '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/bin'
+[41.167s] Level 1:colcon.colcon_core.environment:checking '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/pkgconfig/esda_ros_interface.pc'
+[41.167s] Level 1:colcon.colcon_core.environment:checking '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/python3.10/site-packages'
+[41.167s] Level 1:colcon.colcon_core.environment:checking '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/bin'
+[41.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/package.ps1'
+[41.168s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/package.dsv'
+[41.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/package.sh'
+[41.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/package.bash'
+[41.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/package.zsh'
+[41.169s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/colcon-core/packages/esda_ros_interface)
+[41.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[41.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[41.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[41.170s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[41.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[41.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[41.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[41.370s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[41.373s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[41.373s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[41.374s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samue/GitHub/esda-ros-firmware/install/local_setup.ps1'
+[41.377s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/samue/GitHub/esda-ros-firmware/install/_local_setup_util_ps1.py'
+[41.381s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samue/GitHub/esda-ros-firmware/install/setup.ps1'
+[41.385s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samue/GitHub/esda-ros-firmware/install/local_setup.sh'
+[41.386s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/samue/GitHub/esda-ros-firmware/install/_local_setup_util_sh.py'
+[41.387s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samue/GitHub/esda-ros-firmware/install/setup.sh'
+[41.392s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samue/GitHub/esda-ros-firmware/install/local_setup.bash'
+[41.393s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samue/GitHub/esda-ros-firmware/install/setup.bash'
+[41.396s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samue/GitHub/esda-ros-firmware/install/local_setup.zsh'
+[41.398s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samue/GitHub/esda-ros-firmware/install/setup.zsh'

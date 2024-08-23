@@ -1,0 +1,25 @@
+[0.031s] Invoking command in '/home/samue/GitHub/esda-ros-firmware/build/ros2_control_demo_example_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/samue/GitHub/esda-ros-firmware/src/example_2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samue/GitHub/esda-ros-firmware/install/ros2_control_demo_example_2
+[0.397s] -- The CXX compiler identification is GNU 11.4.0
+[0.904s] -- Detecting CXX compiler ABI info
+[1.135s] -- Detecting CXX compiler ABI info - done
+[1.143s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.145s] -- Detecting CXX compile features
+[1.146s] -- Detecting CXX compile features - done
+[4.170s] [33mCMake Warning at CMakeLists.txt:20 (find_package):
+[4.171s]   Could not find a configuration file for package "controller_manager" that
+[4.171s]   is compatible with requested version "4.0.0".
+[4.171s] 
+[4.171s]   The following configuration files were considered but not accepted:
+[4.171s] 
+[4.171s]     /opt/ros/humble/share/controller_manager/cmake/controller_managerConfig.cmake, version: 2.41.0
+[4.171s] 
+[4.171s] 
+[4.171s] [0m
+[4.171s] [31mCMake Error at CMakeLists.txt:23 (message):
+[4.171s]   ros2_control version 4.0.0 or higher is required.  Are you using the
+[4.171s]   correct branch of the ros2_control_demos repository?
+[4.171s] 
+[4.171s] [0m
+[4.171s] -- Configuring incomplete, errors occurred!
+[4.171s] See also "/home/samue/GitHub/esda-ros-firmware/build/ros2_control_demo_example_2/CMakeFiles/CMakeOutput.log".
+[4.173s] Invoked command in '/home/samue/GitHub/esda-ros-firmware/build/ros2_control_demo_example_2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/samue/GitHub/esda-ros-firmware/src/example_2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samue/GitHub/esda-ros-firmware/install/ros2_control_demo_example_2

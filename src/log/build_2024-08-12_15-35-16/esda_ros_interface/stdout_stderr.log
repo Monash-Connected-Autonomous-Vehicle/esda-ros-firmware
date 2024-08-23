@@ -1,0 +1,33 @@
+[  2%] Built target esda_ros_interface__cpp
+[ 11%] Built target esda_ros_interface__rosidl_generator_c
+[ 17%] Built target esda_serial_to_pc_node
+[ 17%] Built target ament_cmake_python_copy_esda_ros_interface
+[ 25%] Built target esda_ros_interface__rosidl_typesupport_cpp
+[ 34%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_cpp
+[ 42%] Built target esda_ros_interface__rosidl_typesupport_introspection_cpp
+[ 51%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c
+[ 60%] Built target esda_ros_interface__rosidl_typesupport_introspection_c
+[ 68%] Built target esda_ros_interface__rosidl_typesupport_c
+[ 68%] Built target esda_ros_interface
+[ 71%] Built target esda_ros_interface__py
+[ 74%] [32mBuilding CXX object CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o[0m
+[ 80%] Built target esda_ros_interface__rosidl_generator_py
+[ 85%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target esda_ros_interface__rosidl_typesupport_c__pyext
+[ 97%] Built target esda_ros_interface__rosidl_typesupport_introspection_c__pyext
+In file included from [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:12[m[K:
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/esda_ros_interface/robot_hardware_interface_system.hpp:15:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/system.hpp: No such file or directory
+   15 | #include [01;31m[K"hardware_interface/system.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/esda_serial_to_pc.dir/build.make:76: CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o] Error 1
+running egg_info
+gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/esda_serial_to_pc.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+writing esda_ros_interface.egg-info/PKG-INFO
+writing dependency_links to esda_ros_interface.egg-info/dependency_links.txt
+writing top-level names to esda_ros_interface.egg-info/top_level.txt
+reading manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+writing manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_esda_ros_interface_egg
+gmake: *** [Makefile:146: all] Error 2

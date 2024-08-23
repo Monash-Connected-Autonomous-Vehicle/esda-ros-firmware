@@ -1,0 +1,2 @@
+Invoking command in '/home/samue/GitHub/esda-ros-firmware/build/serial': WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/samue/GitHub/esda-ros-firmware/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samue/GitHub/esda-ros-firmware/install/serial
+Invoked command in '/home/samue/GitHub/esda-ros-firmware/build/serial' returned '1': WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/samue/GitHub/esda-ros-firmware/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/samue/GitHub/esda-ros-firmware/install/serial

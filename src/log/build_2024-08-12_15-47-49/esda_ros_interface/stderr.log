@@ -1,0 +1,10 @@
+In file included from [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/hardware_interface/system.hpp:23[m[K,
+                 from [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/esda_ros_interface/robot_hardware_interface_system.hpp:15[m[K,
+                 from [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:12[m[K:
+[01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/hardware_interface/hardware_info.hpp:22:10:[m[K [01;31m[Kfatal error: [m[Kjoint_limits/joint_limits.hpp: No such file or directory
+   22 | #include [01;31m[K"joint_limits/joint_limits.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/esda_serial_to_pc.dir/build.make:76: CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/esda_serial_to_pc.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

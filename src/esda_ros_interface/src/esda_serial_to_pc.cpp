@@ -9,6 +9,7 @@
 #include <esda_ros_interface/serial.h>
 
 #include "rclcpp_components/register_node_macro.hpp"
+// #include "esda_ros_interface/robot_hardware_interface_system.hpp"
 
 class SerialNode : public rclcpp::Node
 {
@@ -61,11 +62,13 @@ int main(int argc, char** argv){
     // Initialize the ROS 2 system
     rclcpp::init(argc, argv);
 
+    // Create a ROS 2 node instance 
+    
     // Create a ROS 2 node
     auto node = rclcpp::Node::make_shared("hello_world_node");
 
     // Print "Hello, World!" to the terminal
-    RCLCPP_INFO(node->get_logger(), "Hello, World!d awdaadwadw");
+    RCLCPP_INFO(node->get_logger(), "Hello, World!ddawdawdaw");
 
     // Optionally, keep the node running to allow for callbacks
     rclcpp::spin_some(node);

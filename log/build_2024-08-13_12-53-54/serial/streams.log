@@ -1,0 +1,40 @@
+[0.028s] Invoking command in '/home/samue/GitHub/esda-ros-firmware/build/serial': WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/samue/GitHub/esda-ros-firmware/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/samue/GitHub/esda-ros-firmware/install/serial
+[0.062s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.062s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.062s]   CMake.
+[0.062s] 
+[0.062s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.062s]   CMake that the project does not need compatibility with older versions.
+[0.062s] 
+[0.062s] [0m
+[0.381s] -- The C compiler identification is GNU 11.4.0
+[1.086s] -- The CXX compiler identification is GNU 11.4.0
+[1.717s] -- Detecting C compiler ABI info
+[1.953s] -- Detecting C compiler ABI info - done
+[1.962s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.962s] -- Detecting C compile features
+[1.963s] -- Detecting C compile features - done
+[1.966s] -- Detecting CXX compiler ABI info
+[2.183s] -- Detecting CXX compiler ABI info - done
+[2.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.191s] -- Detecting CXX compile features
+[2.192s] -- Detecting CXX compile features - done
+[5.658s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[5.658s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[5.658s]   asked CMake to find a package configuration file provided by "catkin", but
+[5.658s]   CMake did not find one.
+[5.658s] 
+[5.658s]   Could not find a package configuration file provided by "catkin" with any
+[5.658s]   of the following names:
+[5.658s] 
+[5.658s]     catkinConfig.cmake
+[5.659s]     catkin-config.cmake
+[5.659s] 
+[5.659s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[5.659s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[5.659s]   provides a separate development package or SDK, be sure it has been
+[5.659s]   installed.
+[5.659s] 
+[5.659s] [0m
+[5.659s] -- Configuring incomplete, errors occurred!
+[5.659s] See also "/home/samue/GitHub/esda-ros-firmware/build/serial/CMakeFiles/CMakeOutput.log".

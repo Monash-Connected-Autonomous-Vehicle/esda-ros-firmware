@@ -1,0 +1,109 @@
+[0.012s] Invoking command in '/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface -DCMAKE_INSTALL_PREFIX=/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface
+[0.517s] -- The C compiler identification is GNU 11.4.0
+[1.831s] -- The CXX compiler identification is GNU 11.4.0
+[2.828s] -- Detecting C compiler ABI info
+[3.228s] -- Detecting C compiler ABI info - done
+[3.238s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.240s] -- Detecting C compile features
+[3.242s] -- Detecting C compile features - done
+[3.249s] -- Detecting CXX compiler ABI info
+[3.617s] -- Detecting CXX compiler ABI info - done
+[3.627s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.628s] -- Detecting CXX compile features
+[3.628s] -- Detecting CXX compile features - done
+[3.659s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.865s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.977s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.985s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.995s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.545s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[4.652s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.657s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.749s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[15.791s] -- Found FastRTPS: /opt/ros/humble/include  
+[26.001s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[26.033s] -- Looking for pthread.h
+[26.511s] -- Looking for pthread.h - found
+[26.511s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[26.860s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[26.861s] -- Found Threads: TRUE  
+[27.033s] -- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)
+[27.380s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[27.634s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[27.931s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[28.364s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[28.372s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[29.832s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[29.832s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[29.832s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[29.832s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[29.875s] -- Found PythonExtra: .so  
+[30.086s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[30.086s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[30.086s]   rosidl_target_interfaces()
+[30.086s] Call Stack (most recent call first):
+[30.086s]   CMakeLists.txt:40 (rosidl_target_interfaces)
+[30.086s] 
+[30.086s] [0m
+[30.115s] -- Configuring done
+[30.168s] -- Generating done
+[30.172s] -- Build files have been written to: /home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface
+[30.188s] Invoked command in '/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface -DCMAKE_INSTALL_PREFIX=/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface
+[30.189s] Invoking command in '/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface -- -j20 -l20
+[30.222s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[30.234s] [  5%] [32mBuilding CXX object CMakeFiles/esda_serial_to_pc_node.dir/rclcpp_components/node_main_esda_serial_to_pc_node.cpp.o[0m
+[30.244s] [  5%] Built target ament_cmake_python_copy_esda_ros_interface
+[30.245s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[30.458s] running egg_info
+[30.459s] creating esda_ros_interface.egg-info
+[30.459s] writing esda_ros_interface.egg-info/PKG-INFO
+[30.460s] writing dependency_links to esda_ros_interface.egg-info/dependency_links.txt
+[30.460s] writing top-level names to esda_ros_interface.egg-info/top_level.txt
+[30.460s] writing manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+[30.463s] reading manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+[30.464s] writing manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+[30.470s] [  8%] Built target esda_ros_interface__cpp
+[30.474s] [ 11%] [32mBuilding C object CMakeFiles/esda_ros_interface__rosidl_generator_c.dir/rosidl_generator_c/esda_ros_interface/msg/detail/esda_message__functions.c.o[0m
+[30.477s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[30.478s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[30.479s] [ 20%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[30.484s] [ 20%] Built target ament_cmake_python_build_esda_ros_interface_egg
+[30.520s] [ 22%] [32m[1mLinking C shared library libesda_ros_interface__rosidl_generator_c.so[0m
+[30.649s] [ 25%] [32mBuilding CXX object CMakeFiles/esda_ros_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/esda_ros_interface/msg/esda_message__type_support.cpp.o[0m
+[30.662s] [ 28%] [32mBuilding CXX object CMakeFiles/esda_ros_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/esda_ros_interface/msg/detail/esda_message__type_support.cpp.o[0m
+[30.679s] [ 31%] [32mBuilding CXX object CMakeFiles/esda_ros_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/esda_ros_interface/msg/detail/dds_fastrtps/esda_message__type_support.cpp.o[0m
+[30.781s] [ 31%] Built target esda_ros_interface__rosidl_generator_c
+[30.789s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[30.791s] [ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[30.791s] [ 40%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[30.845s] [ 42%] [32m[1mLinking CXX shared library libesda_ros_interface__rosidl_typesupport_cpp.so[0m
+[30.989s] [ 45%] [32m[1mLinking CXX shared library libesda_ros_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[30.994s] [ 48%] [32m[1mLinking CXX shared library libesda_ros_interface__rosidl_typesupport_introspection_cpp.so[0m
+[31.015s] [ 51%] [32mBuilding CXX object CMakeFiles/esda_ros_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/esda_ros_interface/msg/esda_message__type_support.cpp.o[0m
+[31.018s] [ 54%] [32mBuilding CXX object CMakeFiles/esda_ros_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/esda_ros_interface/msg/detail/esda_message__type_support_c.cpp.o[0m
+[31.041s] [ 57%] [32m[1mLinking CXX shared library libesda_ros_interface__rosidl_typesupport_c.so[0m
+[31.057s] [ 60%] [32mBuilding C object CMakeFiles/esda_ros_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/esda_ros_interface/msg/detail/esda_message__type_support.c.o[0m
+[31.080s] [ 62%] [32m[1mLinking C shared library libesda_ros_interface__rosidl_typesupport_introspection_c.so[0m
+[31.085s] [ 62%] Built target esda_ros_interface__rosidl_typesupport_cpp
+[31.192s] [ 62%] Built target esda_ros_interface__rosidl_typesupport_introspection_cpp
+[31.218s] [ 62%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_cpp
+[31.249s] [ 65%] [32m[1mLinking CXX shared library libesda_ros_interface__rosidl_typesupport_fastrtps_c.so[0m
+[31.311s] [ 65%] Built target esda_ros_interface__rosidl_typesupport_c
+[31.346s] [ 65%] Built target esda_ros_interface__rosidl_typesupport_introspection_c
+[31.545s] [ 65%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c
+[31.560s] [ 65%] Built target esda_ros_interface
+[31.574s] [ 68%] [32mBuilding CXX object CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o[0m
+[31.575s] [ 71%] [34m[1mGenerating Python code for ROS interfaces[0m
+[31.703s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[31.703s]     8 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[31.703s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.703s] compilation terminated.
+[31.706s] gmake[2]: *** [CMakeFiles/esda_serial_to_pc.dir/build.make:76: CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o] Error 1
+[31.706s] gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/esda_serial_to_pc.dir/all] Error 2
+[31.706s] gmake[1]: *** Waiting for unfinished jobs....
+[31.810s] [ 71%] Built target esda_ros_interface__py
+[33.008s] [ 74%] [32m[1mLinking CXX executable esda_serial_to_pc_node[0m
+[33.423s] [ 74%] Built target esda_serial_to_pc_node
+[33.425s] gmake: *** [Makefile:146: all] Error 2
+[33.427s] Invoked command in '/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface -- -j20 -l20

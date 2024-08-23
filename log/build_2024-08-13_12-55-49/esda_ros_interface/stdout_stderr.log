@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target esda_serial_to_pc_node[0m
+[35m[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_generator_c[0m
+failed to create symbolic link '/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface/ament_cmake_python/esda_ros_interface/esda_ros_interface' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_esda_ros_interface.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_esda_ros_interface] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:425: CMakeFiles/ament_cmake_python_symlink_esda_ros_interface.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[  2%] Built target esda_ros_interface__cpp
+[ 11%] Built target esda_ros_interface__rosidl_generator_c
+[ 14%] [32m[1mLinking CXX executable esda_serial_to_pc_node[0m
+[ 17%] Built target esda_serial_to_pc_node
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,1 @@
+/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface/rosidl_generator_py/esda_ros_interface/msg/__init__.py

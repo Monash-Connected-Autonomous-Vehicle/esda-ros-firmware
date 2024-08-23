@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface/esda_serial_to_pc" "TARGETS" "esda_serial_to_pc" "DESTINATION" "lib/esda_ros_interface")

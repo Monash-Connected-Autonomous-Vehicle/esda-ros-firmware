@@ -1,0 +1,615 @@
+[0.000000] (-) TimerEvent: {}
+[0.000238] (-) JobUnselected: {'identifier': 'serial'}
+[0.000298] (esda_ros_interface) JobQueued: {'identifier': 'esda_ros_interface', 'dependencies': OrderedDict()}
+[0.000877] (esda_ros_interface) JobStarted: {'identifier': 'esda_ros_interface'}
+[0.018735] (esda_ros_interface) JobProgress: {'identifier': 'esda_ros_interface', 'progress': 'cmake'}
+[0.020835] (esda_ros_interface) JobProgress: {'identifier': 'esda_ros_interface', 'progress': 'build'}
+[0.022265] (esda_ros_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface', '--', '-j20', '-l20'], 'cwd': '/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'samue'), ('GIT_ASKPASS', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/samue/GitHub/src/install/tutorial_interfaces/lib:/home/samue/GitHub/src/install/more_interfaces/lib:/home/samue/GitHub/src/install/esda_interface_ros/lib:/home/samue/install/examples_rclcpp_wait_set/lib:/home/samue/install/examples_rclcpp_minimal_subscriber/lib:/home/samue/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/samue'), ('OLDPWD', '/home/samue/GitHub'), ('TERM_PROGRAM_VERSION', '1.92.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e5295ffd-e7f1-4042-a617-cdcf68d6c716.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/samue/GitHub/src/install:/home/samue/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'samue'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/682_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft/jdk-17.0.7.7-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Users/samue/.rustup/toolchains/esp/xtensa-esp32-elf-clang/esp-clang/bin:/mnt/c/Users/samue/.rustup/toolchains/esp/xtensa-esp-elf/bin:/mnt/c/Users/samue/.cargo/bin:/mnt/c/opencv/opencv/build/x64/vc16/bin:/mnt/c/Users/samue/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/samue/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/samue/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/samue/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/intelFPGA_lite/18.1/modelsim_ae/win32aloem:/mnt/c/ProgramData/samue/GitHubDesktop/bin:/mnt/c/Users/samue/.dotnet/tools:/mnt/c/opencv/opencv/build/x64/vc16/bin:/mnt/c/Users/samue/AppData/Local/GitHubDesktop/bin:/mnt/c/users/samue/.local/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-64d245db24.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/samue/GitHub/src/install/tutorial_interfaces:/home/samue/GitHub/src/install/more_interfaces:/home/samue/GitHub/src/install/esda_interface_ros:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/home/samue/install/examples_rclcpp_wait_set:/home/samue/install/examples_rclcpp_multithreaded_executor:/home/samue/install/examples_rclcpp_minimal_timer:/home/samue/install/examples_rclcpp_minimal_subscriber:/home/samue/install/examples_rclcpp_minimal_service:/home/samue/install/examples_rclcpp_minimal_publisher:/home/samue/install/examples_rclcpp_minimal_composition:/home/samue/install/examples_rclcpp_minimal_client:/home/samue/install/examples_rclcpp_minimal_action_server:/home/samue/install/examples_rclcpp_minimal_action_client:/home/samue/install/examples_rclcpp_cbg_executor:/home/samue/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/samue/GitHub/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/samue/GitHub/src/install/more_interfaces/local/lib/python3.10/dist-packages:/home/samue/GitHub/src/install/esda_interface_ros/local/lib/python3.10/dist-packages:/home/samue/build/launch_testing_examples:/home/samue/install/launch_testing_examples/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_executors:/home/samue/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/samue/GitHub/src/install/tutorial_interfaces:/home/samue/GitHub/src/install/more_interfaces:/home/samue/GitHub/src/install/esda_interface_ros:/home/samue/install/examples_rclcpp_wait_set:/home/samue/install/examples_rclcpp_multithreaded_executor:/home/samue/install/examples_rclcpp_minimal_timer:/home/samue/install/examples_rclcpp_minimal_subscriber:/home/samue/install/examples_rclcpp_minimal_service:/home/samue/install/examples_rclcpp_minimal_publisher:/home/samue/install/examples_rclcpp_minimal_composition:/home/samue/install/examples_rclcpp_minimal_client:/home/samue/install/examples_rclcpp_minimal_action_server:/home/samue/install/examples_rclcpp_minimal_action_client:/home/samue/install/examples_rclcpp_cbg_executor:/home/samue/install/examples_rclcpp_async_client:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.099719] (-) TimerEvent: {}
+[0.179585] (esda_ros_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199962] (-) TimerEvent: {}
+[0.300564] (-) TimerEvent: {}
+[0.401023] (-) TimerEvent: {}
+[0.420773] (esda_ros_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.431374] (esda_ros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.438754] (esda_ros_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.501215] (-) TimerEvent: {}
+[0.601901] (-) TimerEvent: {}
+[0.702579] (-) TimerEvent: {}
+[0.803381] (-) TimerEvent: {}
+[0.904227] (-) TimerEvent: {}
+[1.005160] (-) TimerEvent: {}
+[1.105777] (-) TimerEvent: {}
+[1.206556] (-) TimerEvent: {}
+[1.307224] (-) TimerEvent: {}
+[1.407834] (-) TimerEvent: {}
+[1.490184] (esda_ros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.507989] (-) TimerEvent: {}
+[1.540383] (esda_ros_interface) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.608228] (-) TimerEvent: {}
+[1.646496] (esda_ros_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.651850] (esda_ros_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.708432] (-) TimerEvent: {}
+[1.809010] (-) TimerEvent: {}
+[1.909700] (-) TimerEvent: {}
+[2.010481] (-) TimerEvent: {}
+[2.111163] (-) TimerEvent: {}
+[2.211798] (-) TimerEvent: {}
+[2.312532] (-) TimerEvent: {}
+[2.413312] (-) TimerEvent: {}
+[2.514189] (-) TimerEvent: {}
+[2.614772] (-) TimerEvent: {}
+[2.715314] (-) TimerEvent: {}
+[2.815758] (-) TimerEvent: {}
+[2.916415] (-) TimerEvent: {}
+[3.017123] (-) TimerEvent: {}
+[3.117641] (-) TimerEvent: {}
+[3.218216] (-) TimerEvent: {}
+[3.318740] (-) TimerEvent: {}
+[3.419142] (-) TimerEvent: {}
+[3.519604] (-) TimerEvent: {}
+[3.620397] (-) TimerEvent: {}
+[3.720951] (-) TimerEvent: {}
+[3.821434] (-) TimerEvent: {}
+[3.921898] (-) TimerEvent: {}
+[4.022533] (-) TimerEvent: {}
+[4.123031] (-) TimerEvent: {}
+[4.223686] (-) TimerEvent: {}
+[4.324158] (-) TimerEvent: {}
+[4.424789] (-) TimerEvent: {}
+[4.525391] (-) TimerEvent: {}
+[4.626212] (-) TimerEvent: {}
+[4.726927] (-) TimerEvent: {}
+[4.827594] (-) TimerEvent: {}
+[4.928403] (-) TimerEvent: {}
+[5.029193] (-) TimerEvent: {}
+[5.129812] (-) TimerEvent: {}
+[5.230407] (-) TimerEvent: {}
+[5.331035] (-) TimerEvent: {}
+[5.431728] (-) TimerEvent: {}
+[5.532640] (-) TimerEvent: {}
+[5.633291] (-) TimerEvent: {}
+[5.733787] (-) TimerEvent: {}
+[5.834338] (-) TimerEvent: {}
+[5.935061] (-) TimerEvent: {}
+[6.035609] (-) TimerEvent: {}
+[6.136290] (-) TimerEvent: {}
+[6.236936] (-) TimerEvent: {}
+[6.337632] (-) TimerEvent: {}
+[6.438379] (-) TimerEvent: {}
+[6.538995] (-) TimerEvent: {}
+[6.640042] (-) TimerEvent: {}
+[6.740518] (-) TimerEvent: {}
+[6.841008] (-) TimerEvent: {}
+[6.941480] (-) TimerEvent: {}
+[7.041912] (-) TimerEvent: {}
+[7.142640] (-) TimerEvent: {}
+[7.243248] (-) TimerEvent: {}
+[7.343784] (-) TimerEvent: {}
+[7.444291] (-) TimerEvent: {}
+[7.545212] (-) TimerEvent: {}
+[7.645822] (-) TimerEvent: {}
+[7.746500] (-) TimerEvent: {}
+[7.846874] (-) TimerEvent: {}
+[7.947252] (-) TimerEvent: {}
+[8.047654] (-) TimerEvent: {}
+[8.148121] (-) TimerEvent: {}
+[8.248572] (-) TimerEvent: {}
+[8.349105] (-) TimerEvent: {}
+[8.449732] (-) TimerEvent: {}
+[8.550336] (-) TimerEvent: {}
+[8.651088] (-) TimerEvent: {}
+[8.751592] (-) TimerEvent: {}
+[8.852182] (-) TimerEvent: {}
+[8.952823] (-) TimerEvent: {}
+[9.053530] (-) TimerEvent: {}
+[9.154241] (-) TimerEvent: {}
+[9.254810] (-) TimerEvent: {}
+[9.355482] (-) TimerEvent: {}
+[9.456071] (-) TimerEvent: {}
+[9.556698] (-) TimerEvent: {}
+[9.657203] (-) TimerEvent: {}
+[9.757668] (-) TimerEvent: {}
+[9.858136] (-) TimerEvent: {}
+[9.958606] (-) TimerEvent: {}
+[10.059081] (-) TimerEvent: {}
+[10.159766] (-) TimerEvent: {}
+[10.260425] (-) TimerEvent: {}
+[10.361031] (-) TimerEvent: {}
+[10.461727] (-) TimerEvent: {}
+[10.562385] (-) TimerEvent: {}
+[10.663107] (-) TimerEvent: {}
+[10.763680] (-) TimerEvent: {}
+[10.864131] (-) TimerEvent: {}
+[10.964649] (-) TimerEvent: {}
+[11.065278] (-) TimerEvent: {}
+[11.165976] (-) TimerEvent: {}
+[11.266614] (-) TimerEvent: {}
+[11.367432] (-) TimerEvent: {}
+[11.467965] (-) TimerEvent: {}
+[11.568484] (-) TimerEvent: {}
+[11.669108] (-) TimerEvent: {}
+[11.769718] (-) TimerEvent: {}
+[11.870263] (-) TimerEvent: {}
+[11.970855] (-) TimerEvent: {}
+[12.071361] (-) TimerEvent: {}
+[12.171869] (-) TimerEvent: {}
+[12.272434] (-) TimerEvent: {}
+[12.373040] (-) TimerEvent: {}
+[12.474297] (-) TimerEvent: {}
+[12.575092] (-) TimerEvent: {}
+[12.675810] (-) TimerEvent: {}
+[12.776558] (-) TimerEvent: {}
+[12.877202] (-) TimerEvent: {}
+[12.977769] (-) TimerEvent: {}
+[13.078176] (-) TimerEvent: {}
+[13.178761] (-) TimerEvent: {}
+[13.279461] (-) TimerEvent: {}
+[13.380181] (-) TimerEvent: {}
+[13.480874] (-) TimerEvent: {}
+[13.581882] (-) TimerEvent: {}
+[13.683060] (-) TimerEvent: {}
+[13.783723] (-) TimerEvent: {}
+[13.884377] (-) TimerEvent: {}
+[13.984744] (-) TimerEvent: {}
+[14.085293] (-) TimerEvent: {}
+[14.185802] (-) TimerEvent: {}
+[14.286275] (-) TimerEvent: {}
+[14.387131] (-) TimerEvent: {}
+[14.487787] (-) TimerEvent: {}
+[14.588165] (-) TimerEvent: {}
+[14.688755] (-) TimerEvent: {}
+[14.789292] (-) TimerEvent: {}
+[14.889753] (-) TimerEvent: {}
+[14.990404] (-) TimerEvent: {}
+[15.091238] (-) TimerEvent: {}
+[15.191987] (-) TimerEvent: {}
+[15.292867] (-) TimerEvent: {}
+[15.393450] (-) TimerEvent: {}
+[15.494020] (-) TimerEvent: {}
+[15.594705] (-) TimerEvent: {}
+[15.695339] (-) TimerEvent: {}
+[15.795902] (-) TimerEvent: {}
+[15.896489] (-) TimerEvent: {}
+[15.996867] (-) TimerEvent: {}
+[16.097383] (-) TimerEvent: {}
+[16.198051] (-) TimerEvent: {}
+[16.298747] (-) TimerEvent: {}
+[16.399318] (-) TimerEvent: {}
+[16.499783] (-) TimerEvent: {}
+[16.600226] (-) TimerEvent: {}
+[16.700622] (-) TimerEvent: {}
+[16.801224] (-) TimerEvent: {}
+[16.901870] (-) TimerEvent: {}
+[17.002396] (-) TimerEvent: {}
+[17.102834] (-) TimerEvent: {}
+[17.203276] (-) TimerEvent: {}
+[17.303712] (-) TimerEvent: {}
+[17.404393] (-) TimerEvent: {}
+[17.504885] (-) TimerEvent: {}
+[17.605277] (-) TimerEvent: {}
+[17.705707] (-) TimerEvent: {}
+[17.806205] (-) TimerEvent: {}
+[17.906934] (-) TimerEvent: {}
+[18.007528] (-) TimerEvent: {}
+[18.108106] (-) TimerEvent: {}
+[18.208761] (-) TimerEvent: {}
+[18.309321] (-) TimerEvent: {}
+[18.409875] (-) TimerEvent: {}
+[18.510463] (-) TimerEvent: {}
+[18.610987] (-) TimerEvent: {}
+[18.711687] (-) TimerEvent: {}
+[18.812180] (-) TimerEvent: {}
+[18.912777] (-) TimerEvent: {}
+[19.013135] (-) TimerEvent: {}
+[19.113557] (-) TimerEvent: {}
+[19.214044] (-) TimerEvent: {}
+[19.314442] (-) TimerEvent: {}
+[19.415012] (-) TimerEvent: {}
+[19.515428] (-) TimerEvent: {}
+[19.615854] (-) TimerEvent: {}
+[19.716341] (-) TimerEvent: {}
+[19.817016] (-) TimerEvent: {}
+[19.917799] (-) TimerEvent: {}
+[20.018358] (-) TimerEvent: {}
+[20.118915] (-) TimerEvent: {}
+[20.219411] (-) TimerEvent: {}
+[20.320327] (-) TimerEvent: {}
+[20.421063] (-) TimerEvent: {}
+[20.521737] (-) TimerEvent: {}
+[20.622380] (-) TimerEvent: {}
+[20.723255] (-) TimerEvent: {}
+[20.823831] (-) TimerEvent: {}
+[20.924724] (-) TimerEvent: {}
+[21.025463] (-) TimerEvent: {}
+[21.126129] (-) TimerEvent: {}
+[21.226773] (-) TimerEvent: {}
+[21.327243] (-) TimerEvent: {}
+[21.427836] (-) TimerEvent: {}
+[21.528386] (-) TimerEvent: {}
+[21.628999] (-) TimerEvent: {}
+[21.729667] (-) TimerEvent: {}
+[21.830487] (-) TimerEvent: {}
+[21.931486] (-) TimerEvent: {}
+[22.031921] (-) TimerEvent: {}
+[22.132455] (-) TimerEvent: {}
+[22.233203] (-) TimerEvent: {}
+[22.333649] (-) TimerEvent: {}
+[22.434058] (-) TimerEvent: {}
+[22.534483] (-) TimerEvent: {}
+[22.634951] (-) TimerEvent: {}
+[22.735452] (-) TimerEvent: {}
+[22.835951] (-) TimerEvent: {}
+[22.936574] (-) TimerEvent: {}
+[23.037240] (-) TimerEvent: {}
+[23.137883] (-) TimerEvent: {}
+[23.238668] (-) TimerEvent: {}
+[23.339201] (-) TimerEvent: {}
+[23.439706] (-) TimerEvent: {}
+[23.540498] (-) TimerEvent: {}
+[23.641178] (-) TimerEvent: {}
+[23.741903] (-) TimerEvent: {}
+[23.842429] (-) TimerEvent: {}
+[23.943017] (-) TimerEvent: {}
+[24.043666] (-) TimerEvent: {}
+[24.144052] (-) TimerEvent: {}
+[24.244415] (-) TimerEvent: {}
+[24.344849] (-) TimerEvent: {}
+[24.445279] (-) TimerEvent: {}
+[24.545912] (-) TimerEvent: {}
+[24.646664] (-) TimerEvent: {}
+[24.747414] (-) TimerEvent: {}
+[24.847986] (-) TimerEvent: {}
+[24.948583] (-) TimerEvent: {}
+[25.049341] (-) TimerEvent: {}
+[25.149867] (-) TimerEvent: {}
+[25.250629] (-) TimerEvent: {}
+[25.351428] (-) TimerEvent: {}
+[25.452154] (-) TimerEvent: {}
+[25.552810] (-) TimerEvent: {}
+[25.653583] (-) TimerEvent: {}
+[25.754206] (-) TimerEvent: {}
+[25.854693] (-) TimerEvent: {}
+[25.955717] (-) TimerEvent: {}
+[26.056520] (-) TimerEvent: {}
+[26.157416] (-) TimerEvent: {}
+[26.258120] (-) TimerEvent: {}
+[26.358965] (-) TimerEvent: {}
+[26.459459] (-) TimerEvent: {}
+[26.559938] (-) TimerEvent: {}
+[26.660490] (-) TimerEvent: {}
+[26.760954] (-) TimerEvent: {}
+[26.861471] (-) TimerEvent: {}
+[26.962032] (-) TimerEvent: {}
+[27.062607] (-) TimerEvent: {}
+[27.163074] (-) TimerEvent: {}
+[27.263678] (-) TimerEvent: {}
+[27.364275] (-) TimerEvent: {}
+[27.464993] (-) TimerEvent: {}
+[27.565526] (-) TimerEvent: {}
+[27.666171] (-) TimerEvent: {}
+[27.766743] (-) TimerEvent: {}
+[27.867409] (-) TimerEvent: {}
+[27.968026] (-) TimerEvent: {}
+[28.068671] (-) TimerEvent: {}
+[28.169221] (-) TimerEvent: {}
+[28.269631] (-) TimerEvent: {}
+[28.370017] (-) TimerEvent: {}
+[28.470425] (-) TimerEvent: {}
+[28.570906] (-) TimerEvent: {}
+[28.671299] (-) TimerEvent: {}
+[28.771781] (-) TimerEvent: {}
+[28.872207] (-) TimerEvent: {}
+[28.972844] (-) TimerEvent: {}
+[29.073382] (-) TimerEvent: {}
+[29.174063] (-) TimerEvent: {}
+[29.274528] (-) TimerEvent: {}
+[29.375173] (-) TimerEvent: {}
+[29.475649] (-) TimerEvent: {}
+[29.576286] (-) TimerEvent: {}
+[29.677039] (-) TimerEvent: {}
+[29.777670] (-) TimerEvent: {}
+[29.878295] (-) TimerEvent: {}
+[29.979010] (-) TimerEvent: {}
+[30.079720] (-) TimerEvent: {}
+[30.180222] (-) TimerEvent: {}
+[30.280759] (-) TimerEvent: {}
+[30.381247] (-) TimerEvent: {}
+[30.481749] (-) TimerEvent: {}
+[30.582356] (-) TimerEvent: {}
+[30.683007] (-) TimerEvent: {}
+[30.783650] (-) TimerEvent: {}
+[30.884389] (-) TimerEvent: {}
+[30.985161] (-) TimerEvent: {}
+[31.085851] (-) TimerEvent: {}
+[31.186445] (-) TimerEvent: {}
+[31.287081] (-) TimerEvent: {}
+[31.387790] (-) TimerEvent: {}
+[31.488328] (-) TimerEvent: {}
+[31.588730] (-) TimerEvent: {}
+[31.689433] (-) TimerEvent: {}
+[31.789934] (-) TimerEvent: {}
+[31.890550] (-) TimerEvent: {}
+[31.991359] (-) TimerEvent: {}
+[32.092117] (-) TimerEvent: {}
+[32.192712] (-) TimerEvent: {}
+[32.293193] (-) TimerEvent: {}
+[32.393733] (-) TimerEvent: {}
+[32.494095] (-) TimerEvent: {}
+[32.594470] (-) TimerEvent: {}
+[32.694968] (-) TimerEvent: {}
+[32.795552] (-) TimerEvent: {}
+[32.896374] (-) TimerEvent: {}
+[32.996859] (-) TimerEvent: {}
+[33.097275] (-) TimerEvent: {}
+[33.197836] (-) TimerEvent: {}
+[33.298419] (-) TimerEvent: {}
+[33.399194] (-) TimerEvent: {}
+[33.499968] (-) TimerEvent: {}
+[33.600566] (-) TimerEvent: {}
+[33.701125] (-) TimerEvent: {}
+[33.797971] (esda_ros_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[33.801344] (-) TimerEvent: {}
+[33.901769] (-) TimerEvent: {}
+[34.002323] (-) TimerEvent: {}
+[34.075331] (esda_ros_interface) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[34.102529] (-) TimerEvent: {}
+[34.202950] (-) TimerEvent: {}
+[34.303297] (-) TimerEvent: {}
+[34.403908] (-) TimerEvent: {}
+[34.468118] (esda_ros_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[34.504165] (-) TimerEvent: {}
+[34.604620] (-) TimerEvent: {}
+[34.705208] (-) TimerEvent: {}
+[34.705751] (esda_ros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[34.805366] (-) TimerEvent: {}
+[34.905871] (-) TimerEvent: {}
+[35.006296] (-) TimerEvent: {}
+[35.025149] (esda_ros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[35.056536] (esda_ros_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[35.088405] (esda_ros_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[35.088602] (esda_ros_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[35.088665] (esda_ros_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[35.106453] (-) TimerEvent: {}
+[35.116230] (esda_ros_interface) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[35.116505] (esda_ros_interface) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[35.116577] (esda_ros_interface) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[35.116629] (esda_ros_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[35.116710] (esda_ros_interface) StderrLine: {'line': b'  CMakeLists.txt:42 (rosidl_target_interfaces)\n'}
+[35.116829] (esda_ros_interface) StderrLine: {'line': b'\n'}
+[35.116882] (esda_ros_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[35.133898] (esda_ros_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[35.206662] (-) TimerEvent: {}
+[35.215506] (esda_ros_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[35.219662] (esda_ros_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface\n'}
+[35.255729] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_serial_to_pc_node\x1b[0m\n'}
+[35.257031] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_generator_c\x1b[0m\n'}
+[35.263175] (esda_ros_interface) StdoutLine: {'line': b'[  2%] Built target esda_ros_interface__cpp\n'}
+[35.274611] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[35.276508] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[35.276671] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[35.278175] (esda_ros_interface) StdoutLine: {'line': b'[ 11%] Built target esda_ros_interface__rosidl_generator_c\n'}
+[35.283021] (esda_ros_interface) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_esda_ros_interface\n'}
+[35.291177] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_c\x1b[0m\n'}
+[35.291456] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[35.291522] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[35.291572] (esda_ros_interface) StdoutLine: {'line': b'[ 20%] Built target esda_ros_interface__rosidl_typesupport_cpp\n'}
+[35.293316] (esda_ros_interface) StdoutLine: {'line': b'[ 28%] Built target esda_ros_interface__rosidl_typesupport_introspection_cpp\n'}
+[35.295344] (esda_ros_interface) StdoutLine: {'line': b'[ 37%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[35.300636] (esda_ros_interface) StdoutLine: {'line': b'[ 45%] Built target esda_ros_interface__rosidl_typesupport_c\n'}
+[35.301203] (esda_ros_interface) StdoutLine: {'line': b'[ 54%] Built target esda_ros_interface__rosidl_typesupport_introspection_c\n'}
+[35.303093] (esda_ros_interface) StdoutLine: {'line': b'[ 62%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c\n'}
+[35.306756] (-) TimerEvent: {}
+[35.318787] (esda_ros_interface) StdoutLine: {'line': b'[ 68%] Built target esda_serial_to_pc_node\n'}
+[35.320176] (esda_ros_interface) StdoutLine: {'line': b'[ 68%] Built target esda_ros_interface\n'}
+[35.339043] (esda_ros_interface) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o\x1b[0m\n'}
+[35.339256] (esda_ros_interface) StdoutLine: {'line': b'[ 74%] Built target esda_ros_interface__py\n'}
+[35.348466] (esda_ros_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_generator_py\x1b[0m\n'}
+[35.362274] (esda_ros_interface) StdoutLine: {'line': b'[ 80%] Built target esda_ros_interface__rosidl_generator_py\n'}
+[35.380715] (esda_ros_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/esda_ros_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/esda_ros_interface/_esda_ros_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[35.381555] (esda_ros_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/esda_ros_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/esda_ros_interface/_esda_ros_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[35.381854] (esda_ros_interface) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/esda_ros_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/esda_ros_interface/_esda_ros_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[35.406898] (-) TimerEvent: {}
+[35.507276] (-) TimerEvent: {}
+[35.558559] (esda_ros_interface) StdoutLine: {'line': b'running egg_info\n'}
+[35.559443] (esda_ros_interface) StdoutLine: {'line': b'writing esda_ros_interface.egg-info/PKG-INFO\n'}
+[35.559730] (esda_ros_interface) StdoutLine: {'line': b'writing dependency_links to esda_ros_interface.egg-info/dependency_links.txt\n'}
+[35.560052] (esda_ros_interface) StdoutLine: {'line': b'writing top-level names to esda_ros_interface.egg-info/top_level.txt\n'}
+[35.563492] (esda_ros_interface) StdoutLine: {'line': b"reading manifest file 'esda_ros_interface.egg-info/SOURCES.txt'\n"}
+[35.564462] (esda_ros_interface) StdoutLine: {'line': b"writing manifest file 'esda_ros_interface.egg-info/SOURCES.txt'\n"}
+[35.591737] (esda_ros_interface) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/esda_ros_interface/esda_ros_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[35.591953] (esda_ros_interface) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/esda_ros_interface/esda_ros_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[35.592019] (esda_ros_interface) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/esda_ros_interface/esda_ros_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[35.593496] (esda_ros_interface) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_esda_ros_interface_egg\n'}
+[35.607445] (-) TimerEvent: {}
+[35.707842] (-) TimerEvent: {}
+[35.732225] (esda_ros_interface) StdoutLine: {'line': b'[ 97%] Built target esda_ros_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[35.732490] (esda_ros_interface) StdoutLine: {'line': b'[ 97%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[35.732598] (esda_ros_interface) StdoutLine: {'line': b'[ 97%] Built target esda_ros_interface__rosidl_typesupport_c__pyext\n'}
+[35.808153] (-) TimerEvent: {}
+[35.908749] (-) TimerEvent: {}
+[36.009321] (-) TimerEvent: {}
+[36.109802] (-) TimerEvent: {}
+[36.210293] (-) TimerEvent: {}
+[36.310798] (-) TimerEvent: {}
+[36.411310] (-) TimerEvent: {}
+[36.511824] (-) TimerEvent: {}
+[36.612309] (-) TimerEvent: {}
+[36.712796] (-) TimerEvent: {}
+[36.813394] (-) TimerEvent: {}
+[36.913938] (-) TimerEvent: {}
+[37.014561] (-) TimerEvent: {}
+[37.115231] (-) TimerEvent: {}
+[37.215715] (-) TimerEvent: {}
+[37.316178] (-) TimerEvent: {}
+[37.416697] (-) TimerEvent: {}
+[37.517269] (-) TimerEvent: {}
+[37.617900] (-) TimerEvent: {}
+[37.718370] (-) TimerEvent: {}
+[37.818940] (-) TimerEvent: {}
+[37.919548] (-) TimerEvent: {}
+[38.020279] (-) TimerEvent: {}
+[38.120788] (-) TimerEvent: {}
+[38.221412] (-) TimerEvent: {}
+[38.322048] (-) TimerEvent: {}
+[38.422676] (-) TimerEvent: {}
+[38.523155] (-) TimerEvent: {}
+[38.623678] (-) TimerEvent: {}
+[38.724499] (-) TimerEvent: {}
+[38.824974] (-) TimerEvent: {}
+[38.925446] (-) TimerEvent: {}
+[39.021837] (esda_ros_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable esda_serial_to_pc\x1b[0m\n'}
+[39.025582] (-) TimerEvent: {}
+[39.125928] (-) TimerEvent: {}
+[39.226394] (-) TimerEvent: {}
+[39.327094] (-) TimerEvent: {}
+[39.427717] (-) TimerEvent: {}
+[39.528351] (-) TimerEvent: {}
+[39.629264] (-) TimerEvent: {}
+[39.729856] (-) TimerEvent: {}
+[39.830497] (-) TimerEvent: {}
+[39.882116] (esda_ros_interface) StdoutLine: {'line': b'[100%] Built target esda_serial_to_pc\n'}
+[39.896473] (esda_ros_interface) CommandEnded: {'returncode': 0}
+[39.930682] (-) TimerEvent: {}
+[39.977562] (esda_ros_interface) JobProgress: {'identifier': 'esda_ros_interface', 'progress': 'install'}
+[39.987645] (esda_ros_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface'], 'cwd': '/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'samue'), ('GIT_ASKPASS', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/samue/GitHub/src/install/tutorial_interfaces/lib:/home/samue/GitHub/src/install/more_interfaces/lib:/home/samue/GitHub/src/install/esda_interface_ros/lib:/home/samue/install/examples_rclcpp_wait_set/lib:/home/samue/install/examples_rclcpp_minimal_subscriber/lib:/home/samue/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/samue'), ('OLDPWD', '/home/samue/GitHub'), ('TERM_PROGRAM_VERSION', '1.92.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e5295ffd-e7f1-4042-a617-cdcf68d6c716.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/samue/GitHub/src/install:/home/samue/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'samue'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/682_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft/jdk-17.0.7.7-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Users/samue/.rustup/toolchains/esp/xtensa-esp32-elf-clang/esp-clang/bin:/mnt/c/Users/samue/.rustup/toolchains/esp/xtensa-esp-elf/bin:/mnt/c/Users/samue/.cargo/bin:/mnt/c/opencv/opencv/build/x64/vc16/bin:/mnt/c/Users/samue/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/samue/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/samue/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/samue/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/intelFPGA_lite/18.1/modelsim_ae/win32aloem:/mnt/c/ProgramData/samue/GitHubDesktop/bin:/mnt/c/Users/samue/.dotnet/tools:/mnt/c/opencv/opencv/build/x64/vc16/bin:/mnt/c/Users/samue/AppData/Local/GitHubDesktop/bin:/mnt/c/users/samue/.local/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-64d245db24.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/samue/GitHub/src/install/tutorial_interfaces:/home/samue/GitHub/src/install/more_interfaces:/home/samue/GitHub/src/install/esda_interface_ros:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/home/samue/install/examples_rclcpp_wait_set:/home/samue/install/examples_rclcpp_multithreaded_executor:/home/samue/install/examples_rclcpp_minimal_timer:/home/samue/install/examples_rclcpp_minimal_subscriber:/home/samue/install/examples_rclcpp_minimal_service:/home/samue/install/examples_rclcpp_minimal_publisher:/home/samue/install/examples_rclcpp_minimal_composition:/home/samue/install/examples_rclcpp_minimal_client:/home/samue/install/examples_rclcpp_minimal_action_server:/home/samue/install/examples_rclcpp_minimal_action_client:/home/samue/install/examples_rclcpp_cbg_executor:/home/samue/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/samue/GitHub/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/samue/GitHub/src/install/more_interfaces/local/lib/python3.10/dist-packages:/home/samue/GitHub/src/install/esda_interface_ros/local/lib/python3.10/dist-packages:/home/samue/build/launch_testing_examples:/home/samue/install/launch_testing_examples/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_executors:/home/samue/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/samue/GitHub/src/install/tutorial_interfaces:/home/samue/GitHub/src/install/more_interfaces:/home/samue/GitHub/src/install/esda_interface_ros:/home/samue/install/examples_rclcpp_wait_set:/home/samue/install/examples_rclcpp_multithreaded_executor:/home/samue/install/examples_rclcpp_minimal_timer:/home/samue/install/examples_rclcpp_minimal_subscriber:/home/samue/install/examples_rclcpp_minimal_service:/home/samue/install/examples_rclcpp_minimal_publisher:/home/samue/install/examples_rclcpp_minimal_composition:/home/samue/install/examples_rclcpp_minimal_client:/home/samue/install/examples_rclcpp_minimal_action_server:/home/samue/install/examples_rclcpp_minimal_action_client:/home/samue/install/examples_rclcpp_cbg_executor:/home/samue/install/examples_rclcpp_async_client:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[39.996327] (esda_ros_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[39.996737] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/ament_index/resource_index/rosidl_interfaces/esda_ros_interface\n'}
+[39.996914] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface\n'}
+[39.997209] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg\n'}
+[39.997454] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/esda_message.h\n'}
+[39.999117] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[39.999468] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail\n'}
+[39.999880] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__type_support.h\n'}
+[40.000072] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__functions.c\n'}
+[40.000533] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__functions.h\n'}
+[40.001063] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__struct.h\n'}
+[40.001934] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/environment/library_path.sh\n'}
+[40.002234] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/environment/library_path.dsv\n'}
+[40.002517] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_generator_c.so\n'}
+[40.002888] (esda_ros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_generator_c.so" to ""\n'}
+[40.003129] (esda_ros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface\n'}
+[40.003328] (esda_ros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg\n'}
+[40.003509] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[40.003782] (esda_ros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail\n'}
+[40.003998] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__rosidl_typesupport_fastrtps_c.h\n'}
+[40.004100] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[40.004442] (esda_ros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[40.004540] (esda_ros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface\n'}
+[40.004601] (esda_ros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg\n'}
+[40.004659] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[40.004715] (esda_ros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail\n'}
+[40.004766] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__type_support.c\n'}
+[40.005068] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__rosidl_typesupport_introspection_c.h\n'}
+[40.005559] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_typesupport_introspection_c.so\n'}
+[40.005859] (esda_ros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[40.005952] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_typesupport_c.so\n'}
+[40.006137] (esda_ros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_typesupport_c.so" to ""\n'}
+[40.006267] (esda_ros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface\n'}
+[40.007155] (esda_ros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg\n'}
+[40.007376] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/esda_message.hpp\n'}
+[40.007620] (esda_ros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail\n'}
+[40.007747] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__struct.hpp\n'}
+[40.008108] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__traits.hpp\n'}
+[40.008521] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__builder.hpp\n'}
+[40.009022] (esda_ros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface\n'}
+[40.009232] (esda_ros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg\n'}
+[40.009414] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[40.009688] (esda_ros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail\n'}
+[40.009774] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/dds_fastrtps\n'}
+[40.009832] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[40.009993] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[40.010841] (esda_ros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[40.011006] (esda_ros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface\n'}
+[40.011067] (esda_ros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg\n'}
+[40.011125] (esda_ros_interface) StdoutLine: {'line': b'-- Up-to-date: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail\n'}
+[40.011176] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__type_support.cpp\n'}
+[40.011298] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/include/esda_ros_interface/esda_ros_interface/msg/detail/esda_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[40.011799] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[40.012545] (esda_ros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[40.012626] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_typesupport_cpp.so\n'}
+[40.012801] (esda_ros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[40.013068] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/environment/pythonpath.sh\n'}
+[40.013150] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/environment/pythonpath.dsv\n'}
+[40.013989] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface-0.0.0-py3.10.egg-info\n'}
+[40.014733] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[40.015206] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[40.015466] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[40.015761] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[40.015969] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface\n'}
+[40.016263] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/libesda_ros_interface__rosidl_generator_py.so\n'}
+[40.016335] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/_esda_ros_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[40.016562] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/msg\n'}
+[40.016633] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/msg/_esda_message_s.c\n'}
+[40.016699] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/msg/_esda_message.py\n'}
+[40.017039] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/msg/__init__.py\n'}
+[40.017130] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/_esda_ros_interface_s.ep.rosidl_typesupport_c.c\n'}
+[40.017192] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/esda_ros_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[40.017251] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/esda_ros_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[40.017418] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/esda_ros_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[40.017559] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/_esda_ros_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[40.017650] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/__init__.py\n'}
+[40.030821] (-) TimerEvent: {}
+[40.066593] (esda_ros_interface) StdoutLine: {'line': b"Listing '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface'...\n"}
+[40.066933] (esda_ros_interface) StdoutLine: {'line': b"Compiling '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/__init__.py'...\n"}
+[40.067011] (esda_ros_interface) StdoutLine: {'line': b"Listing '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/msg'...\n"}
+[40.067074] (esda_ros_interface) StdoutLine: {'line': b"Compiling '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/msg/__init__.py'...\n"}
+[40.067127] (esda_ros_interface) StdoutLine: {'line': b"Compiling '/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/msg/_esda_message.py'...\n"}
+[40.073670] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/esda_ros_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[40.073992] (esda_ros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/esda_ros_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[40.074084] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/esda_ros_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[40.074413] (esda_ros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/esda_ros_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[40.074688] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/esda_ros_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[40.074753] (esda_ros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/local/lib/python3.10/dist-packages/esda_ros_interface/esda_ros_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[40.074805] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_generator_py.so\n'}
+[40.075061] (esda_ros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/libesda_ros_interface__rosidl_generator_py.so" to ""\n'}
+[40.075392] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/msg/EsdaMessage.idl\n'}
+[40.075568] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/msg/EsdaMessage.msg\n'}
+[40.075784] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/esda_ros_interface/esda_serial_to_pc_node\n'}
+[40.078962] (esda_ros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/esda_ros_interface/esda_serial_to_pc_node" to ""\n'}
+[40.079118] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/esda_ros_interface/esda_serial_to_pc\n'}
+[40.079471] (esda_ros_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/lib/esda_ros_interface/esda_serial_to_pc" to ""\n'}
+[40.079900] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/ament_index/resource_index/package_run_dependencies/esda_ros_interface\n'}
+[40.080226] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/ament_index/resource_index/parent_prefix_path/esda_ros_interface\n'}
+[40.080313] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/environment/ament_prefix_path.sh\n'}
+[40.080376] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/environment/ament_prefix_path.dsv\n'}
+[40.080826] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/environment/path.sh\n'}
+[40.081033] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/environment/path.dsv\n'}
+[40.081094] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/local_setup.bash\n'}
+[40.081147] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/local_setup.sh\n'}
+[40.081198] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/local_setup.zsh\n'}
+[40.081360] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/local_setup.dsv\n'}
+[40.081484] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/package.dsv\n'}
+[40.081761] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/ament_index/resource_index/packages/esda_ros_interface\n'}
+[40.081984] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/export_esda_ros_interface__rosidl_generator_cExport.cmake\n'}
+[40.082140] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/export_esda_ros_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[40.082300] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/export_esda_ros_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[40.082636] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/export_esda_ros_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[40.082773] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[40.083065] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[40.083448] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interface__rosidl_typesupport_cExport.cmake\n'}
+[40.083922] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[40.084109] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/export_esda_ros_interface__rosidl_generator_cppExport.cmake\n'}
+[40.084318] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/export_esda_ros_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[40.084887] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/export_esda_ros_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[40.085060] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[40.085158] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[40.085325] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interface__rosidl_typesupport_cppExport.cmake\n'}
+[40.085474] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[40.085995] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/export_esda_ros_interface__rosidl_generator_pyExport.cmake\n'}
+[40.086571] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/export_esda_ros_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[40.086748] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/ament_index/resource_index/rclcpp_components/esda_ros_interface\n'}
+[40.087067] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[40.087156] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[40.087217] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[40.087265] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[40.087311] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[40.087355] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[40.087398] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[40.087443] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interfaceConfig.cmake\n'}
+[40.087486] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/cmake/esda_ros_interfaceConfig-version.cmake\n'}
+[40.087528] (esda_ros_interface) StdoutLine: {'line': b'-- Installing: /home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface/share/esda_ros_interface/package.xml\n'}
+[40.088989] (esda_ros_interface) CommandEnded: {'returncode': 0}
+[40.130989] (-) TimerEvent: {}
+[40.196131] (esda_ros_interface) JobEnded: {'identifier': 'esda_ros_interface', 'rc': 0}
+[40.196856] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target esda_serial_to_pc_node[0m
+[35m[1mConsolidate compiler generated dependencies of target esda_ros_interface__rosidl_generator_c[0m
+[  2%] Built target esda_ros_interface__cpp
+[ 11%] Built target esda_ros_interface__rosidl_generator_c
+[ 14%] [32m[1mLinking CXX executable esda_serial_to_pc_node[0m
+[ 17%] Built target esda_serial_to_pc_node

@@ -1,0 +1,35 @@
+[0.022s] Invoking command in '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface -- -j20 -l20
+[0.142s] [  2%] Built target esda_ros_interface__cpp
+[0.146s] [ 11%] Built target esda_ros_interface__rosidl_generator_c
+[0.149s] [ 17%] Built target esda_serial_to_pc_node
+[0.168s] [ 17%] Built target ament_cmake_python_copy_esda_ros_interface
+[0.174s] [ 25%] Built target esda_ros_interface__rosidl_typesupport_c
+[0.175s] [ 34%] Built target esda_ros_interface__rosidl_typesupport_introspection_cpp
+[0.175s] [ 42%] Built target esda_ros_interface__rosidl_typesupport_introspection_c
+[0.176s] [ 51%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_cpp
+[0.178s] [ 60%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c
+[0.182s] [ 68%] Built target esda_ros_interface__rosidl_typesupport_cpp
+[0.200s] [ 68%] Built target esda_ros_interface
+[0.218s] [ 71%] Built target esda_ros_interface__py
+[0.225s] [ 74%] [32mBuilding CXX object CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o[0m
+[0.239s] [ 80%] Built target esda_ros_interface__rosidl_generator_py
+[0.259s] [ 85%] Built target esda_ros_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.260s] [ 91%] Built target esda_ros_interface__rosidl_typesupport_introspection_c__pyext
+[0.263s] [ 97%] Built target esda_ros_interface__rosidl_typesupport_c__pyext
+[0.400s] running egg_info
+[0.401s] writing esda_ros_interface.egg-info/PKG-INFO
+[0.401s] writing dependency_links to esda_ros_interface.egg-info/dependency_links.txt
+[0.401s] writing top-level names to esda_ros_interface.egg-info/top_level.txt
+[0.404s] reading manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+[0.405s] writing manifest file 'esda_ros_interface.egg-info/SOURCES.txt'
+[0.435s] [ 97%] Built target ament_cmake_python_build_esda_ros_interface_egg
+[0.631s] In file included from [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/esda_ros_interface/robot_hardware_interface_system.hpp:15[m[K,
+[0.631s]                  from [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/src/esda_serial_to_pc.cpp:12[m[K:
+[0.631s] [01m[K/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/hardware_interface/system.hpp:22:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/handle.hpp: No such file or directory
+[0.631s]    22 | #include [01;31m[K"hardware_interface/handle.hpp"[m[K
+[0.631s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.631s] compilation terminated.
+[0.633s] gmake[2]: *** [CMakeFiles/esda_serial_to_pc.dir/build.make:76: CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o] Error 1
+[0.633s] gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/esda_serial_to_pc.dir/all] Error 2
+[0.633s] gmake: *** [Makefile:146: all] Error 2
+[0.637s] Invoked command in '/home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/samue/GitHub/esda-ros-firmware/src/build/esda_ros_interface -- -j20 -l20

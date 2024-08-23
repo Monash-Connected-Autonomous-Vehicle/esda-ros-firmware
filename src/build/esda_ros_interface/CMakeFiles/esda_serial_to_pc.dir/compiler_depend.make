@@ -665,6 +665,10 @@ CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o: /home/samue/GitHub
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
   /home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/esda_ros_interface/serial.h \
   /home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/esda_ros_interface/v8stdint.h \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
@@ -679,7 +683,8 @@ CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o: /home/samue/GitHub
   /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
-  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp \
+  /home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/esda_ros_interface/robot_hardware_interface.hpp
 
 
 /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp:
@@ -695,6 +700,10 @@ CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o: /home/samue/GitHub
 /usr/include/console_bridge_export.h:
 
 /usr/include/c++/11/cstddef:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
@@ -989,6 +998,8 @@ CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o: /home/samue/GitHub
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
 
 /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
 
@@ -1700,6 +1711,8 @@ CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o: /home/samue/GitHub
 
 /opt/ros/humble/include/rcl/rcl/visibility_control.h:
 
+/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface/include/esda_ros_interface/robot_hardware_interface.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:
 
 /usr/include/c++/11/bits/allocated_ptr.h:
@@ -2023,6 +2036,8 @@ CMakeFiles/esda_serial_to_pc.dir/src/esda_serial_to_pc.cpp.o: /home/samue/GitHub
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:
 
 /opt/ros/humble/include/rmw/rmw/ret_types.h:
 

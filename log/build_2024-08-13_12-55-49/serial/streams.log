@@ -1,0 +1,28 @@
+[0.032s] Invoking command in '/home/samue/GitHub/esda-ros-firmware/build/serial': WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/samue/GitHub/esda-ros-firmware/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/samue/GitHub/esda-ros-firmware/install/serial
+[0.060s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.060s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.060s]   CMake.
+[0.060s] 
+[0.060s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.060s]   CMake that the project does not need compatibility with older versions.
+[0.060s] 
+[0.060s] [0m
+[1.533s] -- Configuring incomplete, errors occurred!
+[1.533s] See also "/home/samue/GitHub/esda-ros-firmware/build/serial/CMakeFiles/CMakeOutput.log".
+[1.535s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[1.537s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.537s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.537s]   CMake did not find one.
+[1.537s] 
+[1.537s]   Could not find a package configuration file provided by "catkin" with any
+[1.537s]   of the following names:
+[1.537s] 
+[1.537s]     catkinConfig.cmake
+[1.537s]     catkin-config.cmake
+[1.537s] 
+[1.537s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.537s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.537s]   provides a separate development package or SDK, be sure it has been
+[1.537s]   installed.
+[1.537s] 
+[1.537s] [0m

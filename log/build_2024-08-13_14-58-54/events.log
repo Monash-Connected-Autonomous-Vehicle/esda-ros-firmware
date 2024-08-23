@@ -1,0 +1,354 @@
+[0.000000] (-) TimerEvent: {}
+[0.000232] (esda_ros_interface) JobQueued: {'identifier': 'esda_ros_interface', 'dependencies': OrderedDict()}
+[0.000538] (ros2_control_demo_example_2) JobQueued: {'identifier': 'ros2_control_demo_example_2', 'dependencies': OrderedDict()}
+[0.000622] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.000648] (esda_ros_interface) JobStarted: {'identifier': 'esda_ros_interface'}
+[0.017494] (ros2_control_demo_example_2) JobStarted: {'identifier': 'ros2_control_demo_example_2'}
+[0.026305] (serial) JobStarted: {'identifier': 'serial'}
+[0.033258] (esda_ros_interface) JobProgress: {'identifier': 'esda_ros_interface', 'progress': 'cmake'}
+[0.035944] (esda_ros_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/samue/GitHub/esda-ros-firmware/src/esda_ros_interface', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/samue/GitHub/esda-ros-firmware/install/esda_ros_interface'], 'cwd': '/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'samue'), ('GIT_ASKPASS', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/samue/control_ws/install/ros2_control_demo_example_2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/home/samue/install/examples_rclcpp_wait_set/lib:/home/samue/install/examples_rclcpp_minimal_subscriber/lib:/home/samue/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/samue'), ('OLDPWD', '/home/samue/GitHub'), ('TERM_PROGRAM_VERSION', '1.92.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cd8c4366-14d6-4734-8442-75030cfeb5a3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/samue/control_ws/install:/home/samue/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'samue'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/72113_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft/jdk-17.0.7.7-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Users/samue/.rustup/toolchains/esp/xtensa-esp32-elf-clang/esp-clang/bin:/mnt/c/Users/samue/.rustup/toolchains/esp/xtensa-esp-elf/bin:/mnt/c/Users/samue/.cargo/bin:/mnt/c/opencv/opencv/build/x64/vc16/bin:/mnt/c/Users/samue/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/samue/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/samue/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/samue/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/intelFPGA_lite/18.1/modelsim_ae/win32aloem:/mnt/c/ProgramData/samue/GitHubDesktop/bin:/mnt/c/Users/samue/.dotnet/tools:/mnt/c/opencv/opencv/build/x64/vc16/bin:/mnt/c/Users/samue/AppData/Local/GitHubDesktop/bin:/mnt/c/users/samue/.local/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aee529dc54.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/samue/control_ws/install/ros2_control_demo_example_2:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/home/samue/install/examples_rclcpp_wait_set:/home/samue/install/examples_rclcpp_multithreaded_executor:/home/samue/install/examples_rclcpp_minimal_timer:/home/samue/install/examples_rclcpp_minimal_subscriber:/home/samue/install/examples_rclcpp_minimal_service:/home/samue/install/examples_rclcpp_minimal_publisher:/home/samue/install/examples_rclcpp_minimal_composition:/home/samue/install/examples_rclcpp_minimal_client:/home/samue/install/examples_rclcpp_minimal_action_server:/home/samue/install/examples_rclcpp_minimal_action_client:/home/samue/install/examples_rclcpp_cbg_executor:/home/samue/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/samue/build/launch_testing_examples:/home/samue/install/launch_testing_examples/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_executors:/home/samue/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/samue/control_ws/install/ros2_control_demo_example_2:/home/samue/install/examples_rclcpp_wait_set:/home/samue/install/examples_rclcpp_multithreaded_executor:/home/samue/install/examples_rclcpp_minimal_timer:/home/samue/install/examples_rclcpp_minimal_subscriber:/home/samue/install/examples_rclcpp_minimal_service:/home/samue/install/examples_rclcpp_minimal_publisher:/home/samue/install/examples_rclcpp_minimal_composition:/home/samue/install/examples_rclcpp_minimal_client:/home/samue/install/examples_rclcpp_minimal_action_server:/home/samue/install/examples_rclcpp_minimal_action_client:/home/samue/install/examples_rclcpp_cbg_executor:/home/samue/install/examples_rclcpp_async_client:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.040979] (ros2_control_demo_example_2) JobProgress: {'identifier': 'ros2_control_demo_example_2', 'progress': 'cmake'}
+[0.042706] (ros2_control_demo_example_2) Command: {'cmd': ['/usr/bin/cmake', '/home/samue/GitHub/esda-ros-firmware/src/example_2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/samue/GitHub/esda-ros-firmware/install/ros2_control_demo_example_2'], 'cwd': '/home/samue/GitHub/esda-ros-firmware/build/ros2_control_demo_example_2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'samue'), ('GIT_ASKPASS', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/samue/control_ws/install/ros2_control_demo_example_2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/home/samue/install/examples_rclcpp_wait_set/lib:/home/samue/install/examples_rclcpp_minimal_subscriber/lib:/home/samue/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/samue'), ('OLDPWD', '/home/samue/GitHub'), ('TERM_PROGRAM_VERSION', '1.92.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cd8c4366-14d6-4734-8442-75030cfeb5a3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/samue/control_ws/install:/home/samue/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'samue'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/72113_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft/jdk-17.0.7.7-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Users/samue/.rustup/toolchains/esp/xtensa-esp32-elf-clang/esp-clang/bin:/mnt/c/Users/samue/.rustup/toolchains/esp/xtensa-esp-elf/bin:/mnt/c/Users/samue/.cargo/bin:/mnt/c/opencv/opencv/build/x64/vc16/bin:/mnt/c/Users/samue/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/samue/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/samue/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/samue/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/intelFPGA_lite/18.1/modelsim_ae/win32aloem:/mnt/c/ProgramData/samue/GitHubDesktop/bin:/mnt/c/Users/samue/.dotnet/tools:/mnt/c/opencv/opencv/build/x64/vc16/bin:/mnt/c/Users/samue/AppData/Local/GitHubDesktop/bin:/mnt/c/users/samue/.local/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aee529dc54.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/samue/control_ws/install/ros2_control_demo_example_2:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/home/samue/install/examples_rclcpp_wait_set:/home/samue/install/examples_rclcpp_multithreaded_executor:/home/samue/install/examples_rclcpp_minimal_timer:/home/samue/install/examples_rclcpp_minimal_subscriber:/home/samue/install/examples_rclcpp_minimal_service:/home/samue/install/examples_rclcpp_minimal_publisher:/home/samue/install/examples_rclcpp_minimal_composition:/home/samue/install/examples_rclcpp_minimal_client:/home/samue/install/examples_rclcpp_minimal_action_server:/home/samue/install/examples_rclcpp_minimal_action_client:/home/samue/install/examples_rclcpp_cbg_executor:/home/samue/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/samue/GitHub/esda-ros-firmware/build/ros2_control_demo_example_2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/samue/build/launch_testing_examples:/home/samue/install/launch_testing_examples/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_executors:/home/samue/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/samue/control_ws/install/ros2_control_demo_example_2:/home/samue/install/examples_rclcpp_wait_set:/home/samue/install/examples_rclcpp_multithreaded_executor:/home/samue/install/examples_rclcpp_minimal_timer:/home/samue/install/examples_rclcpp_minimal_subscriber:/home/samue/install/examples_rclcpp_minimal_service:/home/samue/install/examples_rclcpp_minimal_publisher:/home/samue/install/examples_rclcpp_minimal_composition:/home/samue/install/examples_rclcpp_minimal_client:/home/samue/install/examples_rclcpp_minimal_action_server:/home/samue/install/examples_rclcpp_minimal_action_client:/home/samue/install/examples_rclcpp_cbg_executor:/home/samue/install/examples_rclcpp_async_client:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.047204] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.049636] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/samue/GitHub/esda-ros-firmware/src/serial', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/samue/GitHub/esda-ros-firmware/install/serial'], 'cwd': '/home/samue/GitHub/esda-ros-firmware/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'samue'), ('GIT_ASKPASS', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/samue/control_ws/install/ros2_control_demo_example_2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/home/samue/install/examples_rclcpp_wait_set/lib:/home/samue/install/examples_rclcpp_minimal_subscriber/lib:/home/samue/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/samue'), ('OLDPWD', '/home/samue/GitHub'), ('TERM_PROGRAM_VERSION', '1.92.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cd8c4366-14d6-4734-8442-75030cfeb5a3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/samue/control_ws/install:/home/samue/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'samue'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/72113_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/samue/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Microsoft/jdk-17.0.7.7-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Wolfram Research/WolframScript/:/mnt/c/Users/samue/.rustup/toolchains/esp/xtensa-esp32-elf-clang/esp-clang/bin:/mnt/c/Users/samue/.rustup/toolchains/esp/xtensa-esp-elf/bin:/mnt/c/Users/samue/.cargo/bin:/mnt/c/opencv/opencv/build/x64/vc16/bin:/mnt/c/Users/samue/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/samue/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/samue/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/samue/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/intelFPGA_lite/18.1/modelsim_ae/win32aloem:/mnt/c/ProgramData/samue/GitHubDesktop/bin:/mnt/c/Users/samue/.dotnet/tools:/mnt/c/opencv/opencv/build/x64/vc16/bin:/mnt/c/Users/samue/AppData/Local/GitHubDesktop/bin:/mnt/c/users/samue/.local/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-aee529dc54.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/samue/control_ws/install/ros2_control_demo_example_2:/home/samue/install/launch_testing_examples:/home/samue/install/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_executors:/home/samue/install/examples_rclcpp_wait_set:/home/samue/install/examples_rclcpp_multithreaded_executor:/home/samue/install/examples_rclcpp_minimal_timer:/home/samue/install/examples_rclcpp_minimal_subscriber:/home/samue/install/examples_rclcpp_minimal_service:/home/samue/install/examples_rclcpp_minimal_publisher:/home/samue/install/examples_rclcpp_minimal_composition:/home/samue/install/examples_rclcpp_minimal_client:/home/samue/install/examples_rclcpp_minimal_action_server:/home/samue/install/examples_rclcpp_minimal_action_client:/home/samue/install/examples_rclcpp_cbg_executor:/home/samue/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/samue/GitHub/esda-ros-firmware/build/serial'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/samue/build/launch_testing_examples:/home/samue/install/launch_testing_examples/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_pointcloud_publisher:/home/samue/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_subscriber:/home/samue/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_service:/home/samue/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_publisher:/home/samue/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_client:/home/samue/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_action_server:/home/samue/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_minimal_action_client:/home/samue/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_guard_conditions:/home/samue/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/samue/build/examples_rclpy_executors:/home/samue/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/samue/control_ws/install/ros2_control_demo_example_2:/home/samue/install/examples_rclcpp_wait_set:/home/samue/install/examples_rclcpp_multithreaded_executor:/home/samue/install/examples_rclcpp_minimal_timer:/home/samue/install/examples_rclcpp_minimal_subscriber:/home/samue/install/examples_rclcpp_minimal_service:/home/samue/install/examples_rclcpp_minimal_publisher:/home/samue/install/examples_rclcpp_minimal_composition:/home/samue/install/examples_rclcpp_minimal_client:/home/samue/install/examples_rclcpp_minimal_action_server:/home/samue/install/examples_rclcpp_minimal_action_client:/home/samue/install/examples_rclcpp_cbg_executor:/home/samue/install/examples_rclcpp_async_client'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.089416] (serial) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.089736] (serial) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.089810] (serial) StderrLine: {'line': b'  CMake.\n'}
+[0.089861] (serial) StderrLine: {'line': b'\n'}
+[0.089907] (serial) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.089952] (serial) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.090000] (serial) StderrLine: {'line': b'\n'}
+[0.090044] (serial) StderrLine: {'line': b'\x1b[0m\n'}
+[0.097283] (-) TimerEvent: {}
+[0.102766] (esda_ros_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.197416] (-) TimerEvent: {}
+[0.269889] (esda_ros_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.294471] (esda_ros_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.297527] (-) TimerEvent: {}
+[0.301408] (esda_ros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.307627] (esda_ros_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.397698] (-) TimerEvent: {}
+[0.498215] (-) TimerEvent: {}
+[0.598746] (-) TimerEvent: {}
+[0.603765] (esda_ros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.647864] (esda_ros_interface) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.698896] (-) TimerEvent: {}
+[0.749190] (esda_ros_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.753400] (esda_ros_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.799032] (-) TimerEvent: {}
+[0.899471] (-) TimerEvent: {}
+[0.999944] (-) TimerEvent: {}
+[1.045224] (serial) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[1.045628] (serial) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.045712] (serial) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[1.045761] (serial) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.045807] (serial) StderrLine: {'line': b'\n'}
+[1.045932] (serial) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[1.046058] (serial) StderrLine: {'line': b'  of the following names:\n'}
+[1.046199] (serial) StderrLine: {'line': b'\n'}
+[1.046497] (serial) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[1.046821] (serial) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[1.046885] (serial) StderrLine: {'line': b'\n'}
+[1.046931] (serial) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[1.046974] (serial) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[1.047019] (serial) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.047060] (serial) StderrLine: {'line': b'  installed.\n'}
+[1.047101] (serial) StderrLine: {'line': b'\n'}
+[1.047140] (serial) StderrLine: {'line': b'\x1b[0m\n'}
+[1.047181] (serial) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.047245] (serial) StdoutLine: {'line': b'See also "/home/samue/GitHub/esda-ros-firmware/build/serial/CMakeFiles/CMakeOutput.log".\n'}
+[1.047292] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.047346] (ros2_control_demo_example_2) StdoutLine: {'line': b'See also "/home/samue/GitHub/esda-ros-firmware/build/ros2_control_demo_example_2/CMakeFiles/CMakeOutput.log".\n'}
+[1.047390] (ros2_control_demo_example_2) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:20 (find_package):\n'}
+[1.047440] (ros2_control_demo_example_2) StderrLine: {'line': b'  Could not find a configuration file for package "controller_manager" that\n'}
+[1.047484] (ros2_control_demo_example_2) StderrLine: {'line': b'  is compatible with requested version "4.0.0".\n'}
+[1.047526] (ros2_control_demo_example_2) StderrLine: {'line': b'\n'}
+[1.047566] (ros2_control_demo_example_2) StderrLine: {'line': b'  The following configuration files were considered but not accepted:\n'}
+[1.047607] (ros2_control_demo_example_2) StderrLine: {'line': b'\n'}
+[1.047649] (ros2_control_demo_example_2) StderrLine: {'line': b'    /opt/ros/humble/share/controller_manager/cmake/controller_managerConfig.cmake, version: 2.41.0\n'}
+[1.047689] (ros2_control_demo_example_2) StderrLine: {'line': b'\n'}
+[1.047728] (ros2_control_demo_example_2) StderrLine: {'line': b'\n'}
+[1.047767] (ros2_control_demo_example_2) StderrLine: {'line': b'\x1b[0m\n'}
+[1.047807] (ros2_control_demo_example_2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:23 (message):\n'}
+[1.047847] (ros2_control_demo_example_2) StderrLine: {'line': b'  ros2_control version 4.0.0 or higher is required.  Are you using the\n'}
+[1.047886] (ros2_control_demo_example_2) StderrLine: {'line': b'  correct branch of the ros2_control_demos repository?\n'}
+[1.047925] (ros2_control_demo_example_2) StderrLine: {'line': b'\n'}
+[1.047965] (ros2_control_demo_example_2) StderrLine: {'line': b'\x1b[0m\n'}
+[1.053641] (serial) CommandEnded: {'returncode': 1}
+[1.055443] (ros2_control_demo_example_2) CommandEnded: {'returncode': 1}
+[1.081993] (serial) JobEnded: {'identifier': 'serial', 'rc': 1}
+[1.086238] (ros2_control_demo_example_2) JobEnded: {'identifier': 'ros2_control_demo_example_2', 'rc': 1}
+[1.100137] (-) TimerEvent: {}
+[1.200600] (-) TimerEvent: {}
+[1.301174] (-) TimerEvent: {}
+[1.401661] (-) TimerEvent: {}
+[1.502130] (-) TimerEvent: {}
+[1.602574] (-) TimerEvent: {}
+[1.703092] (-) TimerEvent: {}
+[1.803675] (-) TimerEvent: {}
+[1.904137] (-) TimerEvent: {}
+[2.004633] (-) TimerEvent: {}
+[2.105106] (-) TimerEvent: {}
+[2.205605] (-) TimerEvent: {}
+[2.306125] (-) TimerEvent: {}
+[2.406670] (-) TimerEvent: {}
+[2.507164] (-) TimerEvent: {}
+[2.607627] (-) TimerEvent: {}
+[2.708180] (-) TimerEvent: {}
+[2.808824] (-) TimerEvent: {}
+[2.909414] (-) TimerEvent: {}
+[3.010184] (-) TimerEvent: {}
+[3.110949] (-) TimerEvent: {}
+[3.211669] (-) TimerEvent: {}
+[3.312404] (-) TimerEvent: {}
+[3.413060] (-) TimerEvent: {}
+[3.513733] (-) TimerEvent: {}
+[3.614255] (-) TimerEvent: {}
+[3.714737] (-) TimerEvent: {}
+[3.815240] (-) TimerEvent: {}
+[3.915756] (-) TimerEvent: {}
+[4.016316] (-) TimerEvent: {}
+[4.116842] (-) TimerEvent: {}
+[4.217369] (-) TimerEvent: {}
+[4.318157] (-) TimerEvent: {}
+[4.419070] (-) TimerEvent: {}
+[4.519591] (-) TimerEvent: {}
+[4.620365] (-) TimerEvent: {}
+[4.721196] (-) TimerEvent: {}
+[4.821965] (-) TimerEvent: {}
+[4.922639] (-) TimerEvent: {}
+[5.023200] (-) TimerEvent: {}
+[5.123939] (-) TimerEvent: {}
+[5.224442] (-) TimerEvent: {}
+[5.325079] (-) TimerEvent: {}
+[5.425716] (-) TimerEvent: {}
+[5.526342] (-) TimerEvent: {}
+[5.626825] (-) TimerEvent: {}
+[5.727290] (-) TimerEvent: {}
+[5.827997] (-) TimerEvent: {}
+[5.928550] (-) TimerEvent: {}
+[6.029061] (-) TimerEvent: {}
+[6.129568] (-) TimerEvent: {}
+[6.230123] (-) TimerEvent: {}
+[6.330559] (-) TimerEvent: {}
+[6.431048] (-) TimerEvent: {}
+[6.531747] (-) TimerEvent: {}
+[6.632254] (-) TimerEvent: {}
+[6.732920] (-) TimerEvent: {}
+[6.833784] (-) TimerEvent: {}
+[6.934527] (-) TimerEvent: {}
+[7.035183] (-) TimerEvent: {}
+[7.136133] (-) TimerEvent: {}
+[7.236912] (-) TimerEvent: {}
+[7.337673] (-) TimerEvent: {}
+[7.438350] (-) TimerEvent: {}
+[7.539161] (-) TimerEvent: {}
+[7.639798] (-) TimerEvent: {}
+[7.740489] (-) TimerEvent: {}
+[7.841222] (-) TimerEvent: {}
+[7.941923] (-) TimerEvent: {}
+[8.042632] (-) TimerEvent: {}
+[8.143343] (-) TimerEvent: {}
+[8.244059] (-) TimerEvent: {}
+[8.344928] (-) TimerEvent: {}
+[8.445930] (-) TimerEvent: {}
+[8.546406] (-) TimerEvent: {}
+[8.647043] (-) TimerEvent: {}
+[8.747969] (-) TimerEvent: {}
+[8.848577] (-) TimerEvent: {}
+[8.949221] (-) TimerEvent: {}
+[9.050080] (-) TimerEvent: {}
+[9.150860] (-) TimerEvent: {}
+[9.251660] (-) TimerEvent: {}
+[9.352342] (-) TimerEvent: {}
+[9.453009] (-) TimerEvent: {}
+[9.553657] (-) TimerEvent: {}
+[9.654480] (-) TimerEvent: {}
+[9.755396] (-) TimerEvent: {}
+[9.856069] (-) TimerEvent: {}
+[9.956642] (-) TimerEvent: {}
+[10.057255] (-) TimerEvent: {}
+[10.157908] (-) TimerEvent: {}
+[10.258620] (-) TimerEvent: {}
+[10.359491] (-) TimerEvent: {}
+[10.460249] (-) TimerEvent: {}
+[10.561035] (-) TimerEvent: {}
+[10.661673] (-) TimerEvent: {}
+[10.762358] (-) TimerEvent: {}
+[10.862884] (-) TimerEvent: {}
+[10.963399] (-) TimerEvent: {}
+[11.064132] (-) TimerEvent: {}
+[11.164748] (-) TimerEvent: {}
+[11.265455] (-) TimerEvent: {}
+[11.366146] (-) TimerEvent: {}
+[11.466758] (-) TimerEvent: {}
+[11.567466] (-) TimerEvent: {}
+[11.668105] (-) TimerEvent: {}
+[11.768646] (-) TimerEvent: {}
+[11.869168] (-) TimerEvent: {}
+[11.969745] (-) TimerEvent: {}
+[12.070324] (-) TimerEvent: {}
+[12.170811] (-) TimerEvent: {}
+[12.271268] (-) TimerEvent: {}
+[12.371774] (-) TimerEvent: {}
+[12.472400] (-) TimerEvent: {}
+[12.572921] (-) TimerEvent: {}
+[12.673495] (-) TimerEvent: {}
+[12.774075] (-) TimerEvent: {}
+[12.874661] (-) TimerEvent: {}
+[12.975356] (-) TimerEvent: {}
+[13.075923] (-) TimerEvent: {}
+[13.176516] (-) TimerEvent: {}
+[13.277346] (-) TimerEvent: {}
+[13.377894] (-) TimerEvent: {}
+[13.478379] (-) TimerEvent: {}
+[13.578901] (-) TimerEvent: {}
+[13.679782] (-) TimerEvent: {}
+[13.780282] (-) TimerEvent: {}
+[13.881145] (-) TimerEvent: {}
+[13.982186] (-) TimerEvent: {}
+[14.082769] (-) TimerEvent: {}
+[14.183601] (-) TimerEvent: {}
+[14.284261] (-) TimerEvent: {}
+[14.384824] (-) TimerEvent: {}
+[14.485507] (-) TimerEvent: {}
+[14.586104] (-) TimerEvent: {}
+[14.686991] (-) TimerEvent: {}
+[14.787586] (-) TimerEvent: {}
+[14.888343] (-) TimerEvent: {}
+[14.989191] (-) TimerEvent: {}
+[15.089819] (-) TimerEvent: {}
+[15.190498] (-) TimerEvent: {}
+[15.291204] (-) TimerEvent: {}
+[15.391777] (-) TimerEvent: {}
+[15.492404] (-) TimerEvent: {}
+[15.592910] (-) TimerEvent: {}
+[15.693346] (-) TimerEvent: {}
+[15.793929] (-) TimerEvent: {}
+[15.894604] (-) TimerEvent: {}
+[15.995359] (-) TimerEvent: {}
+[16.096062] (-) TimerEvent: {}
+[16.196938] (-) TimerEvent: {}
+[16.298095] (-) TimerEvent: {}
+[16.398781] (-) TimerEvent: {}
+[16.499492] (-) TimerEvent: {}
+[16.600428] (-) TimerEvent: {}
+[16.701249] (-) TimerEvent: {}
+[16.802726] (-) TimerEvent: {}
+[16.903437] (-) TimerEvent: {}
+[17.003936] (-) TimerEvent: {}
+[17.104592] (-) TimerEvent: {}
+[17.205241] (-) TimerEvent: {}
+[17.306120] (-) TimerEvent: {}
+[17.406746] (-) TimerEvent: {}
+[17.507459] (-) TimerEvent: {}
+[17.608121] (-) TimerEvent: {}
+[17.708594] (-) TimerEvent: {}
+[17.809058] (-) TimerEvent: {}
+[17.909517] (-) TimerEvent: {}
+[18.009976] (-) TimerEvent: {}
+[18.110800] (-) TimerEvent: {}
+[18.211363] (-) TimerEvent: {}
+[18.312247] (-) TimerEvent: {}
+[18.413638] (-) TimerEvent: {}
+[18.514358] (-) TimerEvent: {}
+[18.615103] (-) TimerEvent: {}
+[18.715708] (-) TimerEvent: {}
+[18.816426] (-) TimerEvent: {}
+[18.917203] (-) TimerEvent: {}
+[19.017772] (-) TimerEvent: {}
+[19.118381] (-) TimerEvent: {}
+[19.218814] (-) TimerEvent: {}
+[19.319362] (-) TimerEvent: {}
+[19.419995] (-) TimerEvent: {}
+[19.520468] (-) TimerEvent: {}
+[19.620907] (-) TimerEvent: {}
+[19.721664] (-) TimerEvent: {}
+[19.822333] (-) TimerEvent: {}
+[19.922990] (-) TimerEvent: {}
+[20.023806] (-) TimerEvent: {}
+[20.124414] (-) TimerEvent: {}
+[20.224892] (-) TimerEvent: {}
+[20.325439] (-) TimerEvent: {}
+[20.425881] (-) TimerEvent: {}
+[20.526429] (-) TimerEvent: {}
+[20.626774] (-) TimerEvent: {}
+[20.727154] (-) TimerEvent: {}
+[20.827551] (-) TimerEvent: {}
+[20.928013] (-) TimerEvent: {}
+[21.028559] (-) TimerEvent: {}
+[21.129185] (-) TimerEvent: {}
+[21.229920] (-) TimerEvent: {}
+[21.330642] (-) TimerEvent: {}
+[21.431525] (-) TimerEvent: {}
+[21.532120] (-) TimerEvent: {}
+[21.632709] (-) TimerEvent: {}
+[21.733521] (-) TimerEvent: {}
+[21.834230] (-) TimerEvent: {}
+[21.934781] (-) TimerEvent: {}
+[22.035226] (-) TimerEvent: {}
+[22.135893] (-) TimerEvent: {}
+[22.236567] (-) TimerEvent: {}
+[22.337247] (-) TimerEvent: {}
+[22.437992] (-) TimerEvent: {}
+[22.538415] (-) TimerEvent: {}
+[22.639028] (-) TimerEvent: {}
+[22.739679] (-) TimerEvent: {}
+[22.840111] (-) TimerEvent: {}
+[22.940476] (-) TimerEvent: {}
+[23.040880] (-) TimerEvent: {}
+[23.141411] (-) TimerEvent: {}
+[23.242084] (-) TimerEvent: {}
+[23.342713] (-) TimerEvent: {}
+[23.443338] (-) TimerEvent: {}
+[23.544004] (-) TimerEvent: {}
+[23.645679] (-) TimerEvent: {}
+[23.746436] (-) TimerEvent: {}
+[23.847156] (-) TimerEvent: {}
+[23.947788] (-) TimerEvent: {}
+[24.048365] (-) TimerEvent: {}
+[24.148905] (-) TimerEvent: {}
+[24.249315] (-) TimerEvent: {}
+[24.349855] (-) TimerEvent: {}
+[24.450511] (-) TimerEvent: {}
+[24.551278] (-) TimerEvent: {}
+[24.651678] (-) TimerEvent: {}
+[24.752315] (-) TimerEvent: {}
+[24.852975] (-) TimerEvent: {}
+[24.953711] (-) TimerEvent: {}
+[25.054395] (-) TimerEvent: {}
+[25.096203] (esda_ros_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[25.154699] (-) TimerEvent: {}
+[25.255282] (-) TimerEvent: {}
+[25.355763] (-) TimerEvent: {}
+[25.360197] (esda_ros_interface) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[25.456065] (-) TimerEvent: {}
+[25.556523] (-) TimerEvent: {}
+[25.657192] (-) TimerEvent: {}
+[25.726744] (esda_ros_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[25.757417] (-) TimerEvent: {}
+[25.858135] (-) TimerEvent: {}
+[25.958688] (-) TimerEvent: {}
+[25.978871] (esda_ros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[26.058927] (-) TimerEvent: {}
+[26.159411] (-) TimerEvent: {}
+[26.241688] (esda_ros_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[26.259794] (-) TimerEvent: {}
+[26.281663] (esda_ros_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[26.326316] (esda_ros_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[26.326502] (esda_ros_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[26.326557] (esda_ros_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[26.355100] (esda_ros_interface) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[26.355256] (esda_ros_interface) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[26.355303] (esda_ros_interface) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[26.355343] (esda_ros_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[26.355380] (esda_ros_interface) StderrLine: {'line': b'  CMakeLists.txt:42 (rosidl_target_interfaces)\n'}
+[26.355416] (esda_ros_interface) StderrLine: {'line': b'\n'}
+[26.355449] (esda_ros_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[26.360072] (-) TimerEvent: {}
+[26.386511] (esda_ros_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[26.460409] (-) TimerEvent: {}
+[26.514988] (esda_ros_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[26.518646] (esda_ros_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/samue/GitHub/esda-ros-firmware/build/esda_ros_interface\n'}
+[26.526351] (esda_ros_interface) JobEnded: {'identifier': 'esda_ros_interface', 'rc': 'SIGINT'}
+[26.537082] (-) EventReactorShutdown: {}
